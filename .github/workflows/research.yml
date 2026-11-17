@@ -2,7 +2,7 @@ name: Research verification
 on:
   push:
     branches: ['main']
-    paths-ignore: ['data/collection.json', 'results/estimate.json']
+    paths-ignore: ['data/collection.json', 'results/estimate.json', 'results/verification.json']
   pull_request:
   workflow_dispatch:
 permissions:
@@ -25,8 +25,7 @@ jobs:
       - name: Compile tools
         run: python -m compileall -q tools
       - name: Tests
-        run: |
-          if [ -d tests ]; then python -m unittest discover -s tests -v; fi
+        run: python tools/verify.py
       - name: Calculate current evidence status
         run: python tools/analyze.py
       - name: Audit source and image metadata
@@ -39,7 +38,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- data/collection.json results/estimate.json
+          git add -- data/collection.json results/estimate.json results/verification.json
           if ! git diff --cached --quiet; then
             git commit -m "Record HTTP provenance, hashes and image metadata [skip ci]"
             git push origin "HEAD:$RESEARCH_BRANCH"

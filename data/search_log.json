@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-17",
+  "note": "Queries actually issued during discovery. Search results are candidates, not authentication.",
+  "queries": [
+    "Letná demonstrace 15. listopadu 2026 fotografie letecké",
+    "Letná 15.11.2026 demonstrace 350 450 tisíc",
+    "\"Letná\" \"15. 11. 2026\" \"letecké\"",
+    "\"Letná\" \"15. listopadu 2026\" dron fotografie",
+    "\"Letná\" \"15.11.2026\" panorama fotografie",
+    "Letná 15 listopadu 2026 demonstrace letecký pohled",
+    "\"Letná\" \"15. listopadu 2026\" \"letecké záběry\"",
+    "site:irozhlas.cz \"OBRAZEM\" \"261115\" Letné",
+    "site:policie.gov.cz \"Letná\" \"2026\" listopadu",
+    "\"Záběry z dronu ukázaly statisíce lidí na Letné\"",
+    "\"Letná\" \"261115\" \"OBRAZEM\"",
+    "\"Video: Takto vypadá plná Letná z výšky\"",
+    "\"Plná Letná\" \"360\" listopadu 2026",
+    "\"Letná\" \"15. listopadu 2026\" \"Policie\"",
+    "\"Letná\" \"15. 11. 2026\" \"Michal Turek\"",
+    "\"Letná\" \"15.11.2026\" fotografie panorama -site:seznam.cz -site:blesk.cz -site:e15.cz -site:reflex.cz",
+    "\"Letná\" \"15. listopadu 2026\" \"Policie ČR\" záběry twitter",
+    "\"Letná\" \"360stupňové\" \"2026\"",
+    "site:geoportalpraha.cz ortofoto WMS EPSG 5514",
+    "site:docs.opencv.org homography perspectiveTransform findHomography",
+    "site:github.com crowd counting perspective uncertainty density aerial occlusion"
+  ]
+}

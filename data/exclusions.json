@@ -1,0 +1,35 @@
+{
+  "note": "Excluded from measurements; discovery records only.",
+  "items": [
+    {
+      "id": "GETTY",
+      "url": "https://www.gettyimages.com/",
+      "reason": "Stock agency explicitly excluded by assignment; no image used."
+    },
+    {
+      "id": "MARCH-SZ",
+      "url": "https://www.seznamzpravy.cz/clanek/obrazem-obrazem-na-demonstraci-na-letnou-dorazilo-az-ctvrt-milionu-lidi-i-eva-pavlova-302290",
+      "reason": "Image search returned the March 21, 2026 event; not admitted."
+    },
+    {
+      "id": "NOV2019-DENIK",
+      "url": "https://prazsky.denik.cz/zpravy_region/letna-zive-zacina-dalsi-protest-proti-babisovi-a-za-nezavislost-justice-20191116.html",
+      "reason": "November 16, 2019, not the requested event."
+    },
+    {
+      "id": "P7-HERO",
+      "url": "https://www.praha7.cz/demonstrace-11-26/",
+      "reason": "Page credits its hero photo to the March 2026 demonstration."
+    },
+    {
+      "id": "BLESK-PREPARATION",
+      "url": "https://www.blesk.cz/galerie/zpravy-politika/1509914/online-demonstrace-letna-proti-4-36-koller-sverak-a-az-450-tisic-lidi-s-dopravou-byly-problemy",
+      "reason": "Gallery contains preparation photos explicitly dated November 14, 2026; whole gallery cannot be admitted."
+    },
+    {
+      "id": "EARLY-PEAK",
+      "asset_id": "SZ-GALLERY-105-UNCROPPED",
+      "reason": "EXIF DateTimeOriginal claim 12:56:02; do not use as evidence of peak crowd after scheduled 14:00 start. Not asserted to be another event."
+    }
+  ]
+}
