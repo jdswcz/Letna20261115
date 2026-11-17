@@ -7,6 +7,7 @@ Podmíněný sektorový model: mapové plochy jsou měřené, hustota a podíl o
 350 tisíc je s modelem slučitelných; 450 tisíc není potvrzeno ani spolehlivě vyloučeno.
 
 - **[Závěrečná zpráva, metoda a nejistoty](reports/REPORT.cs.md)**
+- **[Ověřený výpočet plošné kapacity Letenské pláně](reports/CAPACITY.cs.md)** – tři vymezení, hustoty, odpočty a nezávislé výpočetní kontroly
 - [Mapa sektorů a měřítko](maps/scenario_sectors.png)
 - [Všechny předpoklady](data/quantitative_scenarios.json), [výpočty CSV](results/scenario_sectors.csv), [výsledek JSON](results/scenario_estimate.json)
 - [Původ a datum použitých pohledů](data/scenario_evidence.json)
@@ -28,6 +29,7 @@ python tools/verify.py
 node tools/review_transport.mjs self-test
 python tools/reference_geometry.py
 python tools/quantitative_scenarios.py
+python tools/capacity.py
 python tools/download_photos.py
 ```
 

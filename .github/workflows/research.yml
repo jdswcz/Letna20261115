@@ -56,6 +56,8 @@ jobs:
         run: python tools/inventory_video.py
       - name: Calculate explicit visual scenarios
         run: python tools/quantitative_scenarios.py
+      - name: Verify geometric venue capacity
+        run: python tools/capacity.py
       - name: Save research outputs
         if: github.event_name == 'push'
         env:

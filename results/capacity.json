@@ -1,0 +1,546 @@
+{
+  "status": "verified_geometric_calculation_with_conditional_density_and_deductions",
+  "certified_safe_capacity": null,
+  "actual_attendance": null,
+  "primary_area_method": "WGS84 ellipsoidal geodesic area; projected and Decimal areas are independent checks",
+  "map_pixel_m": [
+    0.8990634570562542,
+    0.8990634570560522
+  ],
+  "map_sha256": "d90b6221538fd36f36e315cedcf6e141c1e4ec3daab2cf112c5557d45d0d0c7b",
+  "inputs_sha256": {
+    "data/capacity.json": "362d82a0832125759f6a7331893011e08ff877a842ddc0daaab0fc1bc5a39705",
+    "maps/cuzk_ortho.json": "28d9fd75b25dc84df19f8c5ad4b2570bee002f0e707c8ef6294b9cd49c8a56b0",
+    "maps/cuzk_ortho.jgw": "e86a51178efb321ef42c2ed130a34b6318639d06b2299fa003fe39218e481ada",
+    "tools/capacity.py": "cbea9d05b65177ba95910410531c5485c390b7e81abfef03221916a4ff014469"
+  },
+  "components": {
+    "A": {
+      "label": "Otevřená plocha pláně",
+      "projected_area_m2": 55915.601187168635,
+      "independent_decimal_area_m2": 55915.60118716685,
+      "ground_geodesic_area_m2": 55957.96356886625
+    },
+    "N": {
+      "label": "Severní předprostor",
+      "projected_area_m2": 24519.834395537247,
+      "independent_decimal_area_m2": 24519.834395300546,
+      "ground_geodesic_area_m2": 24538.409465346485
+    },
+    "S": {
+      "label": "Jižní travnatý pás",
+      "projected_area_m2": 16704.235695030977,
+      "independent_decimal_area_m2": 16704.235695201285,
+      "ground_geodesic_area_m2": 16716.890731081367
+    }
+  },
+  "profiles": [
+    {
+      "id": "C0",
+      "label": "Pouze otevřená plocha",
+      "components": [
+        "A"
+      ],
+      "description": "Centrální otevřený povrch mezi severním předprostorem a jižní parkovou hranou, bez severního a jižního pásu.",
+      "projected_area_m2": 55915.601187168635,
+      "gross_ground_m2": 55957.96356886625,
+      "required_density_on_gross": {
+        "350000": 6.254695090346928,
+        "450000": 8.04175083044605
+      },
+      "required_density_with_10_percent_reserved": {
+        "350000": 6.949661211496586,
+        "450000": 8.93527870049561
+      },
+      "boundary_sensitivity": [
+        {
+          "boundary_offset_m": -9,
+          "approx_ground_m2": 45004.19831243989,
+          "meaning": "Geometric sensitivity only; expansion can extend beyond usable venue."
+        },
+        {
+          "boundary_offset_m": -3,
+          "approx_ground_m2": 52234.598191444114,
+          "meaning": "Geometric sensitivity only; expansion can extend beyond usable venue."
+        },
+        {
+          "boundary_offset_m": 3,
+          "approx_ground_m2": 59745.632951381034,
+          "meaning": "Geometric sensitivity only; expansion can extend beyond usable venue."
+        },
+        {
+          "boundary_offset_m": 9,
+          "approx_ground_m2": 67490.46487128448,
+          "meaning": "Geometric sensitivity only; expansion can extend beyond usable venue."
+        }
+      ],
+      "capacities": [
+        {
+          "profile": "C0",
+          "gross_ground_m2": 55957.96356886625,
+          "assumed_reserved_fraction": 0,
+          "usable_scenario_m2": 55957.96356886625,
+          "assumed_density_people_per_m2": 1,
+          "capacity_people_floor": 55957
+        },
+        {
+          "profile": "C0",
+          "gross_ground_m2": 55957.96356886625,
+          "assumed_reserved_fraction": 0,
+          "usable_scenario_m2": 55957.96356886625,
+          "assumed_density_people_per_m2": 2,
+          "capacity_people_floor": 111915
+        },
+        {
+          "profile": "C0",
+          "gross_ground_m2": 55957.96356886625,
+          "assumed_reserved_fraction": 0,
+          "usable_scenario_m2": 55957.96356886625,
+          "assumed_density_people_per_m2": 3,
+          "capacity_people_floor": 167873
+        },
+        {
+          "profile": "C0",
+          "gross_ground_m2": 55957.96356886625,
+          "assumed_reserved_fraction": 0,
+          "usable_scenario_m2": 55957.96356886625,
+          "assumed_density_people_per_m2": 4,
+          "capacity_people_floor": 223831
+        },
+        {
+          "profile": "C0",
+          "gross_ground_m2": 55957.96356886625,
+          "assumed_reserved_fraction": 0,
+          "usable_scenario_m2": 55957.96356886625,
+          "assumed_density_people_per_m2": 5,
+          "capacity_people_floor": 279789
+        },
+        {
+          "profile": "C0",
+          "gross_ground_m2": 55957.96356886625,
+          "assumed_reserved_fraction": 0.1,
+          "usable_scenario_m2": 50362.16721197963,
+          "assumed_density_people_per_m2": 1,
+          "capacity_people_floor": 50362
+        },
+        {
+          "profile": "C0",
+          "gross_ground_m2": 55957.96356886625,
+          "assumed_reserved_fraction": 0.1,
+          "usable_scenario_m2": 50362.16721197963,
+          "assumed_density_people_per_m2": 2,
+          "capacity_people_floor": 100724
+        },
+        {
+          "profile": "C0",
+          "gross_ground_m2": 55957.96356886625,
+          "assumed_reserved_fraction": 0.1,
+          "usable_scenario_m2": 50362.16721197963,
+          "assumed_density_people_per_m2": 3,
+          "capacity_people_floor": 151086
+        },
+        {
+          "profile": "C0",
+          "gross_ground_m2": 55957.96356886625,
+          "assumed_reserved_fraction": 0.1,
+          "usable_scenario_m2": 50362.16721197963,
+          "assumed_density_people_per_m2": 4,
+          "capacity_people_floor": 201448
+        },
+        {
+          "profile": "C0",
+          "gross_ground_m2": 55957.96356886625,
+          "assumed_reserved_fraction": 0.1,
+          "usable_scenario_m2": 50362.16721197963,
+          "assumed_density_people_per_m2": 5,
+          "capacity_people_floor": 251810
+        },
+        {
+          "profile": "C0",
+          "gross_ground_m2": 55957.96356886625,
+          "assumed_reserved_fraction": 0.2,
+          "usable_scenario_m2": 44766.370855093,
+          "assumed_density_people_per_m2": 1,
+          "capacity_people_floor": 44766
+        },
+        {
+          "profile": "C0",
+          "gross_ground_m2": 55957.96356886625,
+          "assumed_reserved_fraction": 0.2,
+          "usable_scenario_m2": 44766.370855093,
+          "assumed_density_people_per_m2": 2,
+          "capacity_people_floor": 89532
+        },
+        {
+          "profile": "C0",
+          "gross_ground_m2": 55957.96356886625,
+          "assumed_reserved_fraction": 0.2,
+          "usable_scenario_m2": 44766.370855093,
+          "assumed_density_people_per_m2": 3,
+          "capacity_people_floor": 134299
+        },
+        {
+          "profile": "C0",
+          "gross_ground_m2": 55957.96356886625,
+          "assumed_reserved_fraction": 0.2,
+          "usable_scenario_m2": 44766.370855093,
+          "assumed_density_people_per_m2": 4,
+          "capacity_people_floor": 179065
+        },
+        {
+          "profile": "C0",
+          "gross_ground_m2": 55957.96356886625,
+          "assumed_reserved_fraction": 0.2,
+          "usable_scenario_m2": 44766.370855093,
+          "assumed_density_people_per_m2": 5,
+          "capacity_people_floor": 223831
+        }
+      ]
+    },
+    {
+      "id": "C1",
+      "label": "Otevřená plocha + severní předprostor",
+      "components": [
+        "A",
+        "N"
+      ],
+      "description": "C0 a severní zpevněný/pomocný prostor jižně od hlavní vozovky, pokud je uvolněn pro účastníky.",
+      "projected_area_m2": 80435.43558270586,
+      "gross_ground_m2": 80496.37303421274,
+      "required_density_on_gross": {
+        "350000": 4.348021989155241,
+        "450000": 5.590313986056739
+      },
+      "required_density_with_10_percent_reserved": {
+        "350000": 4.831135543505824,
+        "450000": 6.211459984507488
+      },
+      "boundary_sensitivity": [
+        {
+          "boundary_offset_m": -9,
+          "approx_ground_m2": 68682.50563154784,
+          "meaning": "Geometric sensitivity only; expansion can extend beyond usable venue."
+        },
+        {
+          "boundary_offset_m": -3,
+          "approx_ground_m2": 76485.8920238051,
+          "meaning": "Geometric sensitivity only; expansion can extend beyond usable venue."
+        },
+        {
+          "boundary_offset_m": 3,
+          "approx_ground_m2": 84571.36232833641,
+          "meaning": "Geometric sensitivity only; expansion can extend beyond usable venue."
+        },
+        {
+          "boundary_offset_m": 9,
+          "approx_ground_m2": 92890.8149905734,
+          "meaning": "Geometric sensitivity only; expansion can extend beyond usable venue."
+        }
+      ],
+      "capacities": [
+        {
+          "profile": "C1",
+          "gross_ground_m2": 80496.37303421274,
+          "assumed_reserved_fraction": 0,
+          "usable_scenario_m2": 80496.37303421274,
+          "assumed_density_people_per_m2": 1,
+          "capacity_people_floor": 80496
+        },
+        {
+          "profile": "C1",
+          "gross_ground_m2": 80496.37303421274,
+          "assumed_reserved_fraction": 0,
+          "usable_scenario_m2": 80496.37303421274,
+          "assumed_density_people_per_m2": 2,
+          "capacity_people_floor": 160992
+        },
+        {
+          "profile": "C1",
+          "gross_ground_m2": 80496.37303421274,
+          "assumed_reserved_fraction": 0,
+          "usable_scenario_m2": 80496.37303421274,
+          "assumed_density_people_per_m2": 3,
+          "capacity_people_floor": 241489
+        },
+        {
+          "profile": "C1",
+          "gross_ground_m2": 80496.37303421274,
+          "assumed_reserved_fraction": 0,
+          "usable_scenario_m2": 80496.37303421274,
+          "assumed_density_people_per_m2": 4,
+          "capacity_people_floor": 321985
+        },
+        {
+          "profile": "C1",
+          "gross_ground_m2": 80496.37303421274,
+          "assumed_reserved_fraction": 0,
+          "usable_scenario_m2": 80496.37303421274,
+          "assumed_density_people_per_m2": 5,
+          "capacity_people_floor": 402481
+        },
+        {
+          "profile": "C1",
+          "gross_ground_m2": 80496.37303421274,
+          "assumed_reserved_fraction": 0.1,
+          "usable_scenario_m2": 72446.73573079146,
+          "assumed_density_people_per_m2": 1,
+          "capacity_people_floor": 72446
+        },
+        {
+          "profile": "C1",
+          "gross_ground_m2": 80496.37303421274,
+          "assumed_reserved_fraction": 0.1,
+          "usable_scenario_m2": 72446.73573079146,
+          "assumed_density_people_per_m2": 2,
+          "capacity_people_floor": 144893
+        },
+        {
+          "profile": "C1",
+          "gross_ground_m2": 80496.37303421274,
+          "assumed_reserved_fraction": 0.1,
+          "usable_scenario_m2": 72446.73573079146,
+          "assumed_density_people_per_m2": 3,
+          "capacity_people_floor": 217340
+        },
+        {
+          "profile": "C1",
+          "gross_ground_m2": 80496.37303421274,
+          "assumed_reserved_fraction": 0.1,
+          "usable_scenario_m2": 72446.73573079146,
+          "assumed_density_people_per_m2": 4,
+          "capacity_people_floor": 289786
+        },
+        {
+          "profile": "C1",
+          "gross_ground_m2": 80496.37303421274,
+          "assumed_reserved_fraction": 0.1,
+          "usable_scenario_m2": 72446.73573079146,
+          "assumed_density_people_per_m2": 5,
+          "capacity_people_floor": 362233
+        },
+        {
+          "profile": "C1",
+          "gross_ground_m2": 80496.37303421274,
+          "assumed_reserved_fraction": 0.2,
+          "usable_scenario_m2": 64397.09842737019,
+          "assumed_density_people_per_m2": 1,
+          "capacity_people_floor": 64397
+        },
+        {
+          "profile": "C1",
+          "gross_ground_m2": 80496.37303421274,
+          "assumed_reserved_fraction": 0.2,
+          "usable_scenario_m2": 64397.09842737019,
+          "assumed_density_people_per_m2": 2,
+          "capacity_people_floor": 128794
+        },
+        {
+          "profile": "C1",
+          "gross_ground_m2": 80496.37303421274,
+          "assumed_reserved_fraction": 0.2,
+          "usable_scenario_m2": 64397.09842737019,
+          "assumed_density_people_per_m2": 3,
+          "capacity_people_floor": 193191
+        },
+        {
+          "profile": "C1",
+          "gross_ground_m2": 80496.37303421274,
+          "assumed_reserved_fraction": 0.2,
+          "usable_scenario_m2": 64397.09842737019,
+          "assumed_density_people_per_m2": 4,
+          "capacity_people_floor": 257588
+        },
+        {
+          "profile": "C1",
+          "gross_ground_m2": 80496.37303421274,
+          "assumed_reserved_fraction": 0.2,
+          "usable_scenario_m2": 64397.09842737019,
+          "assumed_density_people_per_m2": 5,
+          "capacity_people_floor": 321985
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "label": "Rozšířená varianta s jižním pásem",
+      "components": [
+        "A",
+        "N",
+        "S"
+      ],
+      "description": "C1 a sousední jižní travnatý pás. Nezahrnuje celý park ani východní stromové předpolí.",
+      "projected_area_m2": 97139.67127773684,
+      "gross_ground_m2": 97213.2637652941,
+      "required_density_on_gross": {
+        "350000": 3.6003317494310147,
+        "450000": 4.628997963554162
+      },
+      "required_density_with_10_percent_reserved": {
+        "350000": 4.000368610478906,
+        "450000": 5.143331070615735
+      },
+      "boundary_sensitivity": [
+        {
+          "boundary_offset_m": -9,
+          "approx_ground_m2": 84793.65446345414,
+          "meaning": "Geometric sensitivity only; expansion can extend beyond usable venue."
+        },
+        {
+          "boundary_offset_m": -3,
+          "approx_ground_m2": 92999.04308857242,
+          "meaning": "Geometric sensitivity only; expansion can extend beyond usable venue."
+        },
+        {
+          "boundary_offset_m": 3,
+          "approx_ground_m2": 101492.90193757309,
+          "meaning": "Geometric sensitivity only; expansion can extend beyond usable venue."
+        },
+        {
+          "boundary_offset_m": 9,
+          "approx_ground_m2": 110221.63052711396,
+          "meaning": "Geometric sensitivity only; expansion can extend beyond usable venue."
+        }
+      ],
+      "capacities": [
+        {
+          "profile": "C2",
+          "gross_ground_m2": 97213.2637652941,
+          "assumed_reserved_fraction": 0,
+          "usable_scenario_m2": 97213.2637652941,
+          "assumed_density_people_per_m2": 1,
+          "capacity_people_floor": 97213
+        },
+        {
+          "profile": "C2",
+          "gross_ground_m2": 97213.2637652941,
+          "assumed_reserved_fraction": 0,
+          "usable_scenario_m2": 97213.2637652941,
+          "assumed_density_people_per_m2": 2,
+          "capacity_people_floor": 194426
+        },
+        {
+          "profile": "C2",
+          "gross_ground_m2": 97213.2637652941,
+          "assumed_reserved_fraction": 0,
+          "usable_scenario_m2": 97213.2637652941,
+          "assumed_density_people_per_m2": 3,
+          "capacity_people_floor": 291639
+        },
+        {
+          "profile": "C2",
+          "gross_ground_m2": 97213.2637652941,
+          "assumed_reserved_fraction": 0,
+          "usable_scenario_m2": 97213.2637652941,
+          "assumed_density_people_per_m2": 4,
+          "capacity_people_floor": 388853
+        },
+        {
+          "profile": "C2",
+          "gross_ground_m2": 97213.2637652941,
+          "assumed_reserved_fraction": 0,
+          "usable_scenario_m2": 97213.2637652941,
+          "assumed_density_people_per_m2": 5,
+          "capacity_people_floor": 486066
+        },
+        {
+          "profile": "C2",
+          "gross_ground_m2": 97213.2637652941,
+          "assumed_reserved_fraction": 0.1,
+          "usable_scenario_m2": 87491.9373887647,
+          "assumed_density_people_per_m2": 1,
+          "capacity_people_floor": 87491
+        },
+        {
+          "profile": "C2",
+          "gross_ground_m2": 97213.2637652941,
+          "assumed_reserved_fraction": 0.1,
+          "usable_scenario_m2": 87491.9373887647,
+          "assumed_density_people_per_m2": 2,
+          "capacity_people_floor": 174983
+        },
+        {
+          "profile": "C2",
+          "gross_ground_m2": 97213.2637652941,
+          "assumed_reserved_fraction": 0.1,
+          "usable_scenario_m2": 87491.9373887647,
+          "assumed_density_people_per_m2": 3,
+          "capacity_people_floor": 262475
+        },
+        {
+          "profile": "C2",
+          "gross_ground_m2": 97213.2637652941,
+          "assumed_reserved_fraction": 0.1,
+          "usable_scenario_m2": 87491.9373887647,
+          "assumed_density_people_per_m2": 4,
+          "capacity_people_floor": 349967
+        },
+        {
+          "profile": "C2",
+          "gross_ground_m2": 97213.2637652941,
+          "assumed_reserved_fraction": 0.1,
+          "usable_scenario_m2": 87491.9373887647,
+          "assumed_density_people_per_m2": 5,
+          "capacity_people_floor": 437459
+        },
+        {
+          "profile": "C2",
+          "gross_ground_m2": 97213.2637652941,
+          "assumed_reserved_fraction": 0.2,
+          "usable_scenario_m2": 77770.61101223528,
+          "assumed_density_people_per_m2": 1,
+          "capacity_people_floor": 77770
+        },
+        {
+          "profile": "C2",
+          "gross_ground_m2": 97213.2637652941,
+          "assumed_reserved_fraction": 0.2,
+          "usable_scenario_m2": 77770.61101223528,
+          "assumed_density_people_per_m2": 2,
+          "capacity_people_floor": 155541
+        },
+        {
+          "profile": "C2",
+          "gross_ground_m2": 97213.2637652941,
+          "assumed_reserved_fraction": 0.2,
+          "usable_scenario_m2": 77770.61101223528,
+          "assumed_density_people_per_m2": 3,
+          "capacity_people_floor": 233311
+        },
+        {
+          "profile": "C2",
+          "gross_ground_m2": 97213.2637652941,
+          "assumed_reserved_fraction": 0.2,
+          "usable_scenario_m2": 77770.61101223528,
+          "assumed_density_people_per_m2": 4,
+          "capacity_people_floor": 311082
+        },
+        {
+          "profile": "C2",
+          "gross_ground_m2": 97213.2637652941,
+          "assumed_reserved_fraction": 0.2,
+          "usable_scenario_m2": 77770.61101223528,
+          "assumed_density_people_per_m2": 5,
+          "capacity_people_floor": 388853
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "map_sha256_verified": true,
+    "world_file_extent_and_half_pixel_verified": true,
+    "decimal_shoelace_matches_shapely": true,
+    "geodesic_projection_difference_below_0_2_percent": true,
+    "components_nonoverlapping": true,
+    "profile_union_matches_sum": true,
+    "geodesic_union_additive_within_0_1_m2": true
+  },
+  "limits": [
+    "Manual boundaries on one orthophoto, not cadastral or on-site survey.",
+    "Map acquisition date unknown; not a verified current obstacle layout.",
+    "Density is a chosen capacity parameter, not an observation.",
+    "10% and 20% deductions are sensitivity assumptions, not measured infrastructure.",
+    "No evacuation, circulation or permit capacity verified.",
+    "Gross capacity assumes the whole selected footprint is available; not all vegetation, furniture or temporary objects individually mapped.",
+    "Capacity is not evidence of actual turnout on 2026-11-15."
+  ]
+}

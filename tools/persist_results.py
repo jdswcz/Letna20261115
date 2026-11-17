@@ -19,7 +19,8 @@ def main():
     paths=["data/collection.json","results/estimate.json","results/verification.json",
       "data/gallery_inventory.json","results/reference_areas.json","data/video_locators.json",
       "results/scenario_estimate.json","results/scenario_sectors.csv",
-      "results/scenario_check.json","maps/scenario_sectors.geojson","maps/scenario_sectors.svg"]
+      "results/scenario_check.json","maps/scenario_sectors.geojson","maps/scenario_sectors.svg",
+      "results/capacity.json","results/capacity_checks.json","results/capacity.csv","reports/CAPACITY.cs.md"]
     paths += [str(p.relative_to(ROOT)).replace("\\","/") for p in (ROOT/"maps").glob("*") if p.is_file()]
     changes=[]
     for path in sorted(set(paths)):

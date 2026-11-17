@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "A",
+        "label": "Otevřená plocha pláně",
+        "map_label": "open central surface",
+        "pixel_coordinates": [
+          [
+            590,
+            785
+          ],
+          [
+            1157,
+            677
+          ],
+          [
+            1181,
+            810
+          ],
+          [
+            611,
+            888
+          ]
+        ],
+        "basis": "Visible boundary manually traced on CUZK ortho; same reference_open_surface as prior analysis.",
+        "projected_area_m2": 55915.601187168635,
+        "independent_decimal_area_m2": 55915.60118716685,
+        "ground_geodesic_area_m2": 55957.96356886625
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.412318948878099,
+              50.09789225360522
+            ],
+            [
+              14.419435525602756,
+              50.098801362574946
+            ],
+            [
+              14.419750197882841,
+              50.09772747631278
+            ],
+            [
+              14.412593099325242,
+              50.09706076614265
+            ],
+            [
+              14.412318948878099,
+              50.09789225360522
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "N",
+        "label": "Severní předprostor",
+        "map_label": "northern apron, conditional availability",
+        "pixel_coordinates": [
+          [
+            590,
+            730
+          ],
+          [
+            1157,
+            625
+          ],
+          [
+            1157,
+            677
+          ],
+          [
+            590,
+            785
+          ]
+        ],
+        "basis": "Paved/service/grass strip north of open surface; not main road. Capacity conditional on availability and parking removal.",
+        "projected_area_m2": 24519.834395537247,
+        "independent_decimal_area_m2": 24519.834395300546,
+        "ground_geodesic_area_m2": 24538.409465346485
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.412313508749916,
+              50.09833696499477
+            ],
+            [
+              14.41943044433099,
+              50.09922181744739
+            ],
+            [
+              14.419435525602756,
+              50.098801362574946
+            ],
+            [
+              14.412318948878099,
+              50.09789225360522
+            ],
+            [
+              14.412313508749916,
+              50.09833696499477
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "S",
+        "label": "Jižní travnatý pás",
+        "map_label": "southern strip, contains trees and furniture",
+        "pixel_coordinates": [
+          [
+            611,
+            888
+          ],
+          [
+            1181,
+            810
+          ],
+          [
+            1194,
+            842
+          ],
+          [
+            622,
+            925
+          ]
+        ],
+        "basis": "Strip between open field and next parallel promenade; gross envelope with trees and furniture.",
+        "projected_area_m2": 16704.235695030977,
+        "independent_decimal_area_m2": 16704.235695201285,
+        "ground_geodesic_area_m2": 16716.890731081367
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.412593099325242,
+              50.09706076614265
+            ],
+            [
+              14.419750197882841,
+              50.09772747631278
+            ],
+            [
+              14.419916730179237,
+              50.09746955131241
+            ],
+            [
+              14.412735022603623,
+              50.09676229603173
+            ],
+            [
+              14.412593099325242,
+              50.09706076614265
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

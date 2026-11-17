@@ -1,0 +1,37 @@
+{
+  "checked_date": "2026-11-17",
+  "sources": [
+    {
+      "id": "CUZK",
+      "url": "https://ags.cuzk.gov.cz/arcgis1/rest/services/ORTOFOTO/MapServer",
+      "role": "Official orthophoto service, stored export and metadata; geometry only"
+    },
+    {
+      "id": "CUZK-LICENSE",
+      "url": "https://ags.cuzk.gov.cz/opendata/",
+      "role": "CC BY 4.0 attribution"
+    },
+    {
+      "id": "CORNWALL",
+      "url": "https://www.cornwall.gov.uk/business-trading-and-licences/organising-an-event/health-and-safety-for-large-events/",
+      "section": "Venue capacity and emergency exits",
+      "paraphrase": "Standing audience floor-space reference: 0.5 square metre per person after structures; evacuation and exit constraints must also be considered.",
+      "role": "2 people/m2 planning reference; UK guidance, not Czech authorization or site-specific certified capacity"
+    },
+    {
+      "id": "HSE",
+      "url": "https://www.hse.gov.uk/event-safety/venue-site-design.htm",
+      "section": "Venue capacity for the audience, staff and contractors",
+      "paraphrase": "Capacity depends on available space and can be constrained by emergency exits and audience circulation.",
+      "role": "Explains why floor area alone cannot certify a safe event capacity"
+    },
+    {
+      "id": "STILL",
+      "url": "https://www.gkstill.com/Support/crowd-density/CrowdDensity-1.html",
+      "paraphrase": "Visual examples illustrate different standing crowd densities; camera angle affects apparent density.",
+      "role": "Density scenarios, not empirical measurement or safe density certification for Letna"
+    }
+  ],
+  "verification_scope": "Sources opened and read; numerical checks validate stored map and arithmetic, not real-world venue approval."
+}
+

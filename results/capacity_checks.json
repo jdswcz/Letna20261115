@@ -1,0 +1,9 @@
+{
+  "map_sha256_verified": true,
+  "world_file_extent_and_half_pixel_verified": true,
+  "decimal_shoelace_matches_shapely": true,
+  "geodesic_projection_difference_below_0_2_percent": true,
+  "components_nonoverlapping": true,
+  "profile_union_matches_sum": true,
+  "geodesic_union_additive_within_0_1_m2": true
+}

@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "map_sha256": "d90b6221538fd36f36e315cedcf6e141c1e4ec3daab2cf112c5557d45d0d0c7b",
+  "coordinate_reference": "Pixel coordinates on stored 2400x1800 CUZK export; vertices, not pixel centers",
+  "components": [
+    {
+      "id": "A",
+      "label": "Otevřená plocha pláně",
+      "map_label": "open central surface",
+      "pixel_coordinates": [
+        [
+          590,
+          785
+        ],
+        [
+          1157,
+          677
+        ],
+        [
+          1181,
+          810
+        ],
+        [
+          611,
+          888
+        ]
+      ],
+      "basis": "Visible boundary manually traced on CUZK ortho; same reference_open_surface as prior analysis."
+    },
+    {
+      "id": "N",
+      "label": "Severní předprostor",
+      "map_label": "northern apron, conditional availability",
+      "pixel_coordinates": [
+        [
+          590,
+          730
+        ],
+        [
+          1157,
+          625
+        ],
+        [
+          1157,
+          677
+        ],
+        [
+          590,
+          785
+        ]
+      ],
+      "basis": "Paved/service/grass strip north of open surface; not main road. Capacity conditional on availability and parking removal."
+    },
+    {
+      "id": "S",
+      "label": "Jižní travnatý pás",
+      "map_label": "southern strip, contains trees and furniture",
+      "pixel_coordinates": [
+        [
+          611,
+          888
+        ],
+        [
+          1181,
+          810
+        ],
+        [
+          1194,
+          842
+        ],
+        [
+          622,
+          925
+        ]
+      ],
+      "basis": "Strip between open field and next parallel promenade; gross envelope with trees and furniture."
+    }
+  ],
+  "profiles": [
+    {
+      "id": "C0",
+      "label": "Pouze otevřená plocha",
+      "components": [
+        "A"
+      ],
+      "description": "Centrální otevřený povrch mezi severním předprostorem a jižní parkovou hranou, bez severního a jižního pásu."
+    },
+    {
+      "id": "C1",
+      "label": "Otevřená plocha + severní předprostor",
+      "components": [
+        "A",
+        "N"
+      ],
+      "description": "C0 a severní zpevněný/pomocný prostor jižně od hlavní vozovky, pokud je uvolněn pro účastníky."
+    },
+    {
+      "id": "C2",
+      "label": "Rozšířená varianta s jižním pásem",
+      "components": [
+        "A",
+        "N",
+        "S"
+      ],
+      "description": "C1 a sousední jižní travnatý pás. Nezahrnuje celý park ani východní stromové předpolí."
+    }
+  ],
+  "density_scenarios_people_per_m2": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "reserved_fraction_scenarios": [
+    0,
+    0.1,
+    0.2
+  ],
+  "boundary_sensitivity_m": [
+    -9,
+    -3,
+    3,
+    9
+  ],
+  "limits": [
+    "Manual boundaries on one orthophoto, not cadastral or on-site survey.",
+    "Map acquisition date unknown; not a verified current obstacle layout.",
+    "Density is a chosen capacity parameter, not an observation.",
+    "10% and 20% deductions are sensitivity assumptions, not measured infrastructure.",
+    "No evacuation, circulation or permit capacity verified.",
+    "Gross capacity assumes the whole selected footprint is available; not all vegetation, furniture or temporary objects individually mapped.",
+    "Capacity is not evidence of actual turnout on 2026-11-15."
+  ]
+}
+

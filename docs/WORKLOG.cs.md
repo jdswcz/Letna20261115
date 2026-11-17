@@ -52,3 +52,12 @@ nelze z hashů obnovit později odstraněný snímek.
 - Nevznikly smyšlené anotace ani hustoty vydávané za měření. Další časy nejsou přičítány.
 - Denní maximum zůstává nedoloženo. Porovnání 350–450 tisíc není zaslepené,
   číslo bylo známo ze zadání; není kalibračním vstupem.
+
+## Kapacita pláně, 17. 11. 2026
+
+- Na přímý pokyn doplněn samostatný ověřitelný výpočet kapacity, přímo v main.
+- Vymezeny C0 (otevřená plocha), C1 (+ severní předprostor), C2 (+ jižní travnatý pás), bez celého parku a východního stromového předpolí.
+- Na stejném ortofotu ověřeny tři výpočetní cesty: Decimal shoelace, Shapely a pyproj.Geod. Nejde o tři nezávislá terénní měření.
+- Kontrolován hash mapy, měřítko a world file včetně půl pixelu, nepřekrývání, součty proti sjednocení, geodetická aditivita a citlivost hranice.
+- Místní běh pěti nových testů a všech sedmi geometrií/kontrol prošel; CI opakuje testy a výpočet na self-hosted runneru.
+- Hustoty a 10%/20% rezervy jsou parametry, nikoli změřené zaplnění nebo přesný zábor infrastruktury. Bez únikových parametrů není stanovena certifikovaná bezpečná kapacita.

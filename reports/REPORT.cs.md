@@ -99,3 +99,7 @@ python tools/download_photos.py
 Scénáře běží z uložené mapy a JSON bez nového stahování. Poslední příkaz potřebuje síť a obnovuje soukromé fotografie podle URL a hashů. Reprodukovatelnost výpočtu neznamená nezávislé prokázání správnosti úsudku.
 
 Primární zdroje: [galerie Seznam Zpráv](https://www.seznamzpravy.cz/clanek/obrazem-obrazem-andreji-macinko-okamuro-mame-toho-dost-letna-proti-zestatneni-medii-320577), [výškový pohled](https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-video-takto-vypada-plna-letna-z-vysky-320595), [policejní video publikované Novinkami](https://www.novinky.cz/clanek/domaci-zabery-z-dronu-ukazaly-statisice-lidi-na-letne-40608773), [ČÚZK ortofoto](https://ags.cuzk.gov.cz/arcgis1/rest/services/ORTOFOTO/MapServer), [otevřená data a licence](https://ags.cuzk.gov.cz/opendata/). Další doklady a historie jsou v data/, docs/ a historii main.
+
+## Samostatný výpočet kapacity
+
+Doplněn [ověřený plošný výpočet kapacity Letenské pláně](CAPACITY.cs.md), s přesným vymezením ploch a variantami hustoty a odpočtů. Geometrická kapacita není novým měřením účasti a nemění výše uvedený fotografický scénář.
