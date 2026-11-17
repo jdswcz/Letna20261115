@@ -54,6 +54,8 @@ jobs:
       - name: Inspect public video locators
         if: github.event_name == 'push' && contains(github.event.head_commit.message, '[inspect-video]')
         run: python tools/inventory_video.py
+      - name: Calculate explicit visual scenarios
+        run: python tools/quantitative_scenarios.py
       - name: Save research outputs
         if: github.event_name == 'push'
         env:

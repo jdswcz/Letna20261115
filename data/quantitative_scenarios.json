@@ -1,0 +1,297 @@
+{
+  "version": 1,
+  "status": "conditional_visual_scenario_not_census",
+  "date": "2026-11-15",
+  "anchor_asset": "SZ-GALLERY-102-UNCROPPED",
+  "anchor_time": "2026-11-15T14:22:40+01:00",
+  "comparison_assets": [
+    "SZ-ALBUM-19",
+    "POLICE-POSTER-UNCROPPED"
+  ],
+  "assumption_type": "Analyst-selected lower/central/upper scenarios, not measurements, probability quantiles, safety limits or organizer counts.",
+  "scenario_order": [
+    "lower",
+    "central",
+    "upper"
+  ],
+  "pixel_scale_m": [
+    0.8990634570562542,
+    0.8990634570560522
+  ],
+  "map_sha256": "d90b6221538fd36f36e315cedcf6e141c1e4ec3daab2cf112c5557d45d0d0c7b",
+  "boundary_note": "area_factor is scalar area sensitivity, not a measured alternative polygon. Adjacent sectors stay disjoint in baseline geometry.",
+  "peak_note": "Proxy for near-peak simultaneous attendance conditional on the 14:22 view being representative. True daily maximum unobserved; no summing across times, no turnover multiplier.",
+  "density_reference": "https://www.gkstill.com/Support/crowd-density/CrowdDensity-1.html",
+  "sectors": [
+    {
+      "id": "W",
+      "label": "Zapadni cast otevrene plane",
+      "pixel_coordinates": [
+        [
+          590,
+          785
+        ],
+        [
+          779,
+          749
+        ],
+        [
+          801,
+          862
+        ],
+        [
+          611,
+          888
+        ]
+      ],
+      "area_factor": [
+        0.9,
+        1,
+        1.1
+      ],
+      "occupied_fraction": [
+        0.8,
+        0.89,
+        0.95
+      ],
+      "density": [
+        2.1,
+        2.8,
+        3.6
+      ],
+      "basis": "Continuous crowded surface visible in SZ-GALLERY-102-UNCROPPED; west-to-east density gradient is visual judgement, not calibrated sampling. Fraction excludes rink, corridors, equipment and visible voids."
+    },
+    {
+      "id": "M",
+      "label": "Stred otevrene plane",
+      "pixel_coordinates": [
+        [
+          779,
+          749
+        ],
+        [
+          968,
+          713
+        ],
+        [
+          991,
+          836
+        ],
+        [
+          801,
+          862
+        ]
+      ],
+      "area_factor": [
+        0.9,
+        1,
+        1.1
+      ],
+      "occupied_fraction": [
+        0.8,
+        0.89,
+        0.95
+      ],
+      "density": [
+        2.5,
+        3.3,
+        4.1
+      ],
+      "basis": "Continuous crowded surface visible in SZ-GALLERY-102-UNCROPPED; west-to-east density gradient is visual judgement, not calibrated sampling. Fraction excludes rink, corridors, equipment and visible voids."
+    },
+    {
+      "id": "E",
+      "label": "Vychodni cast otevrene plane",
+      "pixel_coordinates": [
+        [
+          968,
+          713
+        ],
+        [
+          1157,
+          677
+        ],
+        [
+          1181,
+          810
+        ],
+        [
+          991,
+          836
+        ]
+      ],
+      "area_factor": [
+        0.9,
+        1,
+        1.1
+      ],
+      "occupied_fraction": [
+        0.8,
+        0.89,
+        0.95
+      ],
+      "density": [
+        2.8,
+        3.6,
+        4.4
+      ],
+      "basis": "Continuous crowded surface visible in SZ-GALLERY-102-UNCROPPED; west-to-east density gradient is visual judgement, not calibrated sampling. Fraction excludes rink, corridors, equipment and visible voids."
+    },
+    {
+      "id": "F",
+      "label": "Vychodni predpoli a okoli podia",
+      "pixel_coordinates": [
+        [
+          1157,
+          677
+        ],
+        [
+          1280,
+          650
+        ],
+        [
+          1300,
+          800
+        ],
+        [
+          1181,
+          810
+        ]
+      ],
+      "area_factor": [
+        0.85,
+        1,
+        1.15
+      ],
+      "occupied_fraction": [
+        0.35,
+        0.55,
+        0.75
+      ],
+      "density": [
+        2.4,
+        3.4,
+        4.3
+      ],
+      "basis": "East apron from map; sizeable stage/working-space exclusions. Partial view at frame bottom; fraction and density are assumptions."
+    },
+    {
+      "id": "S",
+      "label": "Jizni travnaty pas",
+      "pixel_coordinates": [
+        [
+          611,
+          888
+        ],
+        [
+          1181,
+          810
+        ],
+        [
+          1194,
+          842
+        ],
+        [
+          622,
+          925
+        ]
+      ],
+      "area_factor": [
+        0.9,
+        1,
+        1.1
+      ],
+      "occupied_fraction": [
+        0.65,
+        0.82,
+        0.94
+      ],
+      "density": [
+        1.8,
+        2.6,
+        3.4
+      ],
+      "basis": "Crowd extends to grass/parallel paths in SZ-GALLERY-102-UNCROPPED. Paths, trees and gaps handled by occupied_fraction."
+    },
+    {
+      "id": "P",
+      "label": "Jizni park za travnatym pasem",
+      "pixel_coordinates": [
+        [
+          622,
+          925
+        ],
+        [
+          1194,
+          842
+        ],
+        [
+          1210,
+          940
+        ],
+        [
+          730,
+          1040
+        ],
+        [
+          600,
+          970
+        ]
+      ],
+      "area_factor": [
+        0.8,
+        1,
+        1.2
+      ],
+      "occupied_fraction": [
+        0.25,
+        0.45,
+        0.65
+      ],
+      "density": [
+        0.8,
+        1.4,
+        2
+      ],
+      "basis": "Patchy crowd and clearly empty lawns in SZ-GALLERY-102-UNCROPPED; trees obscure people. Boundary is a model envelope, not a verified crowd outline. Greatest occupancy uncertainty."
+    },
+    {
+      "id": "N",
+      "label": "Severni okraj a prilehle komunikace",
+      "pixel_coordinates": [
+        [
+          590,
+          730
+        ],
+        [
+          1157,
+          625
+        ],
+        [
+          1157,
+          677
+        ],
+        [
+          590,
+          785
+        ]
+      ],
+      "area_factor": [
+        0.9,
+        1,
+        1.1
+      ],
+      "occupied_fraction": [
+        0.02,
+        0.08,
+        0.18
+      ],
+      "density": [
+        0.5,
+        1,
+        1.5
+      ],
+      "basis": "Mostly empty paved/service/grass strips visible near main road. Very small occupied fraction; no assumption that the traffic carriageway is full."
+    }
+  ]
+}
