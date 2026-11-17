@@ -39,5 +39,9 @@
       "within_scenario_envelope": false
     }
   },
-  "warning": "Bounds are conditional scenarios, not guaranteed minimum/maximum. No statistical most-likely value or validated percent accuracy is available."
+  "warning": "Bounds are conditional scenarios, not guaranteed minimum/maximum. No statistical most-likely value or validated percent accuracy is available.",
+  "sensitivity": {
+    "density_plus_minus_0_5_people": 48500.3164987043,
+    "area_plus_minus_10_percent": 25938.27005695927
+  }
 }
