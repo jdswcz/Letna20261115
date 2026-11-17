@@ -1,61 +1,36 @@
 {
-  "session_id": "review-20261117-02",
+  "session_id": "review-20261117-03",
   "records": [
     {
-      "id": "CUZK-ORTHO",
-      "asset_id": "CUZK-ORTHO",
-      "url": "https://ags.cuzk.gov.cz/arcgis1/rest/directories/arcgisoutput/ORTOFOTO_MapServer/_ags_map2c0b5f51c5ac417da222114b6490502f.jpg",
-      "downloaded_at_utc": "2026-11-17T00:26:21.118918+00:00",
+      "id": "PLAN",
+      "asset_id": "ORGANIZER-PLAN",
+      "url": "https://1884403144.rsc.cdn77.org/foto/planek-pro-verejnost-demonstrace-letna/Zml0LWluLzk3OHg5OTk5L2ZpbHRlcnM6cXVhbGl0eSg4NSk6bm9fdXBzY2FsZSgpL2ltZw/10030157.jpg?e=0&st=NA5O65XTNxLLPX4KJi1Wux0jbtQo334cDbzt15AuVb4&ts=1600812000&v=0",
+      "downloaded_at_utc": "2026-11-17T00:30:26.180309+00:00",
       "status": "downloaded",
-      "bytes": 1745325,
-      "sha256": "d90b6221538fd36f36e315cedcf6e141c1e4ec3daab2cf112c5557d45d0d0c7b",
+      "bytes": 188714,
+      "sha256": "06e41ef31bb5b71a46b250101dfa70db4ed41b27af27dbfbbfcd0d2e59f78feb",
       "raw_dimensions": [
-        2400,
-        1800
+        978,
+        689
       ],
-      "format": "JPEG",
+      "format": "PNG",
       "stored_in_git": false,
-      "local_runner_path": "private_downloads/CUZK-ORTHO.bin",
+      "local_runner_path": "private_downloads/PLAN.bin",
       "oriented_dimensions": [
-        2400,
-        1800
+        978,
+        689
       ],
       "preview_dimensions": [
-        1800,
-        1350
+        978,
+        689
       ],
       "crop": null
     },
     {
-      "id": "POLICE-FULL",
-      "asset_id": "POLICE-POSTER-UNCROPPED",
-      "url": "https://d15-a.sdn.cz/d_15/c_img_qH_A/kb4JgeTdk3RI9L02IXjxz2/14ad/letna-demonstrace.jpeg",
-      "downloaded_at_utc": "2026-11-17T00:26:22.486053+00:00",
-      "status": "downloaded",
-      "bytes": 1485958,
-      "sha256": "64f13ba86ffcbd82afd3ae46db2409445df2bd12862021e2efbb395d4dcf1777",
-      "raw_dimensions": [
-        1920,
-        1080
-      ],
-      "format": "JPEG",
-      "stored_in_git": false,
-      "local_runner_path": "private_downloads/POLICE-FULL.bin",
-      "oriented_dimensions": [
-        1920,
-        1080
-      ],
-      "preview_dimensions": [
-        1800,
-        1013
-      ],
-      "crop": null
-    },
-    {
-      "id": "TUR-102",
+      "id": "TUR-102-RETRY",
       "asset_id": "SZ-GALLERY-102-UNCROPPED",
       "url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCM3uZBC73IXjDwg/d285/turek.jpeg",
-      "downloaded_at_utc": "2026-11-17T00:26:23.536866+00:00",
+      "downloaded_at_utc": "2026-11-17T00:30:27.131547+00:00",
       "status": "downloaded",
       "bytes": 2758177,
       "sha256": "0546b734d6c7f400e3897ba217e3236cd3121d3b51ffa80f6a89f0f72eaab776",
@@ -65,77 +40,52 @@
       ],
       "format": "JPEG",
       "stored_in_git": false,
-      "local_runner_path": "private_downloads/TUR-102.bin",
+      "local_runner_path": "private_downloads/TUR-102-RETRY.bin",
       "oriented_dimensions": [
         3000,
         2001
       ],
       "preview_dimensions": [
-        1800,
-        1201
+        1600,
+        1067
       ],
       "crop": null
     },
     {
-      "id": "PANO",
-      "asset_id": "SZ-360-POSTER-UNCROPPED",
-      "url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDrngKDOn2IXo85u/b56f/pano.jpeg",
-      "downloaded_at_utc": "2026-11-17T00:26:24.742978+00:00",
+      "id": "MAP-ZOOM",
+      "asset_id": "CUZK-ORTHO",
+      "url": "https://ags.cuzk.gov.cz/arcgis1/rest/directories/arcgisoutput/ORTOFOTO_MapServer/_ags_mapafa9858b9aa846d6ae6e74358c4cbe4a.jpg",
+      "downloaded_at_utc": "2026-11-17T00:30:28.278364+00:00",
       "status": "downloaded",
-      "bytes": 3993571,
-      "sha256": "dc000797b00f7fd4f96f5202fd11a267a68cf774168a5fd3d7f05119d9c8db86",
+      "bytes": 1745325,
+      "sha256": "d90b6221538fd36f36e315cedcf6e141c1e4ec3daab2cf112c5557d45d0d0c7b",
       "raw_dimensions": [
-        3840,
-        2160
+        2400,
+        1800
       ],
       "format": "JPEG",
       "stored_in_git": false,
-      "local_runner_path": "private_downloads/PANO.bin",
-      "oriented_dimensions": [
-        3840,
-        2160
-      ],
-      "preview_dimensions": [
-        1800,
-        1013
-      ],
-      "crop": null
-    },
-    {
-      "id": "SAMPLE-TUR-FRONT",
-      "asset_id": "SZ-GALLERY-104-UNCROPPED",
-      "url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCEwoKDUyIXhOT0/7ea1.jpeg",
-      "downloaded_at_utc": "2026-11-17T00:26:26.093790+00:00",
-      "status": "downloaded",
-      "bytes": 2017843,
-      "sha256": "a1ab06cd8d1a1d8f2ac30959075c4217d1d4f09a507427e2cb75fa5b0e8d7a1c",
-      "raw_dimensions": [
-        2400,
-        1600
-      ],
-      "format": "JPEG",
-      "stored_in_git": false,
-      "local_runner_path": "private_downloads/SAMPLE-TUR-FRONT.bin",
+      "local_runner_path": "private_downloads/MAP-ZOOM.bin",
       "oriented_dimensions": [
         2400,
-        1600
+        1800
       ],
       "preview_dimensions": [
-        600,
-        600
+        1020,
+        670
       ],
       "crop": [
-        400,
-        600,
-        1000,
-        1200
+        430,
+        430,
+        1450,
+        1100
       ]
     },
     {
-      "id": "SAMPLE-POLICE-CENTER",
+      "id": "POLICE-GRID",
       "asset_id": "POLICE-POSTER-UNCROPPED",
       "url": "https://d15-a.sdn.cz/d_15/c_img_qH_A/kb4JgeTdk3RI9L02IXjxz2/14ad/letna-demonstrace.jpeg",
-      "downloaded_at_utc": "2026-11-17T00:26:27.211134+00:00",
+      "downloaded_at_utc": "2026-11-17T00:30:29.461204+00:00",
       "status": "downloaded",
       "bytes": 1485958,
       "sha256": "64f13ba86ffcbd82afd3ae46db2409445df2bd12862021e2efbb395d4dcf1777",
@@ -145,20 +95,105 @@
       ],
       "format": "JPEG",
       "stored_in_git": false,
-      "local_runner_path": "private_downloads/SAMPLE-POLICE-CENTER.bin",
+      "local_runner_path": "private_downloads/POLICE-GRID.bin",
       "oriented_dimensions": [
         1920,
         1080
       ],
       "preview_dimensions": [
-        600,
-        600
+        1600,
+        900
+      ],
+      "crop": null
+    },
+    {
+      "id": "P1",
+      "asset_id": "POLICE-POSTER-UNCROPPED",
+      "url": "https://d15-a.sdn.cz/d_15/c_img_qH_A/kb4JgeTdk3RI9L02IXjxz2/14ad/letna-demonstrace.jpeg",
+      "downloaded_at_utc": "2026-11-17T00:30:30.442320+00:00",
+      "status": "downloaded",
+      "bytes": 1485958,
+      "sha256": "64f13ba86ffcbd82afd3ae46db2409445df2bd12862021e2efbb395d4dcf1777",
+      "raw_dimensions": [
+        1920,
+        1080
+      ],
+      "format": "JPEG",
+      "stored_in_git": false,
+      "local_runner_path": "private_downloads/P1.bin",
+      "oriented_dimensions": [
+        1920,
+        1080
+      ],
+      "preview_dimensions": [
+        480,
+        480
       ],
       "crop": [
-        650,
-        350,
-        1250,
-        950
+        800,
+        550,
+        880,
+        630
+      ]
+    },
+    {
+      "id": "P2",
+      "asset_id": "POLICE-POSTER-UNCROPPED",
+      "url": "https://d15-a.sdn.cz/d_15/c_img_qH_A/kb4JgeTdk3RI9L02IXjxz2/14ad/letna-demonstrace.jpeg",
+      "downloaded_at_utc": "2026-11-17T00:30:31.465896+00:00",
+      "status": "downloaded",
+      "bytes": 1485958,
+      "sha256": "64f13ba86ffcbd82afd3ae46db2409445df2bd12862021e2efbb395d4dcf1777",
+      "raw_dimensions": [
+        1920,
+        1080
+      ],
+      "format": "JPEG",
+      "stored_in_git": false,
+      "local_runner_path": "private_downloads/P2.bin",
+      "oriented_dimensions": [
+        1920,
+        1080
+      ],
+      "preview_dimensions": [
+        480,
+        480
+      ],
+      "crop": [
+        550,
+        450,
+        630,
+        530
+      ]
+    },
+    {
+      "id": "P3",
+      "asset_id": "POLICE-POSTER-UNCROPPED",
+      "url": "https://d15-a.sdn.cz/d_15/c_img_qH_A/kb4JgeTdk3RI9L02IXjxz2/14ad/letna-demonstrace.jpeg",
+      "downloaded_at_utc": "2026-11-17T00:30:32.360040+00:00",
+      "status": "downloaded",
+      "bytes": 1485958,
+      "sha256": "64f13ba86ffcbd82afd3ae46db2409445df2bd12862021e2efbb395d4dcf1777",
+      "raw_dimensions": [
+        1920,
+        1080
+      ],
+      "format": "JPEG",
+      "stored_in_git": false,
+      "local_runner_path": "private_downloads/P3.bin",
+      "oriented_dimensions": [
+        1920,
+        1080
+      ],
+      "preview_dimensions": [
+        480,
+        480
+      ],
+      "crop": [
+        1100,
+        750,
+        1180,
+        830
       ]
     }
   ],
