@@ -15,7 +15,7 @@ ALLOWED = {"www.seznamzpravy.cz", "www.novinky.cz", "www.irozhlas.cz",
 class Page(HTMLParser):
     def __init__(self):
         super().__init__()
-        self.meta, self.images, self.iframes = [], [], []
+        self.meta, self.images, self.iframes, self.links = [], [], [], []
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
         if tag == "meta":
@@ -25,6 +25,8 @@ class Page(HTMLParser):
         if tag == "img":
             self.images.append({k:v for k,v in a.items()
                 if k in ("src", "data-src", "srcset", "alt", "title", "width", "height")})
+        if tag == "a" and any(s in a.get("href", "").lower() for s in ("letna", "galer", "video")):
+            self.links.append(a.get("href"))
         if tag == "iframe":
             self.iframes.append(a.get("src", ""))
 
@@ -59,7 +61,7 @@ def collect():
             record.update(status="fetched", final_url=final, headers=headers,
                 sha256=hashlib.sha256(body).hexdigest(), bytes=len(body),
                 metadata=page.meta, image_candidates=page.images[:100],
-                iframe_candidates=page.iframes[:12])
+                iframe_candidates=page.iframes[:12], link_candidates=list(dict.fromkeys(page.links))[:60])
         except Exception as exc:
             record.update(status="error", error=str(exc))
         output["sources"].append(record)

@@ -65,6 +65,101 @@
       "pixel_review": false,
       "rights": "No redistribution permission established; link and metadata only",
       "admitted_for_counting": false
+    },
+    {
+      "id": "SZ-360-POSTER",
+      "source_id": "SZ-360",
+      "url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDrngKDOn2IXo85u/b56f/pano.jpeg?fl=cro,250,180,3404,1915%7Cres,1200,,1",
+      "status": "candidate",
+      "capture_time": null,
+      "event_date_claim": "2026-11-15",
+      "pixel_review": false,
+      "rights": "No redistribution permission established; link and metadata only",
+      "admitted_for_counting": false
+    },
+    {
+      "id": "POLICE-POSTER-UNCROPPED",
+      "source_id": "POLICE-NOVINKY",
+      "url": "https://d15-a.sdn.cz/d_15/c_img_qH_A/kb4JgeTdk3RI9L02IXjxz2/14ad/letna-demonstrace.jpeg",
+      "status": "candidate_untransformed_url_not_camera_original",
+      "capture_time": null,
+      "event_date_claim": "2026-11-15",
+      "pixel_review": false,
+      "rights": "No redistribution permission established; link and metadata only",
+      "admitted_for_counting": false,
+      "variant_of": "POLICE-POSTER"
+    },
+    {
+      "id": "SZ-ELEVATED-POSTER-UNCROPPED",
+      "source_id": "SZ-ELEVATED",
+      "url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkB87eWGxTTIXhQOS/f0cf.jpeg",
+      "status": "candidate_untransformed_url_not_camera_original",
+      "capture_time": null,
+      "event_date_claim": "2026-11-15",
+      "pixel_review": false,
+      "rights": "No redistribution permission established; link and metadata only",
+      "admitted_for_counting": false,
+      "variant_of": "SZ-ELEVATED-POSTER"
+    },
+    {
+      "id": "SZ-GALLERY-102-UNCROPPED",
+      "source_id": "SZ-GALLERY",
+      "url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCM3uZBC73IXjDwg/d285/turek.jpeg",
+      "status": "candidate_untransformed_url_not_camera_original",
+      "capture_time": null,
+      "event_date_claim": "2026-11-15",
+      "pixel_review": false,
+      "rights": "No redistribution permission established; link and metadata only",
+      "admitted_for_counting": false,
+      "variant_of": "SZ-GALLERY-102"
+    },
+    {
+      "id": "SZ-GALLERY-103-UNCROPPED",
+      "source_id": "SZ-GALLERY",
+      "url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCl5yxt7vIXhOo8/4241.jpeg",
+      "status": "candidate_untransformed_url_not_camera_original",
+      "capture_time": null,
+      "event_date_claim": "2026-11-15",
+      "pixel_review": false,
+      "rights": "No redistribution permission established; link and metadata only",
+      "admitted_for_counting": false,
+      "variant_of": "SZ-GALLERY-103"
+    },
+    {
+      "id": "SZ-GALLERY-104-UNCROPPED",
+      "source_id": "SZ-GALLERY",
+      "url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCEwoKDUyIXhOT0/7ea1.jpeg",
+      "status": "candidate_untransformed_url_not_camera_original",
+      "capture_time": null,
+      "event_date_claim": "2026-11-15",
+      "pixel_review": false,
+      "rights": "No redistribution permission established; link and metadata only",
+      "admitted_for_counting": false,
+      "variant_of": "SZ-GALLERY-104"
+    },
+    {
+      "id": "SZ-GALLERY-105-UNCROPPED",
+      "source_id": "SZ-GALLERY",
+      "url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDrngKDItyIXjDIu/d843/turek.jpeg",
+      "status": "candidate_untransformed_url_not_camera_original",
+      "capture_time": null,
+      "event_date_claim": "2026-11-15",
+      "pixel_review": false,
+      "rights": "No redistribution permission established; link and metadata only",
+      "admitted_for_counting": false,
+      "variant_of": "SZ-GALLERY-105"
+    },
+    {
+      "id": "SZ-360-POSTER-UNCROPPED",
+      "source_id": "SZ-360",
+      "url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDrngKDOn2IXo85u/b56f/pano.jpeg",
+      "status": "candidate_untransformed_url_not_camera_original",
+      "capture_time": null,
+      "event_date_claim": "2026-11-15",
+      "pixel_review": false,
+      "rights": "No redistribution permission established; link and metadata only",
+      "admitted_for_counting": false,
+      "variant_of": "SZ-360-POSTER"
     }
   ]
 }
