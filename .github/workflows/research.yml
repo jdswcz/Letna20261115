@@ -4,6 +4,8 @@ on:
     branches: ['main']
     paths-ignore: ['data/collection.json', 'results/estimate.json', 'results/verification.json']
   workflow_dispatch:
+env:
+  PYTHONUTF8: '1'
 permissions:
   contents: read
 concurrency:

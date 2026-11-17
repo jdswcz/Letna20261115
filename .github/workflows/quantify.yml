@@ -4,6 +4,8 @@ on:
     branches: [main]
     paths: ['.github/workflows/quantify.yml', 'tools/quantitative*.py', 'data/quantitative*.json']
   workflow_dispatch:
+env:
+  PYTHONUTF8: '1'
 permissions:
   contents: read
 concurrency:
