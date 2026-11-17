@@ -1,5 +1,5 @@
 {
-  "run_at_utc": "2026-11-17T00:43:16.439026+00:00",
+  "run_at_utc": "2026-11-17T00:51:09.051106+00:00",
   "python": "3.12.16",
   "passed": true,
   "tests_run": 10,
@@ -15,11 +15,14 @@
     "tools/collect.py": "baddab75c90720f6e4b261ebb96ae015ed207e21d8ce828f7596f15a080bcf42",
     "tools/download_for_review.py": "772b6985d2aedc2cb91075847fa81a415ae66c17c620ccd20ed37f429bdb18ef",
     "tools/download_map.py": "0a57c6871b8a14efe989cecd4256bee06ba7780cfe90884446e1127455f30e3f",
+    "tools/download_photos.py": "43c1b95bf5c111822558040ddd0545e067785fc16f75d9eeeba703731bd9ec65",
     "tools/inventory_galleries.py": "a6fb834233c418a2461a21343659f7852b1f35147546bcce2cbba07ce8824b50",
+    "tools/inventory_video.py": "7cb068d5b168044d70a106fa0352ed5c2b39ebf933f7de4d066ca95146a4b08c",
     "tools/reference_geometry.py": "0f17d0e3bbfcefcd15ec227424d2290c20248207b48753c8f98ed332a3b27667",
+    "tools/render_manual_sample.py": "192539febe83c465ea9499a8c86e6ad1dda0147deda3e6e3b57a162c8130b460",
     "tools/verify.py": "91cbe8d0b4aa0be5b4eb65f6a13443c1268760fcd20c6303525a3a177930df5a",
     "tests/test_analyze.py": "42e9e9d2c6d135ac6ddecfb743b658966380c0cfc3c48c5c227f711448eb004e"
   },
-  "output": "test_area_density_and_bounds (test_analyze.Tests.test_area_density_and_bounds) ... ok\ntest_invalid_geometry_rejected (test_analyze.Tests.test_invalid_geometry_rejected) ... ok\ntest_missing_data_is_not_zero (test_analyze.Tests.test_missing_data_is_not_zero) ... ok\ntest_nan_rejected (test_analyze.Tests.test_nan_rejected) ... ok\ntest_overlapping_sectors_rejected (test_analyze.Tests.test_overlapping_sectors_rejected) ... ok\ntest_partial_coverage_not_a_total (test_analyze.Tests.test_partial_coverage_not_a_total) ... ok\ntest_snapshots_are_not_summed (test_analyze.Tests.test_snapshots_are_not_summed) ... ok\ntest_unverified_photo_rejected (test_analyze.Tests.test_unverified_photo_rejected) ... ok\ntest_wrong_date_rejected (test_analyze.Tests.test_wrong_date_rejected) ... ok\ntest_wrong_time_rejected (test_analyze.Tests.test_wrong_time_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.003s\n\nOK\n",
+  "output": "test_area_density_and_bounds (test_analyze.Tests.test_area_density_and_bounds) ... ok\ntest_invalid_geometry_rejected (test_analyze.Tests.test_invalid_geometry_rejected) ... ok\ntest_missing_data_is_not_zero (test_analyze.Tests.test_missing_data_is_not_zero) ... ok\ntest_nan_rejected (test_analyze.Tests.test_nan_rejected) ... ok\ntest_overlapping_sectors_rejected (test_analyze.Tests.test_overlapping_sectors_rejected) ... ok\ntest_partial_coverage_not_a_total (test_analyze.Tests.test_partial_coverage_not_a_total) ... ok\ntest_snapshots_are_not_summed (test_analyze.Tests.test_snapshots_are_not_summed) ... ok\ntest_unverified_photo_rejected (test_analyze.Tests.test_unverified_photo_rejected) ... ok\ntest_wrong_date_rejected (test_analyze.Tests.test_wrong_date_rejected) ... ok\ntest_wrong_time_rejected (test_analyze.Tests.test_wrong_time_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.009s\n\nOK\n",
   "scope": "Software validation on synthetic fixtures only; does not validate a crowd estimate."
 }
