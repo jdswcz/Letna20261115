@@ -1,9 +1,9 @@
 {
   "id": "CUZK-ORTHO",
-  "url": "https://ags.cuzk.gov.cz/arcgis1/rest/directories/arcgisoutput/ORTOFOTO_MapServer/_ags_map263a78bf0cd6433691d9cd8d328e097b.jpg",
+  "url": "https://ags.cuzk.gov.cz/arcgis1/rest/directories/arcgisoutput/ORTOFOTO_MapServer/_ags_mapff5806721ea149df8469c921647bd1d6.jpg",
   "request_url": "https://ags.cuzk.gov.cz/arcgis1/rest/services/ORTOFOTO/MapServer/export?bbox=457437.8816664748%2C5548790.248428898%2C459595.6339634098%2C5550363.507508252&bboxSR=32633&imageSR=32633&size=2400%2C1800&format=jpg&f=json",
   "export": {
-    "href": "https://ags.cuzk.gov.cz/arcgis1/rest/directories/arcgisoutput/ORTOFOTO_MapServer/_ags_map263a78bf0cd6433691d9cd8d328e097b.jpg",
+    "href": "https://ags.cuzk.gov.cz/arcgis1/rest/directories/arcgisoutput/ORTOFOTO_MapServer/_ags_mapff5806721ea149df8469c921647bd1d6.jpg",
     "width": 2400,
     "height": 1800,
     "extent": {
@@ -19,7 +19,7 @@
     "scale": 3398.0283172132536
   },
   "sha256": "d90b6221538fd36f36e315cedcf6e141c1e4ec3daab2cf112c5557d45d0d0c7b",
-  "downloaded_at_utc": "2026-11-17T00:39:35.896081+00:00",
+  "downloaded_at_utc": "2026-11-17T00:45:41.511103+00:00",
   "attribution": "Ortofoto CR, CUZK / Zememericky urad",
   "license": "CC BY 4.0",
   "license_source": "https://ags.cuzk.gov.cz/opendata/",

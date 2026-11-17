@@ -1,0 +1,26 @@
+{
+  "source_map_sha256": "d90b6221538fd36f36e315cedcf6e141c1e4ec3daab2cf112c5557d45d0d0c7b",
+  "pixel_size_m": [
+    0.8990634570562542,
+    0.8990634570560522
+  ],
+  "regions": [
+    {
+      "id": "reference_open_surface",
+      "area_m2": 55915.601187168635,
+      "boundary_sensitivity_m": 8.990634570562543,
+      "eroded_area_m2": 44981.18119212856,
+      "expanded_area_m2": 67427.11617101137,
+      "use": "Reference geometry only; no density and no occupancy asserted."
+    },
+    {
+      "id": "reference_south_grass_strip",
+      "area_m2": 16704.235695030977,
+      "boundary_sensitivity_m": 8.990634570562543,
+      "eroded_area_m2": 7120.835474650073,
+      "expanded_area_m2": 26871.289962680898,
+      "use": "Reference geometry only; no density and no occupancy asserted."
+    }
+  ],
+  "warning": "Cannot convert these areas to demonstrator counts without occupancy and calibrated density."
+}

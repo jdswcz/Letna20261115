@@ -179,9 +179,9 @@
     {
       "id": "SINMED",
       "url": "https://www.sinmed.cz/fotogalerie/letna-2026-122.html",
-      "sha256": "11773d3cf5b3183c499998a3f444141584bae1324ec5f7773a70e3c72d5c7c02",
+      "sha256": "fbfce093e3d95d5b132b5e0de8c6f546c166a2d1e55c06508f9fb224030a3b95",
       "status": "fetched",
-      "bytes": 47560,
+      "bytes": 47498,
       "images": [
         {
           "src": "https://www.sinmed.cz/images/gallery/20261115212207_a34.jpg",
@@ -499,14 +499,14 @@
           "class": "img-responsive"
         },
         {
-          "src": "images/gallery/t1-20261023104447_1.jpg",
-          "alt": "Veletrh FUTURE FORCES FORUM",
+          "src": "images/gallery/t1-20261025220238_a42.jpg",
+          "alt": "Ruce pry\u010d od m\u00e9di\u00ed!",
           "width": "150",
           "height": "95"
         },
         {
-          "src": "images/gallery/t1-20261103214053_a2.jpg",
-          "alt": "Shrom\u00e1\u017ed\u011bn\u00ed na podporu ve\u0159ejnopr\u00e1vn\u00edch m\u00e9di\u00ed",
+          "src": "images/gallery/t1-20261114102558_a20.jpg",
+          "alt": "Demonstrace proti migra\u010dn\u00ed konferenci",
           "width": "150",
           "height": "95"
         }
@@ -557,10 +557,10 @@
         "https://www.sinmed.cz/images/gallery/20261116090437_a45.jpg",
         "https://www.sinmed.cz/images/gallery/20261116090437_a46.jpg",
         "https://www.sinmed.cz/fotogalerie/",
-        "https://www.sinmed.cz/fotogalerie/veletrh-future-forces-forum-103.html",
-        "https://www.sinmed.cz/fotogalerie/veletrh-future-forces-forum-103.html",
-        "https://www.sinmed.cz/fotogalerie/shromazdeni-na-podporu-verejnopravnich-medii-113.html",
-        "https://www.sinmed.cz/fotogalerie/shromazdeni-na-podporu-verejnopravnich-medii-113.html"
+        "https://www.sinmed.cz/fotogalerie/ruce-pryc-od-medii-105.html",
+        "https://www.sinmed.cz/fotogalerie/ruce-pryc-od-medii-105.html",
+        "https://www.sinmed.cz/fotogalerie/demonstrace-proti-migracni-konferenci-119.html",
+        "https://www.sinmed.cz/fotogalerie/demonstrace-proti-migracni-konferenci-119.html"
       ]
     }
   ]

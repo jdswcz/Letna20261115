@@ -1,0 +1,123 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "reference_open_surface",
+        "kind": "reference_geometry_not_occupancy",
+        "review": "Manually traced visible open-surface edge on CUZK orthophoto. No claim of full occupancy.",
+        "pixel_coordinates": [
+          [
+            590,
+            785
+          ],
+          [
+            1157,
+            677
+          ],
+          [
+            1181,
+            810
+          ],
+          [
+            611,
+            888
+          ]
+        ],
+        "boundary_error_pixels": 10,
+        "area_m2": 55915.601187168635,
+        "boundary_sensitivity_m": 8.990634570562543,
+        "eroded_area_m2": 44981.18119212856,
+        "expanded_area_m2": 67427.11617101137,
+        "use": "Reference geometry only; no density and no occupancy asserted."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.412318948878099,
+              50.09789225360522
+            ],
+            [
+              14.419435525602756,
+              50.098801362574946
+            ],
+            [
+              14.419750197882841,
+              50.09772747631278
+            ],
+            [
+              14.412593099325242,
+              50.09706076614265
+            ],
+            [
+              14.412318948878099,
+              50.09789225360522
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "reference_south_grass_strip",
+        "kind": "reference_geometry_not_occupancy",
+        "review": "Grass strip between open surface and first parallel promenade. Not a measured crowd sector.",
+        "pixel_coordinates": [
+          [
+            611,
+            888
+          ],
+          [
+            1181,
+            810
+          ],
+          [
+            1194,
+            842
+          ],
+          [
+            622,
+            925
+          ]
+        ],
+        "boundary_error_pixels": 10,
+        "area_m2": 16704.235695030977,
+        "boundary_sensitivity_m": 8.990634570562543,
+        "eroded_area_m2": 7120.835474650073,
+        "expanded_area_m2": 26871.289962680898,
+        "use": "Reference geometry only; no density and no occupancy asserted."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.412593099325242,
+              50.09706076614265
+            ],
+            [
+              14.419750197882841,
+              50.09772747631278
+            ],
+            [
+              14.419916730179237,
+              50.09746955131241
+            ],
+            [
+              14.412735022603623,
+              50.09676229603173
+            ],
+            [
+              14.412593099325242,
+              50.09706076614265
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

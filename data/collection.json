@@ -1,5 +1,5 @@
 {
-  "started_at_utc": "2026-11-17T00:36:59.300104+00:00",
+  "started_at_utc": "2026-11-17T00:43:16.819941+00:00",
   "note": "HTTP success, captions and EXIF do not by themselves authenticate pixels.",
   "sources": [
     {
@@ -10,10 +10,10 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Last-Modified": null,
-        "ETag": "W/\"75c3c-v5vMy1FQVFM90WQgGTL9BWaTprI\"",
+        "ETag": "W/\"75c3c-PaD5WZTjj1uz3UEyZSLRtDZSdxI\"",
         "Content-Length": "482364"
       },
-      "sha256": "b30804ce302dab04802d9af8fd4e52b11a8329ee65c990222b2a297f6fa418a0",
+      "sha256": "567d0292645f4cb65086dce952d4ffbce3f758446c73ef04e2002ce12a264e74",
       "bytes": 482364,
       "metadata": [
         {
@@ -183,15 +183,149 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Last-Modified": null,
-        "ETag": "W/\"17419-35mufTqA3UNFofCYy4Zs9IhqbNc\"",
-        "Content-Length": "95257"
+        "ETag": "W/\"693ab-8oSjMJ2RE3p90a/SDnv9dUDYMcE\"",
+        "Content-Length": "431019"
       },
-      "sha256": "c981acf3530607c47400d08ba9e1185c2f2cdbcddf6b4591371b5f215cc9d5c3",
-      "bytes": 95257,
-      "metadata": [],
-      "image_candidates": [],
+      "sha256": "68184604908a51939fe918538b3bfaff60374bdb046dca2c0899317f6bc72f24",
+      "bytes": 431019,
+      "metadata": [
+        {
+          "key": "twitter:title",
+          "value": "Video: Takto vypadá plná Letná z výšky - Seznam Zprávy"
+        },
+        {
+          "key": "twitter:image",
+          "value": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkB87eWGxTTIXhQOS/f0cf.jpeg?fl=cro,0,125,2400,1350%7Cres,1200,,1"
+        },
+        {
+          "key": "szn:galleries-image-link",
+          "value": "https://api-web.seznamzpravy.cz/v1/galleries-image-link/6af9fb7960fa282624089fc7"
+        },
+        {
+          "key": "szn:image",
+          "value": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkB87eWGxTTIXhQOS/f0cf.jpeg?fl=cro,0,125,2400,1350%7Cres,1200,,1"
+        },
+        {
+          "key": "szn:imagePreviewType",
+          "value": "common"
+        },
+        {
+          "key": "og:title",
+          "value": "Video: Takto vypadá plná Letná z výšky - Seznam Zprávy"
+        },
+        {
+          "key": "og:image",
+          "value": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkB87eWGxTTIXhQOS/f0cf.jpeg?fl=cro,0,125,2400,1350%7Cres,1200,,1"
+        }
+      ],
+      "image_candidates": [
+        {
+          "alt": "Seznam Zprávy",
+          "src": "https://d39-a.sdn.cz/d_39/c_static_gX_F/vjMGM/seznam-zpravy-logo.svg"
+        },
+        {
+          "height": "1012",
+          "width": "1800",
+          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdk3RI9gurIYHfaW/b0f5/fsadf.jpeg?fl=cro,0,93,1800,1012%7Cres,320,,1%7Cwebp,75"
+        },
+        {
+          "height": "1687",
+          "width": "3000",
+          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkBcInfHTUXIYKwHp/1bf9.jpeg?fl=cro,0,156,3000,1687%7Cres,320,,1%7Cwebp,75"
+        },
+        {
+          "height": "2304",
+          "width": "4096",
+          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TkUyxDbjmIRll5n/d58e/iran.jpeg?fl=cro,0,289,4096,2304%7Cres,320,,1%7Cwebp,75"
+        },
+        {
+          "height": "1687",
+          "width": "3000",
+          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCl5yxyAkIXjDpv/4baa/turek.jpeg?fl=cro,0,156,3000,1687%7Cres,320,,1%7Cwebp,75"
+        },
+        {
+          "height": "2304",
+          "width": "4096",
+          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCfcGaHImIYDZn8/9daa/mercedes-automobilky-madarsko.jpeg?fl=cro,0,381,4096,2304%7Cres,320,,1%7Cwebp,75"
+        },
+        {
+          "height": "720",
+          "width": "1280",
+          "src": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TBjrrQBhuwIYKZwt/e7f2.jpeg?fl=cro,0,0,1280,720%7Cres,320,,1%7Cwebp,75"
+        },
+        {
+          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkB87eWGxTTIXhQOS/f0cf.jpeg?fl=cro,0,125,2400,1350%7Cres,1200,,1%7Cwebp,75"
+        },
+        {
+          "height": "666",
+          "width": "666",
+          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDrngKDoTQIYR9us/e417/aws.jpeg?fl=cro,167,0,666,666%7Cres,80,,1%7Cwebp,75"
+        },
+        {
+          "height": "2001",
+          "width": "2001",
+          "src": "//d39-a.sdn.cz/d_39/c_img_qG_A/nQO0xPd86Tw5RPCknVINmj8z/4083.jpeg?fl=cro,499,0,2001,2001%7Cres,80,,1%7Cwebp,75"
+        },
+        {
+          "height": "2842",
+          "width": "2842",
+          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCEwoKZdcIYCJ1c/146e/putin-kushner-witkoff.jpeg?fl=cro,627,0,2842,2842%7Cres,80,,1%7Cwebp,75"
+        },
+        {
+          "height": "1012",
+          "srcset": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdk3RI9gurIYHfaW/b0f5/fsadf.jpeg?fl=cro,0,93,1800,1012%7Cres,160,,1%7Cwebp,75 160w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdk3RI9gurIYHfaW/b0f5/fsadf.jpeg?fl=cro,0,93,1800,1012%7Cres,240,,1%7Cwebp,75 240w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdk3RI9gurIYHfaW/b0f5/fsadf.jpeg?fl=cro,0,93,1800,1012%7Cres,320,,1%7Cwebp,75 320w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdk3RI9gurIYHfaW/b0f5/fsadf.jpeg?fl=cro,0,93,1800,1012%7Cres,480,,1%7Cwebp,75 480w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdk3RI9gurIYHfaW/b0f5/fsadf.jpeg?fl=cro,0,93,1800,1012%7Cres,600,,1%7Cwebp,75 600w",
+          "width": "1800",
+          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdk3RI9gurIYHfaW/b0f5/fsadf.jpeg?fl=cro,0,93,1800,1012%7Cres,600,,1%7Cwebp,75"
+        },
+        {
+          "height": "1687",
+          "srcset": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkBcInfHTUXIYKwHp/1bf9.jpeg?fl=cro,0,156,3000,1687%7Cres,160,,1%7Cwebp,75 160w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkBcInfHTUXIYKwHp/1bf9.jpeg?fl=cro,0,156,3000,1687%7Cres,240,,1%7Cwebp,75 240w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkBcInfHTUXIYKwHp/1bf9.jpeg?fl=cro,0,156,3000,1687%7Cres,320,,1%7Cwebp,75 320w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkBcInfHTUXIYKwHp/1bf9.jpeg?fl=cro,0,156,3000,1687%7Cres,480,,1%7Cwebp,75 480w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkBcInfHTUXIYKwHp/1bf9.jpeg?fl=cro,0,156,3000,1687%7Cres,600,,1%7Cwebp,75 600w",
+          "width": "3000",
+          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkBcInfHTUXIYKwHp/1bf9.jpeg?fl=cro,0,156,3000,1687%7Cres,600,,1%7Cwebp,75"
+        },
+        {
+          "height": "2304",
+          "srcset": "//d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TkUyxDbjmIRll5n/d58e/iran.jpeg?fl=cro,0,289,4096,2304%7Cres,160,,1%7Cwebp,75 160w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TkUyxDbjmIRll5n/d58e/iran.jpeg?fl=cro,0,289,4096,2304%7Cres,240,,1%7Cwebp,75 240w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TkUyxDbjmIRll5n/d58e/iran.jpeg?fl=cro,0,289,4096,2304%7Cres,320,,1%7Cwebp,75 320w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TkUyxDbjmIRll5n/d58e/iran.jpeg?fl=cro,0,289,4096,2304%7Cres,480,,1%7Cwebp,75 480w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TkUyxDbjmIRll5n/d58e/iran.jpeg?fl=cro,0,289,4096,2304%7Cres,600,,1%7Cwebp,75 600w",
+          "width": "4096",
+          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TkUyxDbjmIRll5n/d58e/iran.jpeg?fl=cro,0,289,4096,2304%7Cres,600,,1%7Cwebp,75"
+        },
+        {
+          "height": "1687",
+          "srcset": "//d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCl5yxyAkIXjDpv/4baa/turek.jpeg?fl=cro,0,156,3000,1687%7Cres,160,,1%7Cwebp,75 160w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCl5yxyAkIXjDpv/4baa/turek.jpeg?fl=cro,0,156,3000,1687%7Cres,240,,1%7Cwebp,75 240w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCl5yxyAkIXjDpv/4baa/turek.jpeg?fl=cro,0,156,3000,1687%7Cres,320,,1%7Cwebp,75 320w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCl5yxyAkIXjDpv/4baa/turek.jpeg?fl=cro,0,156,3000,1687%7Cres,480,,1%7Cwebp,75 480w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCl5yxyAkIXjDpv/4baa/turek.jpeg?fl=cro,0,156,3000,1687%7Cres,600,,1%7Cwebp,75 600w",
+          "width": "3000",
+          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCl5yxyAkIXjDpv/4baa/turek.jpeg?fl=cro,0,156,3000,1687%7Cres,600,,1%7Cwebp,75"
+        },
+        {
+          "height": "2304",
+          "srcset": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCfcGaHImIYDZn8/9daa/mercedes-automobilky-madarsko.jpeg?fl=cro,0,381,4096,2304%7Cres,160,,1%7Cwebp,75 160w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCfcGaHImIYDZn8/9daa/mercedes-automobilky-madarsko.jpeg?fl=cro,0,381,4096,2304%7Cres,240,,1%7Cwebp,75 240w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCfcGaHImIYDZn8/9daa/mercedes-automobilky-madarsko.jpeg?fl=cro,0,381,4096,2304%7Cres,320,,1%7Cwebp,75 320w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCfcGaHImIYDZn8/9daa/mercedes-automobilky-madarsko.jpeg?fl=cro,0,381,4096,2304%7Cres,480,,1%7Cwebp,75 480w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCfcGaHImIYDZn8/9daa/mercedes-automobilky-madarsko.jpeg?fl=cro,0,381,4096,2304%7Cres,600,,1%7Cwebp,75 600w",
+          "width": "4096",
+          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCfcGaHImIYDZn8/9daa/mercedes-automobilky-madarsko.jpeg?fl=cro,0,381,4096,2304%7Cres,600,,1%7Cwebp,75"
+        },
+        {
+          "height": "720",
+          "srcset": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TBjrrQBhuwIYKZwt/e7f2.jpeg?fl=cro,0,0,1280,720%7Cres,160,,1%7Cwebp,75 160w, https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TBjrrQBhuwIYKZwt/e7f2.jpeg?fl=cro,0,0,1280,720%7Cres,240,,1%7Cwebp,75 240w, https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TBjrrQBhuwIYKZwt/e7f2.jpeg?fl=cro,0,0,1280,720%7Cres,320,,1%7Cwebp,75 320w, https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TBjrrQBhuwIYKZwt/e7f2.jpeg?fl=cro,0,0,1280,720%7Cres,480,,1%7Cwebp,75 480w, https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TBjrrQBhuwIYKZwt/e7f2.jpeg?fl=cro,0,0,1280,720%7Cres,600,,1%7Cwebp,75 600w",
+          "width": "1280",
+          "src": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TBjrrQBhuwIYKZwt/e7f2.jpeg?fl=cro,0,0,1280,720%7Cres,600,,1%7Cwebp,75"
+        },
+        {
+          "height": "61",
+          "width": "300",
+          "src": "https://d39-a.sdn.cz/d_39/c_static_gS_L/WQgg/seznam-logo.svg"
+        }
+      ],
       "iframe_candidates": [],
-      "link_candidates": []
+      "link_candidates": [
+        "https://www.seznamzpravy.cz/sekce/audio-podcast-galerie-osobnosti-467",
+        "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-video-takto-vypada-plna-letna-z-vysky-320595",
+        "https://www.seznamzpravy.cz/clanek/domaci-politika-z-minare-se-stal-profesional-bude-letna-k-necemu-320633",
+        "https://www.seznamzpravy.cz/clanek/obrazem-obrazem-andreji-macinko-okamuro-mame-toho-dost-letna-proti-zestatneni-medii-320577",
+        "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-demonstrace-letna-2026-praha-milion-chvilek-online-320349",
+        "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.seznamzpravy.cz%2Fclanek%2Fdomaci-zivot-v-cesku-video-takto-vypada-plna-letna-z-vysky-320595",
+        "https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.seznamzpravy.cz%2Fclanek%2Fdomaci-zivot-v-cesku-video-takto-vypada-plna-letna-z-vysky-320595&title=Video%3A+Takto+vypad%C3%A1+pln%C3%A1+Letn%C3%A1+z%C2%A0v%C3%BD%C5%A1ky&via=SeznamZpravy&related=SeznamZpravy",
+        "https://www.seznamzpravy.cz/tag/letna-5974",
+        "https://www.seznamzpravy.cz/tag/demonstrace-letna-128133",
+        "https://www.zbozi.cz/elektronika/tv-a-audio-video/televizory"
+      ]
     },
     {
       "id": "POLICE-NOVINKY",
@@ -201,15 +335,87 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Last-Modified": null,
-        "ETag": "W/\"13166-x1i8Id1gPGPgwiejioWRGQFWP3g\"",
-        "Content-Length": "78182"
+        "ETag": "W/\"55c4f-d9LlKmuTtbWvBd4dcHsgTrpcEk4\"",
+        "Content-Length": "351311"
       },
-      "sha256": "0374e1bf3b94c9c55ab21da4088257a507e73061dc7e06cc1f86c81fc0df42f0",
-      "bytes": 78182,
-      "metadata": [],
-      "image_candidates": [],
-      "iframe_candidates": [],
-      "link_candidates": []
+      "sha256": "4096cf74fc714c9cdf7840ba5d18a10634e33efe1d236b0ffab2404a3e61abfa",
+      "bytes": 351311,
+      "metadata": [
+        {
+          "key": "twitter:title",
+          "value": "Záběry z dronu ukázaly statisíce lidí na Letné - Novinky"
+        },
+        {
+          "key": "twitter:image",
+          "value": "https://d15-a.sdn.cz/d_15/c_img_qH_A/kb4JgeTdk3RI9L02IXjxz2/14ad/letna-demonstrace.jpeg?fl=cro,0,0,1920,1080%7Cres,1200,,1%7Cwebp,75"
+        },
+        {
+          "key": "szn:galleries-image-link",
+          "value": "https://api-web.novinky.cz/v1/galleries-image-link/6af9cea4f55a6381fbbd894e"
+        },
+        {
+          "key": "szn:image",
+          "value": "https://d15-a.sdn.cz/d_15/c_img_qH_A/kb4JgeTdk3RI9L02IXjxz2/14ad/letna-demonstrace.jpeg?fl=cro,0,0,1920,1080%7Cres,1200,,1%7Cwebp,75"
+        },
+        {
+          "key": "og:title",
+          "value": "Záběry z dronu ukázaly statisíce lidí na Letné - Novinky"
+        },
+        {
+          "key": "og:image",
+          "value": "https://d15-a.sdn.cz/d_15/c_img_qH_A/kb4JgeTdk3RI9L02IXjxz2/14ad/letna-demonstrace.jpeg?fl=cro,0,0,1920,1080%7Cres,1200,,1%7Cwebp,75"
+        }
+      ],
+      "image_candidates": [
+        {
+          "alt": "Novinky.cz",
+          "src": "https://d39-a.sdn.cz/d_39/c_static_QJ_P/NnDBK/novinky-logo.svg"
+        },
+        {
+          "src": "//d15-a.sdn.cz/d_15/c_img_qH_A/kb4JgeTdk3RI9L02IXjxz2/14ad/letna-demonstrace.jpeg?fl=cro,0,0,1920,1080%7Cres,1200,,1%7Cwebp,75"
+        },
+        {
+          "height": "1152",
+          "width": "2048",
+          "src": "//d15-a.sdn.cz/d_15/c_img_qH_A/kb4JgeTdk3whEBWn6IXiGBy/2421/demonstrace-milionchvilek-letna.jpeg?fl=cro,0,109,2048,1152%7Cres,160,,1%7Cwebp,75"
+        },
+        {
+          "height": "2304",
+          "srcset": "//d15-a.sdn.cz/d_15/c_img_qH_A/nQO0xPd86TB49GnBtyDIYPpfQ/bf55.jpeg?fl=cro,0,61,4096,2304%7Cres,320,,1%7Cwebp,75 320w, //d15-a.sdn.cz/d_15/c_img_qH_A/nQO0xPd86TB49GnBtyDIYPpfQ/bf55.jpeg?fl=cro,0,61,4096,2304%7Cres,640,,1%7Cwebp,75 640w, //d15-a.sdn.cz/d_15/c_img_qH_A/nQO0xPd86TB49GnBtyDIYPpfQ/bf55.jpeg?fl=cro,0,61,4096,2304%7Cres,1024,,1%7Cwebp,75 1024w, //d15-a.sdn.cz/d_15/c_img_qH_A/nQO0xPd86TB49GnBtyDIYPpfQ/bf55.jpeg?fl=cro,0,61,4096,2304%7Cres,1200,,1%7Cwebp,75 1200w",
+          "width": "4096",
+          "src": "//d15-a.sdn.cz/d_15/c_img_qH_A/nQO0xPd86TB49GnBtyDIYPpfQ/bf55.jpeg?fl=cro,0,61,4096,2304%7Cres,1200,,1%7Cwebp,75"
+        },
+        {
+          "height": "1012",
+          "srcset": "//d15-a.sdn.cz/d_15/c_img_qH_A/kb4JgeTdk3whECecYIYOgVw/4995/rakousko-stubai-glacier.jpeg?fl=cro,192,0,1518,1012%7Cres,160,,1%7Cwebp,75 160w, //d15-a.sdn.cz/d_15/c_img_qH_A/kb4JgeTdk3whECecYIYOgVw/4995/rakousko-stubai-glacier.jpeg?fl=cro,192,0,1518,1012%7Cres,240,,1%7Cwebp,75 240w, //d15-a.sdn.cz/d_15/c_img_qH_A/kb4JgeTdk3whECecYIYOgVw/4995/rakousko-stubai-glacier.jpeg?fl=cro,192,0,1518,1012%7Cres,320,,1%7Cwebp,75 320w, //d15-a.sdn.cz/d_15/c_img_qH_A/kb4JgeTdk3whECecYIYOgVw/4995/rakousko-stubai-glacier.jpeg?fl=cro,192,0,1518,1012%7Cres,480,,1%7Cwebp,75 480w, //d15-a.sdn.cz/d_15/c_img_qH_A/kb4JgeTdk3whECecYIYOgVw/4995/rakousko-stubai-glacier.jpeg?fl=cro,192,0,1518,1012%7Cres,600,,1%7Cwebp,75 600w, //d15-a.sdn.cz/d_15/c_img_qH_A/kb4JgeTdk3whECecYIYOgVw/4995/rakousko-stubai-glacier.jpeg?fl=cro,192,0,1518,1012%7Cres,1024,,1%7Cwebp,75 1024w, //d15-a.sdn.cz/d_15/c_img_qH_A/kb4JgeTdk3whECecYIYOgVw/4995/rakousko-stubai-glacier.jpeg?fl=cro,192,0,1518,1012%7Cres,1200,,1%7Cwebp,75 1200w",
+          "width": "1518",
+          "src": "//d15-a.sdn.cz/d_15/c_img_qH_A/kb4JgeTdk3whECecYIYOgVw/4995/rakousko-stubai-glacier.jpeg?fl=cro,192,0,1518,1012%7Cres,1200,,1%7Cwebp,75"
+        },
+        {
+          "height": "2677",
+          "srcset": "//d15-a.sdn.cz/d_15/c_img_od_A/nO0bgvR9rXBOILnEHdEOxHp3/f308/vladimir-putin-robert-fico-peking-cina.jpeg?fl=cro,40,0,4015,2677%7Cres,160,,1%7Cwebp,75 160w, //d15-a.sdn.cz/d_15/c_img_od_A/nO0bgvR9rXBOILnEHdEOxHp3/f308/vladimir-putin-robert-fico-peking-cina.jpeg?fl=cro,40,0,4015,2677%7Cres,240,,1%7Cwebp,75 240w, //d15-a.sdn.cz/d_15/c_img_od_A/nO0bgvR9rXBOILnEHdEOxHp3/f308/vladimir-putin-robert-fico-peking-cina.jpeg?fl=cro,40,0,4015,2677%7Cres,320,,1%7Cwebp,75 320w, //d15-a.sdn.cz/d_15/c_img_od_A/nO0bgvR9rXBOILnEHdEOxHp3/f308/vladimir-putin-robert-fico-peking-cina.jpeg?fl=cro,40,0,4015,2677%7Cres,480,,1%7Cwebp,75 480w, //d15-a.sdn.cz/d_15/c_img_od_A/nO0bgvR9rXBOILnEHdEOxHp3/f308/vladimir-putin-robert-fico-peking-cina.jpeg?fl=cro,40,0,4015,2677%7Cres,600,,1%7Cwebp,75 600w, //d15-a.sdn.cz/d_15/c_img_od_A/nO0bgvR9rXBOILnEHdEOxHp3/f308/vladimir-putin-robert-fico-peking-cina.jpeg?fl=cro,40,0,4015,2677%7Cres,1024,,1%7Cwebp,75 1024w, //d15-a.sdn.cz/d_15/c_img_od_A/nO0bgvR9rXBOILnEHdEOxHp3/f308/vladimir-putin-robert-fico-peking-cina.jpeg?fl=cro,40,0,4015,2677%7Cres,1200,,1%7Cwebp,75 1200w",
+          "width": "4015",
+          "src": "//d15-a.sdn.cz/d_15/c_img_od_A/nO0bgvR9rXBOILnEHdEOxHp3/f308/vladimir-putin-robert-fico-peking-cina.jpeg?fl=cro,40,0,4015,2677%7Cres,1200,,1%7Cwebp,75"
+        },
+        {
+          "height": "1080",
+          "srcset": "//d15-a.sdn.cz/d_15/c_img_qH_A/nQO0xPd86TCEwoKd9rIYKbiI/f64e/james-bond-007-amazon-mgm-studios-robert-pattinson.jpeg?fl=cro,150,0,1620,1080%7Cres,160,,1%7Cwebp,75 160w, //d15-a.sdn.cz/d_15/c_img_qH_A/nQO0xPd86TCEwoKd9rIYKbiI/f64e/james-bond-007-amazon-mgm-studios-robert-pattinson.jpeg?fl=cro,150,0,1620,1080%7Cres,240,,1%7Cwebp,75 240w, //d15-a.sdn.cz/d_15/c_img_qH_A/nQO0xPd86TCEwoKd9rIYKbiI/f64e/james-bond-007-amazon-mgm-studios-robert-pattinson.jpeg?fl=cro,150,0,1620,1080%7Cres,320,,1%7Cwebp,75 320w, //d15-a.sdn.cz/d_15/c_img_qH_A/nQO0xPd86TCEwoKd9rIYKbiI/f64e/james-bond-007-amazon-mgm-studios-robert-pattinson.jpeg?fl=cro,150,0,1620,1080%7Cres,480,,1%7Cwebp,75 480w, //d15-a.sdn.cz/d_15/c_img_qH_A/nQO0xPd86TCEwoKd9rIYKbiI/f64e/james-bond-007-amazon-mgm-studios-robert-pattinson.jpeg?fl=cro,150,0,1620,1080%7Cres,600,,1%7Cwebp,75 600w, //d15-a.sdn.cz/d_15/c_img_qH_A/nQO0xPd86TCEwoKd9rIYKbiI/f64e/james-bond-007-amazon-mgm-studios-robert-pattinson.jpeg?fl=cro,150,0,1620,1080%7Cres,1024,,1%7Cwebp,75 1024w, //d15-a.sdn.cz/d_15/c_img_qH_A/nQO0xPd86TCEwoKd9rIYKbiI/f64e/james-bond-007-amazon-mgm-studios-robert-pattinson.jpeg?fl=cro,150,0,1620,1080%7Cres,1200,,1%7Cwebp,75 1200w",
+          "width": "1620",
+          "src": "//d15-a.sdn.cz/d_15/c_img_qH_A/nQO0xPd86TCEwoKd9rIYKbiI/f64e/james-bond-007-amazon-mgm-studios-robert-pattinson.jpeg?fl=cro,150,0,1620,1080%7Cres,1200,,1%7Cwebp,75"
+        },
+        {
+          "height": "61",
+          "width": "300",
+          "src": "https://d39-a.sdn.cz/d_39/c_static_gS_L/WQgg/seznam-logo.svg"
+        }
+      ],
+      "iframe_candidates": [
+        "https://share.seznam.cz/static-content/novinky/62fdee3cc73d0fff8276204c?parentUrl=https%3A%2F%2Fwww.novinky.cz%2Fclanek%2Fdomaci-zabery-z-dronu-ukazaly-statisice-lidi-na-letne-40608773"
+      ],
+      "link_candidates": [
+        "https://www.novinky.cz/tag/demonstrace-letna-128133",
+        "https://www.zbozi.cz/elektronika/tv-a-audio-video/televizory"
+      ]
     },
     {
       "id": "SZ-360",
@@ -219,11 +425,11 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Last-Modified": null,
-        "ETag": "W/\"1e4a1-7+QOacazfkzpHAkAzzDT8HNe+TI\"",
-        "Content-Length": "124065"
+        "ETag": "W/\"1e46c-Zx0gMQuPrfnhrns+xOOiNR41wx8\"",
+        "Content-Length": "124012"
       },
-      "sha256": "21fa131abd455f638931554ec0eed54543954f9083b42fa79fe9fba832950a0b",
-      "bytes": 124065,
+      "sha256": "b58693a92884ae98c558b53de22ab81c750f19b7a80d03131ed191cf415e1cf0",
+      "bytes": 124012,
       "metadata": [],
       "image_candidates": [],
       "iframe_candidates": [],
@@ -242,11 +448,11 @@
       "final_url": "https://www.blesk.cz/galerie/zpravy-politika/1509914/online-demonstrace-letna-proti-4-36-koller-sverak-a-az-450-tisic-lidi-s-dopravou-byly-problemy",
       "headers": {
         "Content-Type": "text/html; charset=UTF-8",
-        "Last-Modified": "Tue, 17 Nov 2026 00:35:25 GMT",
+        "Last-Modified": "Tue, 17 Nov 2026 00:41:43 GMT",
         "ETag": null,
         "Content-Length": null
       },
-      "sha256": "6adf9980df7cee944723171591aea07ae85e212e5f89394dd0968b345780207b",
+      "sha256": "7a3f21a4fd77193b3d07fd90923a0480d047f46265e3b6f87ae53f45228c1021",
       "bytes": 476843,
       "metadata": [
         {
@@ -735,8 +941,8 @@
         "ETag": null,
         "Content-Length": null
       },
-      "sha256": "c1b215431dead5e5f11d6fee0a00d9d246d48da4312c6c1dc2ff33736ee80fc9",
-      "bytes": 66173,
+      "sha256": "df15c44cfafeddab96bcc0d319203d2e0c8e4e99e2e5798f7154020148b97511",
+      "bytes": 66172,
       "metadata": [
         {
           "key": "og:title",
@@ -849,8 +1055,8 @@
         "ETag": null,
         "Content-Length": null
       },
-      "sha256": "7802aaa01fd156ab9f53853e5c4bd8989d8c44e538d2aebfdd5e9f99936ed4bd",
-      "bytes": 181081,
+      "sha256": "7cb0cef8ebb16097892fff88174b5fba5d318a87f9672a2740c3b48cb991982a",
+      "bytes": 181620,
       "metadata": [
         {
           "key": "og:title",
@@ -858,32 +1064,32 @@
         },
         {
           "key": "image",
-          "value": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQc0Pnr1AazEwJmQW7H3_94L2d6MoYp-6bDOBWNgsLrLyeKaXgA6jSpKg-zS35Gg8qpp3MZH5BzjVmKvNaMkZylEr-uqQQBbHtWKjbAazj_Q_dKd0LGzKs4s1UoRdQ9wOd2QhI9--Z7NVJCKkBKHbTkQ2MoVzCqpasV5ZgRCknKOyOUKOS01Zzk3UhwC=w16383"
+          "value": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQexCFdEfkqr016HN7Rrfj4iixFd0KghHuKTjl8sMQe1J3HFXmU7XhuAsvOtE9Ddmymd9Ld02OYH1lGK62FxAEUDt9gPm2QDmzXLMhcKa26SO4sZ6yJ6GYFSS2J5qmKl100GISkNOQZkm9u-ojL7_vWpycg0rAIpz22okdC9gRDMVg7rjnepdK7Kc5PQ=w16383"
         },
         {
           "key": "imageUrl",
-          "value": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQc0Pnr1AazEwJmQW7H3_94L2d6MoYp-6bDOBWNgsLrLyeKaXgA6jSpKg-zS35Gg8qpp3MZH5BzjVmKvNaMkZylEr-uqQQBbHtWKjbAazj_Q_dKd0LGzKs4s1UoRdQ9wOd2QhI9--Z7NVJCKkBKHbTkQ2MoVzCqpasV5ZgRCknKOyOUKOS01Zzk3UhwC=w16383"
+          "value": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQexCFdEfkqr016HN7Rrfj4iixFd0KghHuKTjl8sMQe1J3HFXmU7XhuAsvOtE9Ddmymd9Ld02OYH1lGK62FxAEUDt9gPm2QDmzXLMhcKa26SO4sZ6yJ6GYFSS2J5qmKl100GISkNOQZkm9u-ojL7_vWpycg0rAIpz22okdC9gRDMVg7rjnepdK7Kc5PQ=w16383"
         },
         {
           "key": "og:image",
-          "value": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQc0Pnr1AazEwJmQW7H3_94L2d6MoYp-6bDOBWNgsLrLyeKaXgA6jSpKg-zS35Gg8qpp3MZH5BzjVmKvNaMkZylEr-uqQQBbHtWKjbAazj_Q_dKd0LGzKs4s1UoRdQ9wOd2QhI9--Z7NVJCKkBKHbTkQ2MoVzCqpasV5ZgRCknKOyOUKOS01Zzk3UhwC=w16383"
+          "value": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQexCFdEfkqr016HN7Rrfj4iixFd0KghHuKTjl8sMQe1J3HFXmU7XhuAsvOtE9Ddmymd9Ld02OYH1lGK62FxAEUDt9gPm2QDmzXLMhcKa26SO4sZ6yJ6GYFSS2J5qmKl100GISkNOQZkm9u-ojL7_vWpycg0rAIpz22okdC9gRDMVg7rjnepdK7Kc5PQ=w16383"
         }
       ],
       "image_candidates": [
         {
-          "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQc0Pnr1AazEwJmQW7H3_94L2d6MoYp-6bDOBWNgsLrLyeKaXgA6jSpKg-zS35Gg8qpp3MZH5BzjVmKvNaMkZylEr-uqQQBbHtWKjbAazj_Q_dKd0LGzKs4s1UoRdQ9wOd2QhI9--Z7NVJCKkBKHbTkQ2MoVzCqpasV5ZgRCknKOyOUKOS01Zzk3UhwC=w16383"
+          "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQexCFdEfkqr016HN7Rrfj4iixFd0KghHuKTjl8sMQe1J3HFXmU7XhuAsvOtE9Ddmymd9Ld02OYH1lGK62FxAEUDt9gPm2QDmzXLMhcKa26SO4sZ6yJ6GYFSS2J5qmKl100GISkNOQZkm9u-ojL7_vWpycg0rAIpz22okdC9gRDMVg7rjnepdK7Kc5PQ=w16383"
         },
         {
-          "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQc0Pnr1AazEwJmQW7H3_94L2d6MoYp-6bDOBWNgsLrLyeKaXgA6jSpKg-zS35Gg8qpp3MZH5BzjVmKvNaMkZylEr-uqQQBbHtWKjbAazj_Q_dKd0LGzKs4s1UoRdQ9wOd2QhI9--Z7NVJCKkBKHbTkQ2MoVzCqpasV5ZgRCknKOyOUKOS01Zzk3UhwC=w16383"
+          "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQexCFdEfkqr016HN7Rrfj4iixFd0KghHuKTjl8sMQe1J3HFXmU7XhuAsvOtE9Ddmymd9Ld02OYH1lGK62FxAEUDt9gPm2QDmzXLMhcKa26SO4sZ6yJ6GYFSS2J5qmKl100GISkNOQZkm9u-ojL7_vWpycg0rAIpz22okdC9gRDMVg7rjnepdK7Kc5PQ=w16383"
         },
         {
-          "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQe9MlazND-nemzwFv4Swwl1B6t9njlFguUGos_DFniOWDSuK5m5N_SLHtGi1-pzpuO9u6A0ASjX9L2Y6_JxKNcYJLMkoumLbadMYiPCon1c0Zyj9XNULUSUTRAaMXVYDsAeXJub43nXn3wo6zMe-Ma_b02jCc4Ol39XAkC6RpUUIVBso44nhKwyu0jgqrQ10DKM-5z1M4M9MB5HltC_EmGOCni29Dx3CW6PloEM=w1280"
+          "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQfdRcQNx_GzhzARuX6HUsjwcLrisEEKEFZhjgnZu8Gfe_U2I3QmNl4N-0pYiNS0IWPPCwOwC5TRQRjN6dLmFvV78ZeLn0ifByXvMUGt3a2UBaNLVvXhKTArMAFAY1jYwRPezIHim_U2NJsBcL5TMQHsLUDnoujsP0smEJUZZpsOwzQqKQ7ZPLdTuMg1GFFpHZ_lUsxF1mg3HI43Zs2rrV4J0dOgrYnxa92vpQNZ=w1280"
         }
       ],
       "iframe_candidates": [
-        "https://www.youtube.com/embed/FH941x7NoSg?embed_config=%7B%22enc%22:%22AXH1ezlShf_H1ZkD7yfp32IQY9sniPIzKUdPrXt6UwCpbi4ucGiCGXokudFCOctDzGT_ZaxkRI6hKc-iLbQNnaQp4alB4nucqOqS_-q35mtiCTtYzg2FE_F4bqSI7iIJhdqQlN46gStOxm10Tih7kp5GE0aYOH1-26sHrz9bOz3BDa9M%22%7D&enablejsapi=1&errorlinks=1&origin=https://letna.milionchvilek.cz&vl=1",
-        "https://www.youtube.com/embed/zP0Z1QwwyZY?embed_config=%7B%22enc%22:%22AXH1eznImRajAu5XzuJQtgXUXUy-SQHKlaHhhu7fh0eIsrWzd2Id1jzumbOcxt83wvCRjPfPDnVQf_dxZv5wa1RH8wSU7oVANls51xPkiprWc4nS86mvNpB94lkVhUouUkpzlnxBemtRzMw4izPb6kvIK607D4qGeGPB85odoBTBt9A-%22%7D&enablejsapi=1&errorlinks=1&origin=https://letna.milionchvilek.cz&vl=1",
-        "https://www.youtube.com/embed/cU2ulPkyNeM?embed_config=%7B%22enc%22:%22AXH1ezntGeduLILMGmJFOKaPVdWmMfflUSOpf05PEUfwBBcEJHQR09ITDDEyP5E0U3sweSD_5dEbcaE4kDSqs2IOWtK8WVSa1Lhvq5nVa5k1wFNx6f5JcI1qVpJQIvvYwReoLbCNeieuudTsnQqrdgl0DUXe6WzHx6UdYJmm-OxT1nsy%22%7D&enablejsapi=1&errorlinks=1&origin=https://letna.milionchvilek.cz&vl=1"
+        "https://www.youtube.com/embed/FH941x7NoSg?embed_config=%7B%22enc%22:%22AXH1ezlBKnmU78k2UDE-R05rPeAJpaBTZZDJmEgRIq4gguC_aNiVOL0UyjrDUDZVXsg478hKyRoMpmdhYxylwB6m2T5VMkhK0OScFZreFosdCyNke3kp4AME-2GYUnLRwKnYfZkUJKt8_HXepgodzk47Rn-15aNt7TCvkifbNANzevfdZHXKDPh7-gOosct-_DpmbYjEVpnm2shVAAwX46l9yKMK1C1Kzk1QS-dx8M9ZVSzn6-iFz0NSUjfFq-Ah4oujh1qCTdEU4jftEUkjhjS0H1pA7Gxe-c-fvHORaz0JPbyrzTIExLLUryvwx0uS264su0ETotGMj0t7S4tafJQ49OEOBrCCXffHtNI6Kmj8-5jH%22%7D&enablejsapi=1&errorlinks=1&origin=https://letna.milionchvilek.cz&vl=1",
+        "https://www.youtube.com/embed/zP0Z1QwwyZY?embed_config=%7B%22enc%22:%22AXH1ezmRk_FsU11sxzg8UdLoZURB4cNCwum3Y-iUzQQB-ZpvZObih-s4rCQYMStmpESwmk1XmgbgfRaPxzkR2puH3cqJEw_5BRK0j6BCZZlKlOdLYnut1bDcOw_OLLvcdBx7r5YOTUy_MEECK270bIT4ulzkPC8rgvRwH0u0IriqQ4ft1DBY0namjmiQKSQAkX81cJEKMpBJKBfIxH4bW4S6F99NgILJPsCBt8dYlcfNiqQKu8KlcZSw53yAKPOSsjH8JgWWQdEcBgCmIJiUcOPNBNHYVLRpNft-__QNTwzbzwl4oQNZaciQqywTpgYSie9-U0ylIS9MjVUmq06DOKbguKR6rijrLRJ05kxW2QCRnyOJ%22%7D&enablejsapi=1&errorlinks=1&origin=https://letna.milionchvilek.cz&vl=1",
+        "https://www.youtube.com/embed/cU2ulPkyNeM?embed_config=%7B%22enc%22:%22AXH1ezlEyKrUnqrGzCVHDlBCO2jJBZgW9Yx10q1L9y1AIAcqEkheQLjv6yg9IwC_nqAbl3FQwObW6rwxs7wIzhrrkSYAPmo0DrfaGFx1N20iNUXFIhHXLi9hE97d4xEXQY7Y60IlSoPev6chX8rAEQV0z14F91xBBKPvYQ15t5zu_n-zpzDkYFwynDvD5jVr91Gbo94hz8dTdsY-8PamSpbiFsYOzhKDk7HPJImES1GMDgaC8k91k3QXwK5AntbJ6UrI3PV5mYF1m9wMnAyN1YOGYStWbKpVPcp3g8PciPjAmWVBg2PV-uk0zIRJLhgFECva9gyUmVoOOiRux1yiHIF9k6EScA-lM2L_3wPTCNnw9zGe%22%7D&enablejsapi=1&errorlinks=1&origin=https://letna.milionchvilek.cz&vl=1"
       ],
       "link_candidates": [
         "/letna",
@@ -901,7 +1107,7 @@
         "ETag": null,
         "Content-Length": "50435"
       },
-      "sha256": "d356c771a04a9b1616fb9266cb9d855c8771074ea279b231c35e3051dd2796a4",
+      "sha256": "b977542f619fbf4f844e958cc01dfa243bd56a8abe7c5f9c3647692a5d2257b6",
       "bytes": 50435,
       "metadata": [],
       "image_candidates": [
@@ -1066,10 +1272,10 @@
         "Content-Type": "text/html; charset=utf-8",
         "Last-Modified": null,
         "ETag": null,
-        "Content-Length": "47517"
+        "Content-Length": "47546"
       },
-      "sha256": "38a302b556bf8fec274104caf477b40e03f2ab53786dd8101dbdd912c8bfe0fe",
-      "bytes": 47517,
+      "sha256": "1f2dd6b3f66fbba773d60aaaaab6102de5cb4a3fe3fc2f0ed7221be1dd5bac24",
+      "bytes": 47546,
       "metadata": [
         {
           "key": "og:image",
@@ -1348,14 +1554,14 @@
           "height": "180"
         },
         {
-          "src": "images/gallery/t1-20261104101758_a10.jpg",
-          "alt": "Protest KSČM před Českým rozhlasem",
+          "src": "images/gallery/t1-20261110172936_demo1.jpeg",
+          "alt": "Studenti za ČT a ČRo",
           "width": "150",
           "height": "95"
         },
         {
-          "src": "images/gallery/t1-20261107220113_a23.jpg",
-          "alt": "Demonstrace spolku Svatopluk",
+          "src": "images/gallery/t1-20261027194655_a2.jpg",
+          "alt": "Premiér Babiš přijal slovenského premiéra Fica",
           "width": "150",
           "height": "95"
         }
@@ -1363,8 +1569,8 @@
       "iframe_candidates": [],
       "link_candidates": [
         "https://www.sinmed.cz/fotogalerie/",
-        "https://www.sinmed.cz/fotogalerie/protest-kscm-pred-ceskym-rozhlasem-114.html",
-        "https://www.sinmed.cz/fotogalerie/demonstrace-spolku-svatopluk-115.html",
+        "https://www.sinmed.cz/fotogalerie/studenti-za-ct-a-cro-116.html",
+        "https://www.sinmed.cz/fotogalerie/premier-babis-prijal-slovenskeho-premiera-fica-107.html",
         "https://www.sinmed.cz/aktuality/plihal-zazpival-letna-onemela-pohledy-si-vymenovali-i-herci-na-podiu-1472.html"
       ]
     }
