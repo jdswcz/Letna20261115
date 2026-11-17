@@ -1,20 +1,22 @@
-# Letná 15. 11. 2026 – fotografický výzkum
+# Letná 15. 11. 2026 – fotografický odhad
 
-**75 obrazových souborů skutečně staženo (80,3 MB), proveden obrazový audit a referenční
-mapové měření. Doložitelný celkový počet účastníků dosud nebyl získán.**
-Tvrzení o 350–450 tisících nelze z provedených měření potvrdit ani vyvrátit.
+**Pracovní odhad: asi 260 tisíc současně přítomných. Široké modelové rozpětí: 140–440 tisíc.**
 
-- [Zpráva s výsledkem a omezeními](reports/REPORT.cs.md)
-- [Souhrn skutečně stažených fotografií](data/photo_acquisition.json)
-- [Obrazový audit](data/visual_review.json) a [ručně označený vzorek](data/manual_sample.json)
-- [Mapa referenčních ploch](maps/reference_areas.png), [geometrie](maps/reference_regions.geojson), [výpočty ploch](results/reference_areas.json)
-- [Zdroje](data/sources.json), [registr souborů](data/assets.json), [metadata](data/collection.json)
-- [Stav odhadu](results/estimate.json) a [softwarové testy](results/verification.json)
+Podmíněný sektorový model: mapové plochy jsou měřené, hustota a podíl obsazenosti jsou zveřejněné vizuální předpoklady. Nejde o spočítané hlavy, statistický interval ani doložené maximum dne. Ověřenou procentní přesnost určit nelze.
 
-Fotobanky a starší demonstrace nejsou vstupem počítání. Mapa referenčních ploch
-**není mapou skutečné obsazenosti**. Chybějící měření znamená null, nikoli nulovou účast.
-Fotografie nejsou bez oprávnění veřejně přiloženy; zachovány jsou URL a SHA-256.
-Výzkum je přímo v main podle pokynu zadavatele. Bez force push.
+350 tisíc je s modelem slučitelných; 450 tisíc není potvrzeno ani spolehlivě vyloučeno.
+
+- **[Závěrečná zpráva, metoda a nejistoty](reports/REPORT.cs.md)**
+- [Mapa sektorů a měřítko](maps/scenario_sectors.png)
+- [Všechny předpoklady](data/quantitative_scenarios.json), [výpočty CSV](results/scenario_sectors.csv), [výsledek JSON](results/scenario_estimate.json)
+- [Původ a datum použitých pohledů](data/scenario_evidence.json)
+- [75 skutečně stažených souborů, 80,3 MB: URL, metadata, SHA-256](data/photo_acquisition.json)
+- [Registr souborů](data/assets.json), [zdroje](data/sources.json), [vyloučení](data/exclusions.json)
+- [Kontroly modelu](results/scenario_check.json), [testy přísného kalkulátoru](results/verification.json)
+
+Fotobanky a jiné demonstrace nejsou vstupem výpočtu. Ne všechny stažené fotografie byly přijaty pro odhad. Barevné obálky neznamenají úplnou obsazenost. Fotografie se bez oprávnění nepřetiskují; zachovány jsou odkazy a metadata.
+
+Práce přímo v main a výpočty na self-hosted runneru podle pokynů zadavatele. Bez force push.
 
 ## Reprodukce
 
@@ -24,20 +26,12 @@ Python 3.12:
 python -m pip install -r requirements.txt
 python tools/verify.py
 node tools/review_transport.mjs self-test
-python tools/analyze.py
 python tools/reference_geometry.py
+python tools/quantitative_scenarios.py
 python tools/download_photos.py
 ```
 
-Poslední příkaz stáhne všechny evidované fotografie do ignorované složky private_downloads
-a ověří hashe. Vyžaduje síť; odstraněný snímek nelze z hashe obnovit.
-Změněný soubor se nesmí tiše považovat za původní.
+Scénářový výpočet běží z uložené mapy a JSON bez sítě. Poslední příkaz stáhne fotografie do ignorované složky private_downloads a ověří hashe; potřebuje síť.
 
-Nový sběr metadat: python tools/collect.py a python tools/inventory_galleries.py.
-Nové mapové podklady: python tools/download_map.py.
-Soubory tools/annotate.html a tools/render_manual_sample.py umožňují kontrolu ruční anotace.
-Detailní postup a vědecká omezení jsou v docs/METHODOLOGY.cs.md a docs/WORKLOG.cs.md.
-
-CI běžně ověřuje software a uložené výpočty. Síťový sběr spustí workflow_dispatch nebo
-push s [acquire] ve zprávě commitu; prohlížení používá veřejný klíč v data/review_session.json.
-Soukromý klíč se nikdy neukládá do Gitu.
+tools/analyze.py a results/estimate.json zůstávají přísnou cestou pro kalibrovaná měření a stále vracejí null. Číselný pracovní odhad je v results/scenario_estimate.json s označenými předpoklady.
+[Metodika](docs/METHODOLOGY.cs.md), [protokol](docs/WORKLOG.cs.md).

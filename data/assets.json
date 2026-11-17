@@ -138,7 +138,9 @@
       "exif": {
         "DateTime": "2026:11:15 16:14:59"
       },
-      "visual_review_record": "data/visual_review.json"
+      "visual_review_record": "data/visual_review.json",
+      "scenario_review_record": "data/scenario_evidence.json",
+      "admitted_for_visual_scenario": false
     },
     {
       "id": "SZ-ELEVATED-POSTER-UNCROPPED",
@@ -193,7 +195,9 @@
         "OffsetTimeOriginal": "+01:00"
       },
       "capture_time_claim": "2026-11-15T14:22:40+01:00",
-      "visual_review_record": "data/visual_review.json"
+      "visual_review_record": "data/visual_review.json",
+      "scenario_review_record": "data/scenario_evidence.json",
+      "admitted_for_visual_scenario": true
     },
     {
       "id": "SZ-GALLERY-103-UNCROPPED",
@@ -650,7 +654,9 @@
         "DateTimeOriginal": "2026:11:15 14:58:48",
         "OffsetTimeOriginal": "+01:00"
       },
-      "visual_review_record": "data/visual_review.json"
+      "visual_review_record": "data/visual_review.json",
+      "scenario_review_record": "data/scenario_evidence.json",
+      "admitted_for_visual_scenario": false
     },
     {
       "id": "SZ-ALBUM-20",

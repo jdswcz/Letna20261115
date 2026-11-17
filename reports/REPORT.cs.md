@@ -1,149 +1,101 @@
-# Letná 15. 11. 2026 – vyhodnocení fotografických podkladů
+# Letná 15. 11. 2026 – podmíněný fotografický odhad
 
-**Výsledek: z prověřených podkladů nebyl získán doložitelný celkový počet účastníků.
-Tvrzení o 350–450 tisících nebylo tímto výzkumem nezávisle potvrzeno ani vyvráceno.**
+**Nejlepší pracovní odhad: asi 260 000 současně přítomných lidí. Široké modelové rozpětí: asi 140 000–440 000.**
 
-Tentokrát byly obrazové soubory skutečně staženy a zobrazeny. Dřívější omezení přístupu
-k pixelům se podařilo překonat přes GitHub runner. Zbývající překážkou je kvalita a
-pokrytí podkladů, zejména absence kalibrovaných hustot a časově doloženého pokrytí parku.
+Jde o mapový sektorový model s vizuálně zvolenými předpoklady obsazenosti a hustoty. **Není to počet spočítaných hlav, statisticky určená nejpravděpodobnější hodnota ani doložené minimum a maximum celé akce.** Střed je preferovaný pracovní scénář analytika. Ověřenou procentní přesnost určit nelze.
 
-| Požadavek | Doložitelný výsledek |
+| Otázka | Závěr |
 |---|---|
-| Nejpravděpodobnější počet | Není určen; chybí změřené hustoty |
-| Realistické minimum a maximum celé akce | Z tohoto souboru fotografií neurčeno |
-| Přesnost v procentech | Není stanovena |
-| Fotografie podporují 350–450 tisíc? | Číselné tvrzení nebylo nezávisle ověřeno |
-| Stažení a vizuální kontrola | Provedeny; viz níže |
-| Referenční mapové měření | Provedeno, nepředstavuje měření skutečné obsazenosti |
+| Pracovní bodový odhad | Asi 260 tisíc, podmíněně podle níže uvedených předpokladů |
+| Rozpětí scénářů | Asi 140–440 tisíc; skutečnost může ležet i mimo něj |
+| Přesnost | Nízká; rozdíl scénářů −47 % až +69 % vůči středu není změřená chybovost ani interval spolehlivosti |
+| Maximum dne | Jeden vysoký stav je použit jako přiblížení vrcholu; skutečné maximum není doloženo |
+| Zadané tvrzení 350–450 tisíc | 350 tisíc je slučitelných s modelem; 450 tisíc není doloženo, ale není spolehlivě vyloučeno |
 
-Není korektní zaměňovat „neověřeno“ za „nepravdivé“. Současně ani opakování stejného
-odhadu v několika médiích nepředstavuje několik nezávislých měření.
+Dřívější verze obsahovala jen audit a null. Nynější doplnění poskytuje čísla s otevřenými předpoklady. Přísný kalkulátor kalibrovaných měření stále vrací null; scénářový kalkulátor vytváří výsledky výše. Chybějící měření nebylo označeno za existující.
 
-## Skutečně získané podklady
+## Fotografie a datum
 
-Původních sedm větších obrazových souborů bylo doplněno o dalších **68 souborů** z úplné
-galerie Seznam Zpráv a SinMedu. Druhý soubor stahování měl **65 262 978 bajtů**, všechny
-požadavky uspěly. Jde o soubory, nikoli o 75 nezávislých pohledů: varianty a podobné záběry
-se nesmějí považovat za další účastníky ani další nezávislý důkaz.
+Skutečně bylo staženo **75 různých URL souborů, celkem 80 295 295 bajtů**. Nejde o 75 nezávislých pohledů: existují varianty a podobné záběry. [Evidence stažení](../data/photo_acquisition.json) obsahuje URL, rozměry, EXIF a SHA-256. Celý archiv nebyl automaticky přijat do odhadu.
 
-Přímý veřejný galerijní endpoint Seznamu vrátil 28 položek. Čtyři již byly v evidenci;
-24 dalších bylo staženo bez transformačního dotazu CDN. SinMed přidal 44 souborů.
-Tyto nové soubory měly šířky 990, 1100, 1200, 2400 nebo 3000 pixelů; žádný neměl šířku
-přes 3000 pixelů. Soubory byly nejprve zkontrolovány v přehledech, vhodné přehledové
-pohledy také jednotlivě. Kontrola přehledu není plnohodnotná anotace každé fotografie.
+Základ: **SZ-GALLERY-102-UNCROPPED**, Michal Turek / Seznam Zprávy, 3000 × 2001 px. Dobová galerie výslovně označuje demonstraci 15. listopadu. EXIF uvádí **15. 11. 2026 14:22:40 +01:00**, jméno autora a odpovídající datum. Orientační body Letné, scénografie a uspořádání odpovídají reportáži. Jde o doložený publikovaný redakční soubor této akce, nikoli ověřený soubor přímo z paměťové karty.
 
-Souhrnná evidence skutečného stažení má **75 různých URL souborů a 80 295 295 bajtů**:
-[photo_acquisition.json](../data/photo_acquisition.json). Obsahuje rozměry, bajty, SHA-256
- a dostupné EXIF. Poslední relace je v [download_manifest.json](../data/download_manifest.json);
-předchozí relace jsou v historii Gitu. Nešifrované fotografie byly uloženy do ignorované pracovní
-složky runneru; **nejsou veřejně přiloženy v Git repozitáři**, protože oprávnění
-k jejich dalšímu zveřejnění nebylo doloženo. Odkazy a metadata jsou zachovány.
+**SZ-ALBUM-19**, 3000 × 2001 px, EXIF **14:58:48 +01:00**, stejná galerie: kvalitativní kontrola pokračující vysoké účasti. Jeho lidé se nepřičítají. Policejní náhled publikovaný Novinkami ukazuje prostor z opačné strany, ale nemá doložený přesný čas; není synchronizovaným číselným vstupem.
 
-## Původ a datum
+[Doklady původu a role jednotlivých snímků](../data/scenario_evidence.json). Neověřené fotografie, fotobanky, jiné demonstrace a přípravy 14. 11. nejsou číselným vstupem. Snímek před zahájením ani SinMed s nevyřešeným EXIF pásmem +02:00 nebyly použity k určení času vrcholu.
 
-- Galerie Seznam Zpráv je dobová redakční reportáž z 15. 11. 2026, u snímků je kredit
-  Michala Turka. EXIF část datace potvrzuje; viditelné nápisy 4:36 a scénografie dokládají
-  souvislost s konkrétní akcí. Nejde o přijetí libovolné fotografie jen podle data článku.
-- Policejní obraz byl získán z článku Novinek, který video připisuje Policii ČR.
-  Soubor má 1920 × 1080 pixelů. DateTimeOriginal nebyl nalezen; údaj DateTime 16:14:59
-  není sám o sobě doloženým okamžikem pořízení.
-- V sérii SinMed má 44 souborů EXIF OffsetTimeOriginal +02:00, zatímco v Praze toho dne
-  platil středoevropský čas +01:00. Příčinou může být nastavení fotoaparátu; bez ověření
-  nelze časy automaticky posunout ani sloučit s jinou sérií.
-- U jednoho dříve nalezeného snímku je DateTimeOriginal 12:56:02 před zahájením programu.
-  U jiných se čas editace liší od času fotografování. Všechny tyto položky se evidují odděleně.
+Fotografie byly staženy do soukromé pracovní složky runneru. Oprávnění k přetištění není doloženo: Git uchovává odkazy a metadata. Později odstraněný soubor nelze z hashe obnovit.
 
-Podrobná datace je v [assets.json](../data/assets.json) a [collection.json](../data/collection.json).
-EXIF je podpůrný doklad, nikoli záruka nepozměněného obsahu. U nově nalezených souborů
-nelze vizuální prohlédnutí malé náhledové tabule vydávat za úplné ověření autenticity.
+## Měřítko a sektory
 
-Fotobanky, březnová akce 2026, demonstrace 2019 a přípravy ze 14. 11. nejsou vstupem
-počítání. Seznam známých vyloučení je v [exclusions.json](../data/exclusions.json).
+Použito **Ortofoto ČR / ČÚZK**, CC BY 4.0, export 2400 × 1800 px, EPSG:32633. Měřítko ze skutečně vráceného souřadnicového rozsahu je **0,899063457 m/pixel** v obou osách. Nejde o odečítání pixelů obrazovky. Mapa sama nedokládá zaplnění v den demonstrace.
 
-## Co ukázala obrazová kontrola
+![Sektorové obálky a měřítko](../maps/scenario_sectors.png)
 
-1. Výškový pohled Michala Turka a policejní letecký pohled zachycují velkou část
-   shromáždění. Nelze z nich ale určit všechny účastníky v parku pod stromy.
-2. Policejní obraz je již výrazně zpracovaný a detailní výřezy mají nedostatek informace.
-   Ve vzorcích P1 a P3 se hlavy a horní části těl slévají do několika pixelů. Přepočet
-   bílých skvrn na osoby by neměl doloženou chybovost.
-3. Detaily Seznamu umožňují rozpoznávat hlavy v popředí, ale samy nemají určenou
-   půdorysnou plochu vzorku. Lze z nich odečítat viditelné osoby v části obrazu,
-   nikoli bez další kalibrace osoby na metr čtvereční.
-4. 360stupňový náhled je projekce „malé planety“. Plocha pixelů v něm není úměrná
-   skutečné ploše země. Bez znalosti projekce není vhodný pro plošný přepočet.
-5. Pohledy po setmění obsahují rozsvícené telefony. Počet světel není počtem lidí:
-   někteří telefon nezvedají, jiné světlo nemusí představovat dalšího člověka.
+Barevné polygony jsou **obálky sektorů**, nikoli tvrzení o úplném zaplnění. Zvlášť je západ, střed a východ pláně, předpolí, jižní pás, jižní park a převážně prázdný severní okraj. Stadion a celý širší park nejsou považovány za zaplněné.
 
-Ve výřezu 200 × 200 pixelů fotografie SZ-GALLERY-104-UNCROPPED bylo ručně označeno
-23 rozeznatelných hlav a 3 nejisté kandidáty; [souřadnice jsou uložené](../data/manual_sample.json).
-Jde o výběr výslovně označených viditelných hlav, nikoli úplný počet všech lidí ve výřezu.
-Plocha výřezu v m² ani počet zakrytých osob nejsou známy, takže z něj nebyla spočítána hustota.
+Přesné body: [vstupní JSON](../data/quantitative_scenarios.json); zeměpisná geometrie: [GeoJSON](../maps/scenario_sectors.geojson). Plochy polygonů jsou mapově změřené. Hranice skutečného davu nejsou přesně georeferencovány; zejména park a předpolí představují modelové aproximace.
 
-Nebylo provedeno úplné ruční počítání, nebyl vydáván výstup nevalidovaného detektoru
-za počet lidí a nebyla doplněna „běžná hustota“ jako údaj naměřený z této akce.
+## Výpočet
 
-Reprodukovatelné výřezy policejního originálu (souřadnice x0,y0,x1,y1, po EXIF orientaci):
-P1 = [800,550,880,630], P2 = [550,450,630,530], P3 = [1100,750,1180,830].
-Zvětšení 6× metodou nearest-neighbour nevytvořilo nové obrazové informace.
-Podrobný výřez Turka: [400,600,1000,1200] ze SZ-GALLERY-104-UNCROPPED.
+**Počet = plocha polygonu × faktor nejistoty plochy × podíl obsazenosti × hustota na obsazené části.**
 
-## Mapové měření
+Podíl obsazenosti souhrnně odečítá mezery, koridory, kluziště, techniku, pódium a stromy. Nejde o přesně zaměřené jednotlivé překážky; jejich vliv je odhadnutý a mezi scénáři se mění.
 
-Bylo staženo georeferencované **Ortofoto ČR od ČÚZK**, EPSG:32633, 2400 × 1800 pixelů.
-Služba uvádí otevřená data CC BY 4.0. Úplný dotaz, rozsah, hash a world file jsou v maps/.
-Podklad byl použit k referenční geometrii; není to fotografie demonstrace ani důkaz
-obsazenosti k 15. 11. 2026.
+| Sektor | Hrubá obálka m² | Střední obsazenost | Předpokládaná hustota os./m² | Střední počet |
+|---|---:|---:|---:|---:|
+| W: západ pláně | 17 082 | 89 % | 2,8 | 42 568 |
+| M: střed pláně | 18 639 | 89 % | 3,3 | 54 741 |
+| E: východ pláně | 20 195 | 89 % | 3,6 | 64 706 |
+| F: předpolí a okolí pódia | 14 169 | 55 % | 3,4 | 26 495 |
+| S: jižní pás | 16 704 | 82 % | 2,6 | 35 613 |
+| P: jižní park | 52 853 | 45 % | 1,4 | 33 298 |
+| N: severní okraj | 24 520 | 8 % | 1,0 | 1 962 |
+| **Součet** | **164 162** | **efektivně 97 001 m²** | **průměr 2,67** | **259 383** |
 
-Ručně byly obkresleny dvě vyznačené referenční oblasti:
-- otevřený povrch pláně: přibližně **5,6 ha**;
-- sousední jižní travnatý pás: přibližně **1,7 ha**.
+Hrubá obálka 16,4 ha tedy není celá považována za hustý dav. Střední efektivně obsazená plocha je asi **9,7 ha**. Přesnost aritmetiky není přesností odhadu; publikujeme zaokrouhlení na desetitisíce.
 
-Přesné souřadnice bodů a strojové výpočty jsou v
-[reference_regions.json](../data/reference_regions.json),
-[reference_regions.geojson](../maps/reference_regions.geojson) a
-[reference_areas.json](../results/reference_areas.json).
-[Mapa referenčních oblastí](../maps/reference_areas.png) výslovně uvádí,
-že nejde o mapu obsazeného davu. Citlivost hranic na posun o 10 pixelů je geometrický
-scénář, nikoli statistický interval nebo chyba počtu lidí.
+Na hlavním snímku je souvislý dav, v popředí sevřenější. V parku jsou mezery a volné trávníky, na severu převládá volná plocha. Toto pozorování vede k rozdílným sektorům. **Konkrétní koeficienty jsou úsudek analytika, nikoli naměřené hustoty z kalibrovaných vzorků.**
 
-Tyto plochy nelze jednoduše vynásobit jedním číslem a nazvat celkovou účastí.
-Nezahrnují všechny možné účastníky v parku a okolí, naopak jejich části mohlo zabírat
-technické zázemí, pódium, volné koridory nebo neobsazená místa.
-Organizační plánek sloužil pouze k orientaci, nikoli jako důkaz skutečného zaplnění sektorů.
+Orientační interpretaci doplňuje [vizuální přehled G. Keitha Stilla](https://www.gkstill.com/Support/crowd-density/CrowdDensity-1.html); není měřením Letné. Nízký úhel může zvýšit zdánlivou hustotu. Bezpečnostní kapacitní limity nejsou použity jako skutečná hustota.
 
-## Proč zde není číselný odhad
+Ve starším výřezu bylo označeno 23 rozeznatelných hlav a tři nejisté kandidáty. [Anotace](../data/manual_sample.json) je neúplný výběr viditelných hlav, nemá určenou plochu v m² ani korekci překrytí a nebyla extrapolována. Nové výřezy tento problém neodstranily. Nevalidovaný automatický výstup nebyl vydáván za celkový počet.
 
-Pro sektorový výpočet N(t) = součet A_i(t) × d_i(t) potřebujeme **současně**
-obsazené A_i i nezávisle kalibrované hustoty d_i. Referenční geometrie sama nestačí.
-Použití předpokládaných hustot by bylo reprodukovatelným scénářem, ale stále nikoli
-nezávislým měřením této demonstrace.
+Kluziště nebylo použito jako přesná perspektivní kalibrace: [Praha 7](https://www.praha7.cz/kluziste-26/) uvádí 43 × 20 m, [provozovatel](https://www.ice-tec.cz/kluziste-praha-letna.php) 43 × 25 m. Rozpor a nejisté kontrolní body brání spolehlivé kalibraci jediným obdélníkem. [Evidence](../data/rink_scale_sources.json).
 
-Není také doloženo, že nejvyšší stav na zveřejněných fotografiích byl maximem dne.
-Nelze sestavit součet maxim různých částí v různých časech.
-Současný [estimate.json](../results/estimate.json) proto správně obsahuje null,
-nikoli nulu a nikoli zvolené „kompromisní“ číslo.
+## Rozpětí, čas a nejistoty
 
-K obhajitelnému odhadu chybí především původní detailnější letecká série nebo video
-s ověřeným časem, pohledy na zaplněné i prázdné okraje a park v témže okamžiku,
-georeferenční kontrolní body a reprezentativní spočítané vzorky známé plochy.
-Bez nich nelze určit ani věrohodnou procentní přesnost nebo realistické celkové minimum a maximum.
+Výpočet dává **136 474 / 259 383 / 437 983**. Kompletní násobení: [CSV](../results/scenario_sectors.csv), [výsledek JSON](../results/scenario_estimate.json). Parametry všech variant jsou zveřejněny.
 
-## Reprodukce
+Nízký a vysoký scénář společně mění hranice, zaplnění a hustotu. **Nejde o 95% interval, změřenou chybu ani fyzikální mez.** Pravděpodobnost jednotlivých scénářů neznáme. Parková obálka je podstatně větší než její předpokládaná zaplněná část.
 
-README a docs/METHODOLOGY.cs.md popisují kroky. tools/download_for_review.py skutečně
-stahuje soubory; tools/review_transport.mjs umožňuje kontrolované prohlížení bez publikace
-cizích fotografií. Soukromý přenosový klíč nepatří do repozitáře.
-tools/reference_geometry.py vytváří referenční mapu a výpočty. tools/analyze.py odmítá
-neověřené nebo chybějící měření. Softwarové testy ověřují výpočet a ochranu před
-dvojím započtením; jejich úspěch sám neověřuje počet demonstrantů.
+Hlavní nejistoty jsou hustota pláně, zakrytí stromy, rozsah zaplnění parku, technické odpočty a čas maxima. Změna průměrné hustoty o 0,5 osoby/m² na střední obsazené ploše změní počet asi o **48 500**; změna obsazené plochy o 10 % při stejných hustotách asi o **26 000**.
 
-## Primární obrazové zdroje
+Časový základ je **14:22:40**. Pozdější snímek 14:58:48 ukazuje další vysoký stav, ale nedokládá stejné zaplnění ani maximum dne. **Počty z různých časů se nesčítají.** Přiblížení vrcholu platí pod předpokladem, že vybraný stav byl vrcholu blízký. Tento předpoklad nebyl nezávisle prokázán.
 
-- [Seznam Zprávy – galerie](https://www.seznamzpravy.cz/clanek/obrazem-obrazem-andreji-macinko-okamuro-mame-toho-dost-letna-proti-zestatneni-medii-320577)
-- [Seznam Zprávy – výškový pohled](https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-video-takto-vypada-plna-letna-z-vysky-320595)
-- [Seznam Zprávy – 360stupňový záběr](https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-milion-chvilek-plna-letna-podivejte-se-na-360-stupnove-zabery-z-mista-320631)
-- [Novinky – video připsané Policii ČR](https://www.novinky.cz/clanek/domaci-zabery-z-dronu-ukazaly-statisice-lidi-na-letne-40608773)
-- [SinMed – galerie](https://www.sinmed.cz/fotogalerie/letna-2026-122.html)
-- [ČÚZK – mapová služba](https://ags.cuzk.gov.cz/arcgis1/rest/services/ORTOFOTO/MapServer)
-- [ČÚZK – otevřená data a licence](https://ags.cuzk.gov.cz/opendata/)
+Druhý pohled a jiný čas poskytují kvalitativní kontrolu rozsahu, nikoli druhý kalibrovaný počet. Jediná číselná metoda je mapová plocha krát předpokládaná hustota; nezávislý census ani validovaný detektor ji nepotvrzuje.
+
+## Porovnání se zadanými 350–450 tisíci
+
+Porovnání následovalo po sektorovém součtu. Číslo bylo známo už ze zadání, takže **nešlo o zaslepený odhad**. Autorita organizátorů ani mediální opakování nejsou kalibračním údajem.
+
+Na střední obsazené ploše 97 001 m² by 350 tisíc vyžadovalo průměr **3,61 os./m²**, 450 tisíc **4,64 os./m²**. Větší obsazená plocha požadavek snižuje, menší zvyšuje. Hustotu popředí nelze přenést na celý park.
+
+**Fotografie konkrétní interval 350–450 tisíc nepotvrzují.** 350 tisíc do scénářů zapadá. 450 tisíc by vyžadovalo kombinaci velkého zaplnění a vysokých hustot, případně další účastníky mimo model. Těsné překročení horního scénáře však není důkazem nepravdivosti tvrzení. Preferovaný střed je nižší, s velkou nejistotou.
+
+## Reprodukce a ověření
+
+Výpočty proběhly na uživatelově **self-hosted Windows runneru**, Python 3.12. [Kontroly scénáře](../results/scenario_check.json) ověřují mapový hash a měřítko, nepřekrývání základních sektorů, konečnost a pořadí parametrů a obsazenost do 100 %. Deset testů přísného kalkulátoru a testy přenosu obrazů kontrolují software, nikoli správnost vizuálních předpokladů.
+
+```sh
+python -m pip install -r requirements.txt
+python tools/verify.py
+node tools/review_transport.mjs self-test
+python tools/reference_geometry.py
+python tools/quantitative_scenarios.py
+python tools/download_photos.py
+```
+
+Scénáře běží z uložené mapy a JSON bez nového stahování. Poslední příkaz potřebuje síť a obnovuje soukromé fotografie podle URL a hashů. Reprodukovatelnost výpočtu neznamená nezávislé prokázání správnosti úsudku.
+
+Primární zdroje: [galerie Seznam Zpráv](https://www.seznamzpravy.cz/clanek/obrazem-obrazem-andreji-macinko-okamuro-mame-toho-dost-letna-proti-zestatneni-medii-320577), [výškový pohled](https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-video-takto-vypada-plna-letna-z-vysky-320595), [policejní video publikované Novinkami](https://www.novinky.cz/clanek/domaci-zabery-z-dronu-ukazaly-statisice-lidi-na-letne-40608773), [ČÚZK ortofoto](https://ags.cuzk.gov.cz/arcgis1/rest/services/ORTOFOTO/MapServer), [otevřená data a licence](https://ags.cuzk.gov.cz/opendata/). Další doklady a historie jsou v data/, docs/ a historii main.

@@ -1,5 +1,16 @@
 # Reprodukce a pravidla měření
 
+## Aktuální podmíněný výsledek
+
+tools/quantitative_scenarios.py z data/quantitative_scenarios.json vytváří mapu, GeoJSON,
+CSV a results/scenario_estimate.json. Asi 260 tisíc (140–440 tisíc) je vizuální scénář
+s předpokládanými hustotami a obsazeností, nikoli kalibrované měření.
+Interpretace je v reports/REPORT.cs.md. Časový základ je jediný, 14:22:40.
+Rozpětí nemá určenou pravděpodobnost pokrytí a nemusí obsahovat skutečné maximum.
+
+Následující přísná cesta tools/analyze.py je zachována pro budoucí kalibrovaná měření.
+Její null není scénářový výsledek. Zbývající kroky popisují silnější empirickou validaci.
+
 ## Co je již provedeno
 
 tools/collect.py provádí HTTP sběr a technický audit. Výsledky ukládá do data/collection.json.
@@ -30,8 +41,8 @@ logotypy a reklamu: image_candidates a link_candidates nejsou ověřené důkazy
 
 Oficiální mapové podklady: [IPR Praha – mapové služby](https://geoportalpraha.cz/data-a-sluzby/mapove-sluzby),
 [ortofoto](https://geoportalpraha.cz/data-a-sluzby/clanky-a-projekty/ortofoto).
-IPR uvádí EPSG:5514 a podporu WGS84. Konkrétní podklad ani jeho výřez zatím nebyl použit k měření;
-před užitím uložit URL vrstvy, datum, rozsah, rozlišení, souřadnicový systém a licenci.
+IPR uvádí EPSG:5514 a podporu WGS84. Nyní byl skutečně použit ČÚZK export v maps/, nikoli uvedená služba IPR.
+URL vrstvy, rozsah, rozlišení, souřadnicový systém, licence a hash jsou uloženy.
 Plocha se nepočítá z obrazovkových pixelů Web Mercatoru.
 
 ## Vstupy kalkulátoru

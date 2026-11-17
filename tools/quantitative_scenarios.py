@@ -77,9 +77,19 @@ def main():
       "warning":"Bounds are conditional scenarios, not guaranteed minimum/maximum. No statistical most-likely value or validated percent accuracy is available."}
     checks={"map_hash_verified":True,"map_scale_verified":True,"baseline_sectors_disjoint":True,
       "parameters_finite_and_ordered":True,"fractions_in_0_1":True,"times_not_summed":True}
-    # Unit-density check is independent of chosen density values.
-    unit_density=sum(r["effective_occupied_m2"] for r in rows if r["scenario"]=="central")
-    checks["unit_density_identity"]=abs(unit_density-nets["central"])<1e-7
+    evidence=json.loads((ROOT/"data/scenario_evidence.json").read_text())
+    anchor=next(r for r in evidence["records"] if r["asset_id"]==model["anchor_asset"])
+    from datetime import datetime
+    moment=datetime.fromisoformat(model["anchor_time"])
+    assert moment.utcoffset() is not None
+    assert str(moment.date())==model["date"]==evidence["event_date"]
+    assert anchor["capture_time"]==model["anchor_time"] and anchor["admitted_for_visual_scenario"]
+    assets=json.loads((ROOT/"data/assets.json").read_text())["assets"]
+    asset=next(a for a in assets if a["id"]==model["anchor_asset"])
+    assert anchor["sha256"]==asset["observed_sha256"]
+    checks["anchor_metadata_consistent"]=True
+    result["sensitivity"]={"density_plus_minus_0_5_people":nets["central"]*.5,
+                          "area_plus_minus_10_percent":totals["central"]*.1}
     for name in model["scenario_order"]:
         assert totals[name]>=0
     (ROOT/"results/scenario_estimate.json").write_text(json.dumps(result,indent=2,ensure_ascii=False)+"\n")

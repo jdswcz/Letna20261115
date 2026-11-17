@@ -1,0 +1,58 @@
+{
+  "reviewed_date": "2026-11-17",
+  "event_date": "2026-11-15",
+  "scope": "Only anchor drives visual assumptions. Comparison views are not summed.",
+  "records": [
+    {
+      "asset_id": "SZ-GALLERY-102-UNCROPPED",
+      "url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCM3uZBC73IXjDwg/d285/turek.jpeg",
+      "sha256": "0546b734d6c7f400e3897ba217e3236cd3121d3b51ffa80f6a89f0f72eaab776",
+      "dimensions": [
+        3000,
+        2001
+      ],
+      "creator": "Michal Turek / Seznam Zprávy",
+      "source_page": "https://www.seznamzpravy.cz/clanek/obrazem-obrazem-andreji-macinko-okamuro-mame-toho-dost-letna-proti-zestatneni-medii-320577",
+      "capture_time": "2026-11-15T14:22:40+01:00",
+      "role": "visual_scenario_anchor",
+      "admitted_for_visual_scenario": true,
+      "measured_density": false,
+      "date_basis": "Gallery explicitly dated 15 November 2026; DateTimeOriginal and +01:00 consistent. Letna landmarks, event scene, stage, corridors and rink visually reviewed.",
+      "authenticity_limit": "Published editorial file with corroboration, not cryptographically authenticated camera original."
+    },
+    {
+      "asset_id": "SZ-ALBUM-19",
+      "url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCfcGaGsoJIXjEA6/82e6/turek.jpeg",
+      "sha256": "58ff2f480cee18d65182a72c349cd73d16ced00dece1e495c04805905441f134",
+      "dimensions": [
+        3000,
+        2001
+      ],
+      "creator": "Michal Turek / Seznam Zprávy",
+      "source_page": "https://www.seznamzpravy.cz/clanek/obrazem-obrazem-andreji-macinko-okamuro-mame-toho-dost-letna-proti-zestatneni-medii-320577",
+      "capture_time": "2026-11-15T14:58:48+01:00",
+      "role": "qualitative_cross_check_only",
+      "admitted_for_visual_scenario": false,
+      "measured_density": false,
+      "date_basis": "Gallery explicitly dated 15 November 2026; DateTimeOriginal and +01:00 consistent. Letna landmarks, event scene, stage, corridors and rink visually reviewed.",
+      "authenticity_limit": "Published editorial file with corroboration, not cryptographically authenticated camera original."
+    },
+    {
+      "asset_id": "POLICE-POSTER-UNCROPPED",
+      "url": "https://d15-a.sdn.cz/d_15/c_img_qH_A/kb4JgeTdk3RI9L02IXjxz2/14ad/letna-demonstrace.jpeg",
+      "sha256": "64f13ba86ffcbd82afd3ae46db2409445df2bd12862021e2efbb395d4dcf1777",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "creator": "Policie CR, attributed by Novinky",
+      "source_page": "https://www.novinky.cz/clanek/domaci-zabery-z-dronu-ukazaly-statisice-lidi-na-letne-40608773",
+      "capture_time": null,
+      "role": "qualitative_cross_check_only",
+      "admitted_for_visual_scenario": false,
+      "measured_density": false,
+      "date_basis": "Contemporaneous article attributes this event's drone video to police. Exact frame time unknown; not synchronized.",
+      "authenticity_limit": "Published editorial file with corroboration, not cryptographically authenticated camera original."
+    }
+  ]
+}

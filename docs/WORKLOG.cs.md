@@ -36,3 +36,19 @@ nelze z hashů obnovit později odstraněný snímek.
 - Detailní výřezy policejního obrazu se ukázaly nevhodné k spolehlivému oddělení jednotlivých hlav.
 - Provedeno prověření veřejných lokátorů policejního videa; výsledek data/video_locators.json.
 - Číselný celkový odhad zůstává nedoložený. Chybějící data se nedoplňují předpokládanou hustotou nebo převzatým počtem organizátorů.
+
+## Dokončení podmíněného odhadu 17. 11. 2026
+
+- Na opakovaný pokyn zadavatele doplněn číselný model, práce nadále v main.
+- Skutečně použit self-hosted Windows runner, Python 3.12, CPU bez GPU.
+- Opraveno Windows tzdata, UTF-8, font a ukládání přes API při nepřítomnosti git.exe.
+- Deset testů přísného kalkulátoru a obrazový přenos po opravách prošly.
+- Jednotlivě zobrazeny přehledy Turka 14:22:40 a 14:58:48, detailní výřezy a georeferencovaná mapa.
+- Zjištěn rozpor rozměrů kluziště 43×20 a 43×25 m. Nepoužito pro přesnou kalibraci.
+- Definováno sedm nepřekrývajících se sektorových obálek. Plochy změřeny z ČÚZK;
+  obsazenost a hustoty označeny jako předpoklady.
+- tools/quantitative_scenarios.py skutečně vypočítal 136 474 / 259 383 / 437 983.
+- Publikováno zaokrouhleně 140 / 260 / 440 tisíc. Kalibrovaná měřicí cesta zachována s null.
+- Nevznikly smyšlené anotace ani hustoty vydávané za měření. Další časy nejsou přičítány.
+- Denní maximum zůstává nedoloženo. Porovnání 350–450 tisíc není zaslepené,
+  číslo bylo známo ze zadání; není kalibračním vstupem.
