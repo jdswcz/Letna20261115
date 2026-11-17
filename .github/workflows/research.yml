@@ -1,8 +1,8 @@
 name: Research verification
 on:
   push:
-    branches: ['analysis/2026-11-17-photo-estimate']
-    paths-ignore: ['data/collection.json']
+    branches: ['main']
+    paths-ignore: ['data/collection.json', 'results/estimate.json']
   pull_request:
   workflow_dispatch:
 permissions:
@@ -21,23 +21,25 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python -m pip install Pillow==11.3.0
+      - run: python -m pip install -r requirements.txt
       - name: Compile tools
         run: python -m compileall -q tools
       - name: Tests
         run: |
           if [ -d tests ]; then python -m unittest discover -s tests -v; fi
+      - name: Calculate current evidence status
+        run: python tools/analyze.py
       - name: Audit source and image metadata
         if: github.event_name == 'push'
         run: python tools/collect.py
       - name: Save metadata to this research branch
         if: github.event_name == 'push'
         env:
-          RESEARCH_BRANCH: analysis/2026-11-17-photo-estimate
+          RESEARCH_BRANCH: main
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- data/collection.json
+          git add -- data/collection.json results/estimate.json
           if ! git diff --cached --quiet; then
             git commit -m "Record HTTP provenance, hashes and image metadata [skip ci]"
             git push origin "HEAD:$RESEARCH_BRANCH"

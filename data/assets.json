@@ -9,7 +9,13 @@
       "event_date_claim": "2026-11-15",
       "pixel_review": false,
       "rights": "No redistribution permission established; link and metadata only",
-      "admitted_for_counting": false
+      "admitted_for_counting": false,
+      "observed_sha256": "fde3df6aef3c75d345b8326167683a2a388c7acc4f07096ead2bb678897fd4e7",
+      "observed_dimensions": [
+        1200,
+        675
+      ],
+      "exif": {}
     },
     {
       "id": "SZ-ELEVATED-POSTER",
@@ -20,7 +26,13 @@
       "event_date_claim": "2026-11-15",
       "pixel_review": false,
       "rights": "No redistribution permission established; link and metadata only",
-      "admitted_for_counting": false
+      "admitted_for_counting": false,
+      "observed_sha256": "2907866ce46807d4c32f69b34c5bcc4e520776fab3c34ba7201afe74c20134f6",
+      "observed_dimensions": [
+        1200,
+        675
+      ],
+      "exif": {}
     },
     {
       "id": "SZ-GALLERY-102",
@@ -31,7 +43,13 @@
       "event_date_claim": "2026-11-15",
       "pixel_review": false,
       "rights": "No redistribution permission established; link and metadata only",
-      "admitted_for_counting": false
+      "admitted_for_counting": false,
+      "observed_sha256": "5f3493e60a590d1730f091f5f49d8103bcd3099d254f329168e6a0070ba6eb24",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {}
     },
     {
       "id": "SZ-GALLERY-103",
@@ -42,7 +60,13 @@
       "event_date_claim": "2026-11-15",
       "pixel_review": false,
       "rights": "No redistribution permission established; link and metadata only",
-      "admitted_for_counting": false
+      "admitted_for_counting": false,
+      "observed_sha256": "d77418cddbaf9fda90f587c53d7a23232fc76aa16b8caa80d1fd03f575690b01",
+      "observed_dimensions": [
+        1200,
+        675
+      ],
+      "exif": {}
     },
     {
       "id": "SZ-GALLERY-104",
@@ -53,7 +77,13 @@
       "event_date_claim": "2026-11-15",
       "pixel_review": false,
       "rights": "No redistribution permission established; link and metadata only",
-      "admitted_for_counting": false
+      "admitted_for_counting": false,
+      "observed_sha256": "a238c67edbb97edac276dc3a9a20d548976b12a2780c9ac0cbc11a6df33d7a98",
+      "observed_dimensions": [
+        1200,
+        675
+      ],
+      "exif": {}
     },
     {
       "id": "SZ-GALLERY-105",
@@ -64,7 +94,13 @@
       "event_date_claim": "2026-11-15",
       "pixel_review": false,
       "rights": "No redistribution permission established; link and metadata only",
-      "admitted_for_counting": false
+      "admitted_for_counting": false,
+      "observed_sha256": "f06befd1cfefc703d49a895aa280b1f90044566081d9b63bf039bd0b84eb9f29",
+      "observed_dimensions": [
+        1200,
+        674
+      ],
+      "exif": {}
     },
     {
       "id": "SZ-360-POSTER",
@@ -75,7 +111,13 @@
       "event_date_claim": "2026-11-15",
       "pixel_review": false,
       "rights": "No redistribution permission established; link and metadata only",
-      "admitted_for_counting": false
+      "admitted_for_counting": false,
+      "observed_sha256": "7ef3ae71c697cdb7ca0c8872493c44e176e71aaf2189ac017301f55b082c2b66",
+      "observed_dimensions": [
+        1200,
+        675
+      ],
+      "exif": {}
     },
     {
       "id": "POLICE-POSTER-UNCROPPED",
@@ -87,7 +129,15 @@
       "pixel_review": false,
       "rights": "No redistribution permission established; link and metadata only",
       "admitted_for_counting": false,
-      "variant_of": "POLICE-POSTER"
+      "variant_of": "POLICE-POSTER",
+      "observed_sha256": "64f13ba86ffcbd82afd3ae46db2409445df2bd12862021e2efbb395d4dcf1777",
+      "observed_dimensions": [
+        1920,
+        1080
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 16:14:59"
+      }
     },
     {
       "id": "SZ-ELEVATED-POSTER-UNCROPPED",
@@ -99,7 +149,23 @@
       "pixel_review": false,
       "rights": "No redistribution permission established; link and metadata only",
       "admitted_for_counting": false,
-      "variant_of": "SZ-ELEVATED-POSTER"
+      "variant_of": "SZ-ELEVATED-POSTER",
+      "observed_sha256": "b1ff6e42e9cf2758254ad1fe2022988a158b313d7be3dba32ecc6139ee94dc27",
+      "observed_dimensions": [
+        2400,
+        1600
+      ],
+      "exif": {
+        "Make": "Canon",
+        "Model": "Canon EOS R5m2",
+        "DateTime": "2026:11:15 14:22:40",
+        "Copyright": "",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 14:22:40",
+        "DateTimeDigitized": "2026:11:15 14:22:40",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "capture_time_claim": "2026-11-15T14:22:40+01:00"
     },
     {
       "id": "SZ-GALLERY-102-UNCROPPED",
@@ -111,7 +177,20 @@
       "pixel_review": false,
       "rights": "No redistribution permission established; link and metadata only",
       "admitted_for_counting": false,
-      "variant_of": "SZ-GALLERY-102"
+      "variant_of": "SZ-GALLERY-102",
+      "observed_sha256": "0546b734d6c7f400e3897ba217e3236cd3121d3b51ffa80f6a89f0f72eaab776",
+      "observed_dimensions": [
+        3000,
+        2001
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 15:45:03",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 14:22:40",
+        "DateTimeDigitized": "2026:11:15 14:22:40",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "capture_time_claim": "2026-11-15T14:22:40+01:00"
     },
     {
       "id": "SZ-GALLERY-103-UNCROPPED",
@@ -123,7 +202,23 @@
       "pixel_review": false,
       "rights": "No redistribution permission established; link and metadata only",
       "admitted_for_counting": false,
-      "variant_of": "SZ-GALLERY-103"
+      "variant_of": "SZ-GALLERY-103",
+      "observed_sha256": "0ddf7709c491eb88fe817d21e0562e6ca71509ac2ad9dd17fb409344b928ca39",
+      "observed_dimensions": [
+        2400,
+        1600
+      ],
+      "exif": {
+        "Make": "Canon",
+        "Model": "Canon EOS R5m2",
+        "DateTime": "2026:11:15 14:24:25",
+        "Copyright": "",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 14:24:25",
+        "DateTimeDigitized": "2026:11:15 14:24:25",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "capture_time_claim": "2026-11-15T14:24:25+01:00"
     },
     {
       "id": "SZ-GALLERY-104-UNCROPPED",
@@ -135,7 +230,23 @@
       "pixel_review": false,
       "rights": "No redistribution permission established; link and metadata only",
       "admitted_for_counting": false,
-      "variant_of": "SZ-GALLERY-104"
+      "variant_of": "SZ-GALLERY-104",
+      "observed_sha256": "a1ab06cd8d1a1d8f2ac30959075c4217d1d4f09a507427e2cb75fa5b0e8d7a1c",
+      "observed_dimensions": [
+        2400,
+        1600
+      ],
+      "exif": {
+        "Make": "Canon",
+        "Model": "Canon EOS R5m2",
+        "DateTime": "2026:11:15 14:21:02",
+        "Copyright": "",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 14:21:02",
+        "DateTimeDigitized": "2026:11:15 14:21:02",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "capture_time_claim": "2026-11-15T14:21:02+01:00"
     },
     {
       "id": "SZ-GALLERY-105-UNCROPPED",
@@ -147,7 +258,20 @@
       "pixel_review": false,
       "rights": "No redistribution permission established; link and metadata only",
       "admitted_for_counting": false,
-      "variant_of": "SZ-GALLERY-105"
+      "variant_of": "SZ-GALLERY-105",
+      "observed_sha256": "254fa2cd61d41ef3b9e275abff657307fbb55c75a6f09f8a255021282279721a",
+      "observed_dimensions": [
+        3000,
+        2001
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 15:44:35",
+        "DateTimeOriginal": "2026:11:15 12:56:02",
+        "DateTimeDigitized": "2026:11:15 12:56:02",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "capture_time_claim": "2026-11-15T12:56:02+01:00",
+      "peak_use": "Excluded as evidence of peak: capture-time claim 12:56:02, before the scheduled 14:00 start."
     },
     {
       "id": "SZ-360-POSTER-UNCROPPED",
@@ -159,7 +283,18 @@
       "pixel_review": false,
       "rights": "No redistribution permission established; link and metadata only",
       "admitted_for_counting": false,
-      "variant_of": "SZ-360-POSTER"
+      "variant_of": "SZ-360-POSTER",
+      "observed_sha256": "dc000797b00f7fd4f96f5202fd11a267a68cf774168a5fd3d7f05119d9c8db86",
+      "observed_dimensions": [
+        3840,
+        2160
+      ],
+      "exif": {
+        "Make": "Arashi Vision",
+        "Model": "insta360 x3",
+        "DateTime": "2026:11:15 14:55:38",
+        "DateTimeOriginal": "2026:11:15 14:55:38"
+      }
     }
   ]
 }

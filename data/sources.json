@@ -84,6 +84,14 @@
       "creator": "SinMed",
       "status": "unverified_search_hit",
       "basis": "Vyhledávací výsledek zmiňoval Letnou 2026, otevřená stránka končila 11.11.2026. Bez konkrétní galerie nepoužít."
+    },
+    {
+      "id": "SINMED-LETNA",
+      "url": "https://www.sinmed.cz/fotogalerie/letna-2026-122.html",
+      "creator": "SinMed (individual photo credit not yet verified)",
+      "event_date_claim": "2026-11-15",
+      "status": "candidate_editorial",
+      "basis": "Exact gallery link discovered by direct HTTP collection. Search reader returned an older index; no pixel or authorship review yet."
     }
   ]
 }
