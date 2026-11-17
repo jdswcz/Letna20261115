@@ -3,16 +3,15 @@ on:
   push:
     branches: ['main']
     paths-ignore: ['data/collection.json', 'results/estimate.json', 'results/verification.json']
-  pull_request:
   workflow_dispatch:
 permissions:
   contents: read
 concurrency:
-  group: letna-research-${{ github.ref }}
+  group: letna-research-main
   cancel-in-progress: false
 jobs:
   verify:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     timeout-minutes: 15
     permissions:
       contents: write
@@ -21,6 +20,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
       - run: python -m pip install -r requirements.txt
       - name: Compile tools
         run: python -m compileall -q tools
@@ -50,15 +52,6 @@ jobs:
       - name: Inspect public video locators
         if: github.event_name == 'push' && contains(github.event.head_commit.message, '[inspect-video]')
         run: python tools/inventory_video.py
-      - name: Save metadata to this research branch
+      - name: Save research outputs
         if: github.event_name == 'push'
-        env:
-          RESEARCH_BRANCH: main
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- data/collection.json results/estimate.json results/verification.json data/download_manifest.json data/gallery_inventory.json maps/ results/reference_areas.json data/video_locators.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Record HTTP provenance, hashes and image metadata [skip ci]"
-            git push origin "HEAD:$RESEARCH_BRANCH"
-          fi
+        run: python tools/persist_results.py

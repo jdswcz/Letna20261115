@@ -1,0 +1,21 @@
+name: Self hosted compute probe
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/runner-probe.yml', 'tools/runner_probe.py']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: letna-research-main
+  cancel-in-progress: false
+jobs:
+  probe:
+    runs-on: self-hosted
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python tools/runner_probe.py

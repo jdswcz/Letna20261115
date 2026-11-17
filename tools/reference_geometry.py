@@ -14,7 +14,7 @@ def main():
     back=Transformer.from_crs(32633,4326,always_xy=True).transform
     image=Image.open(ROOT/"maps/cuzk_ortho.jpg").convert("RGB")
     draw=ImageDraw.Draw(image)
-    font=ImageFont.truetype("DejaVuSans.ttf",18)
+    font=ImageFont.load_default(size=18)
     features=[];rows=[]
     for index,feature in enumerate(source["features"]):
         p=feature["properties"];points=p["pixel_coordinates"]
