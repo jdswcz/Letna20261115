@@ -1,75 +1,31 @@
 {
-  "session_id": "quantitative-rink-01",
+  "session_id": "quantitative-map-and-wide-02",
   "public_key": "yzftgOi9PSqux8hMIC9gE9XYy26s2AtcVyv2BA1CwQM=",
-  "max_width": 1800,
-  "max_height": 1400,
-  "jpeg_quality": 95,
+  "max_width": 1600,
+  "max_height": 1200,
+  "jpeg_quality": 90,
   "items": [
     {
-      "id": "RINK-TUR",
-      "asset_id": "SZ-GALLERY-102-UNCROPPED",
+      "id": "MAP-CLOSE",
+      "asset_id": "CUZK-ORTHO",
       "crop": [
-        2200,
-        650,
-        2800,
-        1000
-      ],
-      "scale": 2
+        430,
+        430,
+        1450,
+        1100
+      ]
     },
     {
-      "id": "RINK-POLICE",
-      "asset_id": "POLICE-POSTER-UNCROPPED",
-      "crop": [
-        280,
-        250,
-        600,
-        420
-      ],
-      "scale": 3
+      "id": "WIDE-102",
+      "asset_id": "SZ-GALLERY-102-UNCROPPED"
     },
     {
-      "id": "COUNT-FRONT-A",
-      "asset_id": "SZ-GALLERY-102-UNCROPPED",
-      "crop": [
-        1000,
-        1400,
-        1120,
-        1520
-      ],
-      "scale": 5
+      "id": "WIDE-POLICE",
+      "asset_id": "POLICE-POSTER-UNCROPPED"
     },
     {
-      "id": "COUNT-FRONT-B",
-      "asset_id": "SZ-GALLERY-102-UNCROPPED",
-      "crop": [
-        1500,
-        1320,
-        1620,
-        1440
-      ],
-      "scale": 5
-    },
-    {
-      "id": "COUNT-MID",
-      "asset_id": "SZ-GALLERY-102-UNCROPPED",
-      "crop": [
-        1700,
-        1050,
-        1820,
-        1170
-      ],
-      "scale": 5
-    },
-    {
-      "id": "COUNT-BACK",
-      "asset_id": "SZ-GALLERY-102-UNCROPPED",
-      "crop": [
-        1800,
-        900,
-        1920,
-        1020
-      ],
-      "scale": 5
+      "id": "WIDE-19",
+      "asset_id": "SZ-ALBUM-19"
     }
   ]
 }
