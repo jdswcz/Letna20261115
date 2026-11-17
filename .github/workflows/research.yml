@@ -56,4 +56,6 @@ jobs:
         run: python tools/inventory_video.py
       - name: Save research outputs
         if: github.event_name == 'push'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python tools/persist_results.py

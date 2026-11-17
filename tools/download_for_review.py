@@ -60,10 +60,13 @@ def main():
             if urlsplit(url).scheme != "https" or urlsplit(url).hostname not in {
                 "d15-a.sdn.cz","d39-a.sdn.cz","www.sinmed.cz","ags.cuzk.gov.cz","1884403144.rsc.cdn77.org"}:
                 raise ValueError("Not a reviewed photo host")
-            req = Request(url,headers={"User-Agent":"Letna20261115-research/0.2"})
-            with urlopen(req,timeout=40) as response:
-                data = response.read(32*1024*1024+1)
-                if len(data)>32*1024*1024: raise ValueError("Photo exceeds download limit")
+            if asset["id"]=="CUZK-ORTHO":
+                data=(ROOT/"maps/cuzk_ortho.jpg").read_bytes()
+            else:
+                req = Request(url,headers={"User-Agent":"Letna20261115-research/0.2"})
+                with urlopen(req,timeout=40) as response:
+                    data = response.read(32*1024*1024+1)
+                    if len(data)>32*1024*1024: raise ValueError("Photo exceeds download limit")
             digest = hashlib.sha256(data).hexdigest()
             expected = asset.get("observed_sha256")
             if expected and digest != expected: raise ValueError("Photo bytes changed; requires renewed review")
