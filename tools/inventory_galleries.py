@@ -13,7 +13,7 @@ SOURCES={
 def slim(value):
     if isinstance(value,dict):
         return {k:slim(v) for k,v in value.items() if k.lower() not in
-            {"body","content","text","perex","description","html","headline"}}
+            {"body","content","text","perex","description","html","headline","title"}}
     if isinstance(value,list): return [slim(x) for x in value[:100]]
     return value
 class Parser(HTMLParser):
