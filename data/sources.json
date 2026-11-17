@@ -1,0 +1,89 @@
+{
+  "checked_date": "2026-11-17",
+  "timezone": "Europe/Prague",
+  "sources": [
+    {
+      "id": "SZ-GALLERY",
+      "url": "https://www.seznamzpravy.cz/clanek/obrazem-obrazem-andreji-macinko-okamuro-mame-toho-dost-letna-proti-zestatneni-medii-320577",
+      "creator": "Michal Turek / Seznam Zprávy",
+      "event_date": "2026-11-15",
+      "status": "candidate_editorial",
+      "basis": "Galerie vydaná 15. 11. 2026 13:55 a aktualizovaná 17:57; přímý kredit fotografa. Datum článku samo nedokládá čas každého snímku.",
+      "group": "SZ-Turek",
+      "capture_time": null
+    },
+    {
+      "id": "SZ-ELEVATED",
+      "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-video-takto-vypada-plna-letna-z-vysky-320595",
+      "creator": "Michal Turek / Seznam Zprávy",
+      "event_date": "2026-11-15",
+      "published_local": "2026-11-15T15:01:00+01:00",
+      "status": "candidate_editorial",
+      "basis": "Video z výšky, přímý kredit autora a datum publikace. Náhled není náhradou celého videa.",
+      "group": "SZ-Turek",
+      "capture_time": null
+    },
+    {
+      "id": "POLICE-NOVINKY",
+      "url": "https://www.novinky.cz/clanek/domaci-zabery-z-dronu-ukazaly-statisice-lidi-na-letne-40608773",
+      "creator": "Policie ČR (video), Pavel Nádvorník (článek)",
+      "event_date": "2026-11-15",
+      "published_local": "2026-11-15T16:24:00+01:00",
+      "status": "candidate_attributed_police",
+      "basis": "Novinky výslovně připisují letecké video Policii ČR. Původní soubor a čas pořízení zatím neověřeny.",
+      "group": "POLICE",
+      "capture_time": null
+    },
+    {
+      "id": "SZ-360",
+      "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-milion-chvilek-plna-letna-podivejte-se-na-360-stupnove-zabery-z-mista-320631",
+      "creator": "Pavla Chalupová, Jiří Kropáček / Seznam Zprávy",
+      "event_date": "2026-11-15",
+      "status": "candidate_editorial",
+      "basis": "Dobová reportáž s 360stupňovými záběry; vyžaduje určení projekce, pozice kamery a času pořízení.",
+      "group": "SZ-360",
+      "capture_time": null
+    },
+    {
+      "id": "CRO-JIRASEK",
+      "url": "https://www.irozhlas.cz/zpravy-domov/zive-na-prazske-letne-se-lide-schazeji-k-protestu-za-nezavislost-verejnopravnich_2611151349_vdv",
+      "creator": "Jakub Jirásek / Český rozhlas (hlavní snímek)",
+      "event_date": "2026-11-15",
+      "status": "candidate_editorial",
+      "basis": "Popisek hlavního snímku uvádí datum 15. listopadu 2026 i autora. Pixely a přesný okamžik nebyly prověřeny.",
+      "group": "CRO-JIRASEK",
+      "capture_time": null
+    },
+    {
+      "id": "BLESK-MALIK",
+      "url": "https://www.blesk.cz/galerie/zpravy-politika/1509914/online-demonstrace-letna-proti-4-36-koller-sverak-a-az-450-tisic-lidi-s-dopravou-byly-problemy",
+      "creator": "David Malík / Blesk (jen jednotlivě připsané fotografie)",
+      "event_date": "2026-11-15",
+      "status": "mixed_gallery_requires_per_asset_review",
+      "basis": "Galerie míchá přípravy 14.11., fotografie ČTK, PID a Facebooku s vlastními snímky 15.11. Přijetí celé galerie by bylo chybné.",
+      "group": "BLESK-MALIK",
+      "capture_time": null
+    },
+    {
+      "id": "P7-CONTEXT",
+      "url": "https://www.praha7.cz/demonstrace-11-26/",
+      "creator": "MČ Praha 7",
+      "status": "context_only",
+      "basis": "Aktuality k 15.11.2026, ale titulní fotografie je výslovně z března 2026. Fotografie vyloučena."
+    },
+    {
+      "id": "ORGANIZER-MAP",
+      "url": "https://letna.milionchvilek.cz/letna",
+      "creator": "Milion chvilek",
+      "status": "context_only",
+      "basis": "Plán organizace není mapa skutečné obsazenosti; nepřebírat počet organizátorů jako kalibraci."
+    },
+    {
+      "id": "SINMED-INDEX",
+      "url": "https://www.sinmed.cz/fotogalerie/",
+      "creator": "SinMed",
+      "status": "unverified_search_hit",
+      "basis": "Vyhledávací výsledek zmiňoval Letnou 2026, otevřená stránka končila 11.11.2026. Bez konkrétní galerie nepoužít."
+    }
+  ]
+}

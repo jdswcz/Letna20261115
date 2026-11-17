@@ -1,0 +1,70 @@
+{
+  "assets": [
+    {
+      "id": "POLICE-POSTER",
+      "source_id": "POLICE-NOVINKY",
+      "url": "https://d15-a.sdn.cz/d_15/c_img_qH_A/kb4JgeTdk3RI9L02IXjxz2/14ad/letna-demonstrace.jpeg?fl=cro,0,0,1920,1080%7Cres,1200,,1%7Cwebp,75",
+      "status": "candidate",
+      "capture_time": null,
+      "event_date_claim": "2026-11-15",
+      "pixel_review": false,
+      "rights": "No redistribution permission established; link and metadata only",
+      "admitted_for_counting": false
+    },
+    {
+      "id": "SZ-ELEVATED-POSTER",
+      "source_id": "SZ-ELEVATED",
+      "url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkB87eWGxTTIXhQOS/f0cf.jpeg?fl=cro,0,125,2400,1350%7Cres,1200,,1%7Cwebp,75",
+      "status": "candidate",
+      "capture_time": null,
+      "event_date_claim": "2026-11-15",
+      "pixel_review": false,
+      "rights": "No redistribution permission established; link and metadata only",
+      "admitted_for_counting": false
+    },
+    {
+      "id": "SZ-GALLERY-102",
+      "source_id": "SZ-GALLERY",
+      "url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCM3uZBC73IXjDwg/d285/turek.jpeg?fl=cro,0,0,3000,2001%7Cres,1200,,1%7Cwebp,75",
+      "status": "candidate",
+      "capture_time": null,
+      "event_date_claim": "2026-11-15",
+      "pixel_review": false,
+      "rights": "No redistribution permission established; link and metadata only",
+      "admitted_for_counting": false
+    },
+    {
+      "id": "SZ-GALLERY-103",
+      "source_id": "SZ-GALLERY",
+      "url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCl5yxt7vIXhOo8/4241.jpeg?fl=cro,0,125,2400,1350%7Cres,1200,,1%7Cwebp,75",
+      "status": "candidate",
+      "capture_time": null,
+      "event_date_claim": "2026-11-15",
+      "pixel_review": false,
+      "rights": "No redistribution permission established; link and metadata only",
+      "admitted_for_counting": false
+    },
+    {
+      "id": "SZ-GALLERY-104",
+      "source_id": "SZ-GALLERY",
+      "url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCEwoKDUyIXhOT0/7ea1.jpeg?fl=cro,0,125,2400,1350%7Cres,1200,,1%7Cwebp,75",
+      "status": "candidate",
+      "capture_time": null,
+      "event_date_claim": "2026-11-15",
+      "pixel_review": false,
+      "rights": "No redistribution permission established; link and metadata only",
+      "admitted_for_counting": false
+    },
+    {
+      "id": "SZ-GALLERY-105",
+      "source_id": "SZ-GALLERY",
+      "url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDrngKDItyIXjDIu/d843/turek.jpeg?fl=cro,0,156,3000,1687%7Cres,1200,,1%7Cwebp,75",
+      "status": "candidate",
+      "capture_time": null,
+      "event_date_claim": "2026-11-15",
+      "pixel_review": false,
+      "rights": "No redistribution permission established; link and metadata only",
+      "admitted_for_counting": false
+    }
+  ]
+}
