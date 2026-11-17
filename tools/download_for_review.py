@@ -17,6 +17,9 @@ ROOT = Path(__file__).resolve().parents[1]
 def main():
     session = json.loads((ROOT/"data/review_session.json").read_text())
     assets = {a["id"]:a for a in json.loads((ROOT/"data/assets.json").read_text())["assets"]}
+    if (ROOT/"maps/cuzk_ortho.json").exists():
+        mapping=json.loads((ROOT/"maps/cuzk_ortho.json").read_text())
+        assets["CUZK-ORTHO"]={"id":"CUZK-ORTHO","url":mapping["url"],"observed_sha256":mapping["sha256"]}
     public = X25519PublicKey.from_public_bytes(base64.b64decode(session["public_key"]))
     private_dir = ROOT/"private_downloads"
     private_dir.mkdir(exist_ok=True)
@@ -28,7 +31,7 @@ def main():
         try:
             url = asset["url"]
             if urlsplit(url).scheme != "https" or urlsplit(url).hostname not in {
-                "d15-a.sdn.cz","d39-a.sdn.cz","www.sinmed.cz"}:
+                "d15-a.sdn.cz","d39-a.sdn.cz","www.sinmed.cz","ags.cuzk.gov.cz"}:
                 raise ValueError("Not a reviewed photo host")
             req = Request(url,headers={"User-Agent":"Letna20261115-research/0.2"})
             with urlopen(req,timeout=40) as response:

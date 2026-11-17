@@ -31,6 +31,9 @@ jobs:
       - name: Audit source and image metadata
         if: github.event_name == 'push'
         run: python tools/collect.py
+      - name: Download official reference map
+        if: github.event_name == 'push'
+        run: python tools/download_map.py
       - name: Download photos and prepare private visual review
         if: github.event_name == 'push'
         run: |
@@ -43,7 +46,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- data/collection.json results/estimate.json results/verification.json data/download_manifest.json
+          git add -- data/collection.json results/estimate.json results/verification.json data/download_manifest.json maps/
           if ! git diff --cached --quiet; then
             git commit -m "Record HTTP provenance, hashes and image metadata [skip ci]"
             git push origin "HEAD:$RESEARCH_BRANCH"
