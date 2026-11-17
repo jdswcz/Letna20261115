@@ -1,0 +1,8 @@
+{
+  "status": "insufficient_evidence",
+  "event_peak": null,
+  "observed_max": null,
+  "snapshots": [],
+  "interval_type": "scenario_envelope_not_confidence_interval",
+  "reason": "No measured sectors, calibrated densities or synchronized snapshots."
+}
