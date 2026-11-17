@@ -1,0 +1,37 @@
+{
+  "session_id": "review-20261117-01",
+  "public_key": "rLuWpZgszC4VuJai1coElBBqhBCstsEV4OffdXk65hY=",
+  "max_width": 1600,
+  "max_height": 1200,
+  "jpeg_quality": 85,
+  "items": [
+    {
+      "id": "POLICE-POSTER-UNCROPPED",
+      "asset_id": "POLICE-POSTER-UNCROPPED"
+    },
+    {
+      "id": "SZ-ELEVATED-POSTER-UNCROPPED",
+      "asset_id": "SZ-ELEVATED-POSTER-UNCROPPED"
+    },
+    {
+      "id": "SZ-GALLERY-102-UNCROPPED",
+      "asset_id": "SZ-GALLERY-102-UNCROPPED"
+    },
+    {
+      "id": "SZ-GALLERY-103-UNCROPPED",
+      "asset_id": "SZ-GALLERY-103-UNCROPPED"
+    },
+    {
+      "id": "SZ-GALLERY-104-UNCROPPED",
+      "asset_id": "SZ-GALLERY-104-UNCROPPED"
+    },
+    {
+      "id": "SZ-GALLERY-105-UNCROPPED",
+      "asset_id": "SZ-GALLERY-105-UNCROPPED"
+    },
+    {
+      "id": "SZ-360-POSTER-UNCROPPED",
+      "asset_id": "SZ-360-POSTER-UNCROPPED"
+    }
+  ]
+}
