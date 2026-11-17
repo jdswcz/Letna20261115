@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-15",
+  "sources": [
+    {
+      "url": "https://www.praha7.cz/kluziste-26/",
+      "publisher": "MČ Praha 7",
+      "season": "2026/2027",
+      "dimensions_m": [
+        43,
+        20
+      ],
+      "checked_date": "2026-11-17"
+    },
+    {
+      "url": "https://www.ice-tec.cz/kluziste-praha-letna.php",
+      "publisher": "Provozovatel",
+      "season": "2026/2027",
+      "dimensions_m": [
+        43,
+        25
+      ],
+      "checked_date": "2026-11-17"
+    }
+  ],
+  "status": "Conflicting short-side lengths; test 20 and 25 m, not an exact calibration.",
+  "rounded_corners": true,
+  "board_height_unknown": true
+}

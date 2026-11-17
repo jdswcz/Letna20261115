@@ -1,0 +1,17 @@
+{
+  "system": "Windows",
+  "release": "2019Server",
+  "machine": "AMD64",
+  "python": "3.12.10",
+  "cpu_count": 8,
+  "packages": {
+    "numpy": false,
+    "scipy": false,
+    "cv2": false,
+    "torch": false,
+    "PIL": false,
+    "pyproj": false,
+    "shapely": false
+  },
+  "gpu": null
+}

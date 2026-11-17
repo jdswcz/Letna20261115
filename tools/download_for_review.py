@@ -2,7 +2,7 @@
 Previews are encrypted to the reviewer's ephemeral public key before entering logs.
 No private key, clear photo, thumbnail or image artifact is published.
 """
-import base64, hashlib, io, json, os
+import base64, hashlib, io, json, os, sys
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.request import Request, urlopen
@@ -40,7 +40,8 @@ def emit(preview, public, identifier, session_id, dimensions, crop=None, raw_sha
     
 
 def main():
-    session = json.loads((ROOT/"data/review_session.json").read_text())
+    session_path=ROOT/(sys.argv[1] if len(sys.argv)>1 else "data/review_session.json")
+    session = json.loads(session_path.read_text())
     assets = {a["id"]:a for a in json.loads((ROOT/"data/assets.json").read_text())["assets"]}
     if (ROOT/"maps/cuzk_ortho.json").exists():
         mapping=json.loads((ROOT/"maps/cuzk_ortho.json").read_text())
