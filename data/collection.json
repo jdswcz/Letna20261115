@@ -1,5 +1,5 @@
 {
-  "started_at_utc": "2026-11-17T00:34:28.317339+00:00",
+  "started_at_utc": "2026-11-17T00:36:59.300104+00:00",
   "note": "HTTP success, captions and EXIF do not by themselves authenticate pixels.",
   "sources": [
     {
@@ -10,11 +10,11 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Last-Modified": null,
-        "ETag": "W/\"75c3b-a+kPoamPluB3mhqDym2HNRtm+Mw\"",
-        "Content-Length": "482363"
+        "ETag": "W/\"75c3c-v5vMy1FQVFM90WQgGTL9BWaTprI\"",
+        "Content-Length": "482364"
       },
-      "sha256": "659ab17abc0109e4819363518578bea6fb18654f1e3c9dce3a9c638c109b7fe3",
-      "bytes": 482363,
+      "sha256": "b30804ce302dab04802d9af8fd4e52b11a8329ee65c990222b2a297f6fa418a0",
+      "bytes": 482364,
       "metadata": [
         {
           "key": "twitter:title",
@@ -183,149 +183,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Last-Modified": null,
-        "ETag": "W/\"693a9-Dth/eu5XBvGmusvtpwx9XJetli4\"",
-        "Content-Length": "431017"
+        "ETag": "W/\"17419-35mufTqA3UNFofCYy4Zs9IhqbNc\"",
+        "Content-Length": "95257"
       },
-      "sha256": "deae04d04633030eb96248f35c1373c5f05c60cac9e50dffaf8a0aef423efc0f",
-      "bytes": 431017,
-      "metadata": [
-        {
-          "key": "twitter:title",
-          "value": "Video: Takto vypadá plná Letná z výšky - Seznam Zprávy"
-        },
-        {
-          "key": "twitter:image",
-          "value": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkB87eWGxTTIXhQOS/f0cf.jpeg?fl=cro,0,125,2400,1350%7Cres,1200,,1"
-        },
-        {
-          "key": "szn:galleries-image-link",
-          "value": "https://api-web.seznamzpravy.cz/v1/galleries-image-link/6af9fb7960fa282624089fc7"
-        },
-        {
-          "key": "szn:image",
-          "value": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkB87eWGxTTIXhQOS/f0cf.jpeg?fl=cro,0,125,2400,1350%7Cres,1200,,1"
-        },
-        {
-          "key": "szn:imagePreviewType",
-          "value": "common"
-        },
-        {
-          "key": "og:title",
-          "value": "Video: Takto vypadá plná Letná z výšky - Seznam Zprávy"
-        },
-        {
-          "key": "og:image",
-          "value": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkB87eWGxTTIXhQOS/f0cf.jpeg?fl=cro,0,125,2400,1350%7Cres,1200,,1"
-        }
-      ],
-      "image_candidates": [
-        {
-          "alt": "Seznam Zprávy",
-          "src": "https://d39-a.sdn.cz/d_39/c_static_gX_F/vjMGM/seznam-zpravy-logo.svg"
-        },
-        {
-          "height": "1012",
-          "width": "1800",
-          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdk3RI9gurIYHfaW/b0f5/fsadf.jpeg?fl=cro,0,93,1800,1012%7Cres,320,,1%7Cwebp,75"
-        },
-        {
-          "height": "1687",
-          "width": "3000",
-          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkBcInfHTUXIYKwHp/1bf9.jpeg?fl=cro,0,156,3000,1687%7Cres,320,,1%7Cwebp,75"
-        },
-        {
-          "height": "2304",
-          "width": "4096",
-          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TkUyxDbjmIRll5n/d58e/iran.jpeg?fl=cro,0,289,4096,2304%7Cres,320,,1%7Cwebp,75"
-        },
-        {
-          "height": "1687",
-          "width": "3000",
-          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCl5yxyAkIXjDpv/4baa/turek.jpeg?fl=cro,0,156,3000,1687%7Cres,320,,1%7Cwebp,75"
-        },
-        {
-          "height": "2304",
-          "width": "4096",
-          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCfcGaHImIYDZn8/9daa/mercedes-automobilky-madarsko.jpeg?fl=cro,0,381,4096,2304%7Cres,320,,1%7Cwebp,75"
-        },
-        {
-          "height": "720",
-          "width": "1280",
-          "src": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TBjrrQBhuwIYKZwt/e7f2.jpeg?fl=cro,0,0,1280,720%7Cres,320,,1%7Cwebp,75"
-        },
-        {
-          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkB87eWGxTTIXhQOS/f0cf.jpeg?fl=cro,0,125,2400,1350%7Cres,1200,,1%7Cwebp,75"
-        },
-        {
-          "height": "666",
-          "width": "666",
-          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDrngKDoTQIYR9us/e417/aws.jpeg?fl=cro,167,0,666,666%7Cres,80,,1%7Cwebp,75"
-        },
-        {
-          "height": "2001",
-          "width": "2001",
-          "src": "//d39-a.sdn.cz/d_39/c_img_qG_A/nQO0xPd86Tw5RPCknVINmj8z/4083.jpeg?fl=cro,499,0,2001,2001%7Cres,80,,1%7Cwebp,75"
-        },
-        {
-          "height": "2842",
-          "width": "2842",
-          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCEwoKZdcIYCJ1c/146e/putin-kushner-witkoff.jpeg?fl=cro,627,0,2842,2842%7Cres,80,,1%7Cwebp,75"
-        },
-        {
-          "height": "1012",
-          "srcset": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdk3RI9gurIYHfaW/b0f5/fsadf.jpeg?fl=cro,0,93,1800,1012%7Cres,160,,1%7Cwebp,75 160w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdk3RI9gurIYHfaW/b0f5/fsadf.jpeg?fl=cro,0,93,1800,1012%7Cres,240,,1%7Cwebp,75 240w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdk3RI9gurIYHfaW/b0f5/fsadf.jpeg?fl=cro,0,93,1800,1012%7Cres,320,,1%7Cwebp,75 320w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdk3RI9gurIYHfaW/b0f5/fsadf.jpeg?fl=cro,0,93,1800,1012%7Cres,480,,1%7Cwebp,75 480w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdk3RI9gurIYHfaW/b0f5/fsadf.jpeg?fl=cro,0,93,1800,1012%7Cres,600,,1%7Cwebp,75 600w",
-          "width": "1800",
-          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdk3RI9gurIYHfaW/b0f5/fsadf.jpeg?fl=cro,0,93,1800,1012%7Cres,600,,1%7Cwebp,75"
-        },
-        {
-          "height": "1687",
-          "srcset": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkBcInfHTUXIYKwHp/1bf9.jpeg?fl=cro,0,156,3000,1687%7Cres,160,,1%7Cwebp,75 160w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkBcInfHTUXIYKwHp/1bf9.jpeg?fl=cro,0,156,3000,1687%7Cres,240,,1%7Cwebp,75 240w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkBcInfHTUXIYKwHp/1bf9.jpeg?fl=cro,0,156,3000,1687%7Cres,320,,1%7Cwebp,75 320w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkBcInfHTUXIYKwHp/1bf9.jpeg?fl=cro,0,156,3000,1687%7Cres,480,,1%7Cwebp,75 480w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkBcInfHTUXIYKwHp/1bf9.jpeg?fl=cro,0,156,3000,1687%7Cres,600,,1%7Cwebp,75 600w",
-          "width": "3000",
-          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkBcInfHTUXIYKwHp/1bf9.jpeg?fl=cro,0,156,3000,1687%7Cres,600,,1%7Cwebp,75"
-        },
-        {
-          "height": "2304",
-          "srcset": "//d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TkUyxDbjmIRll5n/d58e/iran.jpeg?fl=cro,0,289,4096,2304%7Cres,160,,1%7Cwebp,75 160w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TkUyxDbjmIRll5n/d58e/iran.jpeg?fl=cro,0,289,4096,2304%7Cres,240,,1%7Cwebp,75 240w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TkUyxDbjmIRll5n/d58e/iran.jpeg?fl=cro,0,289,4096,2304%7Cres,320,,1%7Cwebp,75 320w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TkUyxDbjmIRll5n/d58e/iran.jpeg?fl=cro,0,289,4096,2304%7Cres,480,,1%7Cwebp,75 480w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TkUyxDbjmIRll5n/d58e/iran.jpeg?fl=cro,0,289,4096,2304%7Cres,600,,1%7Cwebp,75 600w",
-          "width": "4096",
-          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TkUyxDbjmIRll5n/d58e/iran.jpeg?fl=cro,0,289,4096,2304%7Cres,600,,1%7Cwebp,75"
-        },
-        {
-          "height": "1687",
-          "srcset": "//d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCl5yxyAkIXjDpv/4baa/turek.jpeg?fl=cro,0,156,3000,1687%7Cres,160,,1%7Cwebp,75 160w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCl5yxyAkIXjDpv/4baa/turek.jpeg?fl=cro,0,156,3000,1687%7Cres,240,,1%7Cwebp,75 240w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCl5yxyAkIXjDpv/4baa/turek.jpeg?fl=cro,0,156,3000,1687%7Cres,320,,1%7Cwebp,75 320w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCl5yxyAkIXjDpv/4baa/turek.jpeg?fl=cro,0,156,3000,1687%7Cres,480,,1%7Cwebp,75 480w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCl5yxyAkIXjDpv/4baa/turek.jpeg?fl=cro,0,156,3000,1687%7Cres,600,,1%7Cwebp,75 600w",
-          "width": "3000",
-          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCl5yxyAkIXjDpv/4baa/turek.jpeg?fl=cro,0,156,3000,1687%7Cres,600,,1%7Cwebp,75"
-        },
-        {
-          "height": "2304",
-          "srcset": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCfcGaHImIYDZn8/9daa/mercedes-automobilky-madarsko.jpeg?fl=cro,0,381,4096,2304%7Cres,160,,1%7Cwebp,75 160w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCfcGaHImIYDZn8/9daa/mercedes-automobilky-madarsko.jpeg?fl=cro,0,381,4096,2304%7Cres,240,,1%7Cwebp,75 240w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCfcGaHImIYDZn8/9daa/mercedes-automobilky-madarsko.jpeg?fl=cro,0,381,4096,2304%7Cres,320,,1%7Cwebp,75 320w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCfcGaHImIYDZn8/9daa/mercedes-automobilky-madarsko.jpeg?fl=cro,0,381,4096,2304%7Cres,480,,1%7Cwebp,75 480w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCfcGaHImIYDZn8/9daa/mercedes-automobilky-madarsko.jpeg?fl=cro,0,381,4096,2304%7Cres,600,,1%7Cwebp,75 600w",
-          "width": "4096",
-          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCfcGaHImIYDZn8/9daa/mercedes-automobilky-madarsko.jpeg?fl=cro,0,381,4096,2304%7Cres,600,,1%7Cwebp,75"
-        },
-        {
-          "height": "720",
-          "srcset": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TBjrrQBhuwIYKZwt/e7f2.jpeg?fl=cro,0,0,1280,720%7Cres,160,,1%7Cwebp,75 160w, https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TBjrrQBhuwIYKZwt/e7f2.jpeg?fl=cro,0,0,1280,720%7Cres,240,,1%7Cwebp,75 240w, https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TBjrrQBhuwIYKZwt/e7f2.jpeg?fl=cro,0,0,1280,720%7Cres,320,,1%7Cwebp,75 320w, https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TBjrrQBhuwIYKZwt/e7f2.jpeg?fl=cro,0,0,1280,720%7Cres,480,,1%7Cwebp,75 480w, https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TBjrrQBhuwIYKZwt/e7f2.jpeg?fl=cro,0,0,1280,720%7Cres,600,,1%7Cwebp,75 600w",
-          "width": "1280",
-          "src": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TBjrrQBhuwIYKZwt/e7f2.jpeg?fl=cro,0,0,1280,720%7Cres,600,,1%7Cwebp,75"
-        },
-        {
-          "height": "61",
-          "width": "300",
-          "src": "https://d39-a.sdn.cz/d_39/c_static_gS_L/WQgg/seznam-logo.svg"
-        }
-      ],
+      "sha256": "c981acf3530607c47400d08ba9e1185c2f2cdbcddf6b4591371b5f215cc9d5c3",
+      "bytes": 95257,
+      "metadata": [],
+      "image_candidates": [],
       "iframe_candidates": [],
-      "link_candidates": [
-        "https://www.seznamzpravy.cz/sekce/audio-podcast-galerie-osobnosti-467",
-        "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-video-takto-vypada-plna-letna-z-vysky-320595",
-        "https://www.seznamzpravy.cz/clanek/domaci-politika-z-minare-se-stal-profesional-bude-letna-k-necemu-320633",
-        "https://www.seznamzpravy.cz/clanek/obrazem-obrazem-andreji-macinko-okamuro-mame-toho-dost-letna-proti-zestatneni-medii-320577",
-        "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-demonstrace-letna-2026-praha-milion-chvilek-online-320349",
-        "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.seznamzpravy.cz%2Fclanek%2Fdomaci-zivot-v-cesku-video-takto-vypada-plna-letna-z-vysky-320595",
-        "https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.seznamzpravy.cz%2Fclanek%2Fdomaci-zivot-v-cesku-video-takto-vypada-plna-letna-z-vysky-320595&title=Video%3A+Takto+vypad%C3%A1+pln%C3%A1+Letn%C3%A1+z%C2%A0v%C3%BD%C5%A1ky&via=SeznamZpravy&related=SeznamZpravy",
-        "https://www.seznamzpravy.cz/tag/letna-5974",
-        "https://www.seznamzpravy.cz/tag/demonstrace-letna-128133",
-        "https://www.zbozi.cz/elektronika/tv-a-audio-video/televizory"
-      ]
+      "link_candidates": []
     },
     {
       "id": "POLICE-NOVINKY",
@@ -335,11 +201,11 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Last-Modified": null,
-        "ETag": "W/\"13168-WDCB+fnjhNX5OKBffUYuRZr0VaE\"",
-        "Content-Length": "78184"
+        "ETag": "W/\"13166-x1i8Id1gPGPgwiejioWRGQFWP3g\"",
+        "Content-Length": "78182"
       },
-      "sha256": "b6928d1215c1b620165f5335dafc34cafde1a52881f719a8c4fac7776db7a30b",
-      "bytes": 78184,
+      "sha256": "0374e1bf3b94c9c55ab21da4088257a507e73061dc7e06cc1f86c81fc0df42f0",
+      "bytes": 78182,
       "metadata": [],
       "image_candidates": [],
       "iframe_candidates": [],
@@ -353,154 +219,15 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Last-Modified": null,
-        "ETag": "W/\"7e2a8-PqPABd/9N0ByAlIl4yAl6TkY6J8\"",
-        "Content-Length": "516776"
+        "ETag": "W/\"1e4a1-7+QOacazfkzpHAkAzzDT8HNe+TI\"",
+        "Content-Length": "124065"
       },
-      "sha256": "07e7eb14bca7fb82d1dc21bf0a84e45c2a5a7fc3f4a620841cd918118c92899f",
-      "bytes": 516776,
-      "metadata": [
-        {
-          "key": "twitter:title",
-          "value": "Plná Letná. Podívejte se na unikátní 360stupňové záběry z místa - Seznam Zprávy"
-        },
-        {
-          "key": "twitter:image",
-          "value": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDrngKDOn2IXo85u/b56f/pano.jpeg?fl=cro,250,180,3404,1915%7Cres,1200,,1"
-        },
-        {
-          "key": "szn:galleries-image-link",
-          "value": "https://api-web.seznamzpravy.cz/v1/galleries-image-link/6afb45051149e943070f00dd"
-        },
-        {
-          "key": "szn:image",
-          "value": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDrngKDOn2IXo85u/b56f/pano.jpeg?fl=cro,250,180,3404,1915%7Cres,1200,,1"
-        },
-        {
-          "key": "szn:imagePreviewType",
-          "value": "common"
-        },
-        {
-          "key": "og:title",
-          "value": "Plná Letná. Podívejte se na unikátní 360stupňové záběry z místa - Seznam Zprávy"
-        },
-        {
-          "key": "og:image",
-          "value": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDrngKDOn2IXo85u/b56f/pano.jpeg?fl=cro,250,180,3404,1915%7Cres,1200,,1"
-        }
-      ],
-      "image_candidates": [
-        {
-          "alt": "Seznam Zprávy",
-          "src": "https://d39-a.sdn.cz/d_39/c_static_gX_F/vjMGM/seznam-zpravy-logo.svg"
-        },
-        {
-          "height": "1012",
-          "width": "1800",
-          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdk3RI9gurIYHfaW/b0f5/fsadf.jpeg?fl=cro,0,93,1800,1012%7Cres,320,,1%7Cwebp,75"
-        },
-        {
-          "height": "1687",
-          "width": "3000",
-          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkBcInfHTUXIYKwHp/1bf9.jpeg?fl=cro,0,156,3000,1687%7Cres,320,,1%7Cwebp,75"
-        },
-        {
-          "height": "2304",
-          "width": "4096",
-          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TkUyxDbjmIRll5n/d58e/iran.jpeg?fl=cro,0,289,4096,2304%7Cres,320,,1%7Cwebp,75"
-        },
-        {
-          "height": "1687",
-          "width": "3000",
-          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCl5yxyAkIXjDpv/4baa/turek.jpeg?fl=cro,0,156,3000,1687%7Cres,320,,1%7Cwebp,75"
-        },
-        {
-          "height": "2304",
-          "width": "4096",
-          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCfcGaHImIYDZn8/9daa/mercedes-automobilky-madarsko.jpeg?fl=cro,0,381,4096,2304%7Cres,320,,1%7Cwebp,75"
-        },
-        {
-          "height": "720",
-          "width": "1280",
-          "src": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TBjrrQBhuwIYKZwt/e7f2.jpeg?fl=cro,0,0,1280,720%7Cres,320,,1%7Cwebp,75"
-        },
-        {
-          "height": "1915",
-          "srcset": "//d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDrngKDOn2IXo85u/b56f/pano.jpeg?fl=cro,250,180,3404,1915%7Cres,320,,1%7Cwebp,75 320w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDrngKDOn2IXo85u/b56f/pano.jpeg?fl=cro,250,180,3404,1915%7Cres,480,,1%7Cwebp,75 480w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDrngKDOn2IXo85u/b56f/pano.jpeg?fl=cro,250,180,3404,1915%7Cres,600,,1%7Cwebp,75 600w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDrngKDOn2IXo85u/b56f/pano.jpeg?fl=cro,250,180,3404,1915%7Cres,722,,1%7Cwebp,75 722w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDrngKDOn2IXo85u/b56f/pano.jpeg?fl=cro,250,180,3404,1915%7Cres,1024,,1%7Cwebp,75 1024w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDrngKDOn2IXo85u/b56f/pano.jpeg?fl=cro,250,180,3404,1915%7Cres,1280,,1%7Cwebp,75 1280w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDrngKDOn2IXo85u/b56f/pano.jpeg?fl=cro,250,180,3404,1915%7Cres,2560,,1%7Cwebp,75 2560w",
-          "width": "3404",
-          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDrngKDOn2IXo85u/b56f/pano.jpeg?fl=cro,250,180,3404,1915%7Cres,1200,,1%7Cwebp,75"
-        },
-        {
-          "height": "666",
-          "width": "666",
-          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDrngKDoTQIYR9us/e417/aws.jpeg?fl=cro,167,0,666,666%7Cres,80,,1%7Cwebp,75"
-        },
-        {
-          "height": "2001",
-          "width": "2001",
-          "src": "//d39-a.sdn.cz/d_39/c_img_qG_A/nQO0xPd86Tw5RPCknVINmj8z/4083.jpeg?fl=cro,499,0,2001,2001%7Cres,80,,1%7Cwebp,75"
-        },
-        {
-          "height": "2842",
-          "width": "2842",
-          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCEwoKZdcIYCJ1c/146e/putin-kushner-witkoff.jpeg?fl=cro,627,0,2842,2842%7Cres,80,,1%7Cwebp,75"
-        },
-        {
-          "height": "1012",
-          "srcset": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdk3RI9gurIYHfaW/b0f5/fsadf.jpeg?fl=cro,0,93,1800,1012%7Cres,160,,1%7Cwebp,75 160w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdk3RI9gurIYHfaW/b0f5/fsadf.jpeg?fl=cro,0,93,1800,1012%7Cres,240,,1%7Cwebp,75 240w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdk3RI9gurIYHfaW/b0f5/fsadf.jpeg?fl=cro,0,93,1800,1012%7Cres,320,,1%7Cwebp,75 320w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdk3RI9gurIYHfaW/b0f5/fsadf.jpeg?fl=cro,0,93,1800,1012%7Cres,480,,1%7Cwebp,75 480w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdk3RI9gurIYHfaW/b0f5/fsadf.jpeg?fl=cro,0,93,1800,1012%7Cres,600,,1%7Cwebp,75 600w",
-          "width": "1800",
-          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdk3RI9gurIYHfaW/b0f5/fsadf.jpeg?fl=cro,0,93,1800,1012%7Cres,600,,1%7Cwebp,75"
-        },
-        {
-          "height": "1687",
-          "srcset": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkBcInfHTUXIYKwHp/1bf9.jpeg?fl=cro,0,156,3000,1687%7Cres,160,,1%7Cwebp,75 160w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkBcInfHTUXIYKwHp/1bf9.jpeg?fl=cro,0,156,3000,1687%7Cres,240,,1%7Cwebp,75 240w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkBcInfHTUXIYKwHp/1bf9.jpeg?fl=cro,0,156,3000,1687%7Cres,320,,1%7Cwebp,75 320w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkBcInfHTUXIYKwHp/1bf9.jpeg?fl=cro,0,156,3000,1687%7Cres,480,,1%7Cwebp,75 480w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkBcInfHTUXIYKwHp/1bf9.jpeg?fl=cro,0,156,3000,1687%7Cres,600,,1%7Cwebp,75 600w",
-          "width": "3000",
-          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkBcInfHTUXIYKwHp/1bf9.jpeg?fl=cro,0,156,3000,1687%7Cres,600,,1%7Cwebp,75"
-        },
-        {
-          "height": "2304",
-          "srcset": "//d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TkUyxDbjmIRll5n/d58e/iran.jpeg?fl=cro,0,289,4096,2304%7Cres,160,,1%7Cwebp,75 160w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TkUyxDbjmIRll5n/d58e/iran.jpeg?fl=cro,0,289,4096,2304%7Cres,240,,1%7Cwebp,75 240w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TkUyxDbjmIRll5n/d58e/iran.jpeg?fl=cro,0,289,4096,2304%7Cres,320,,1%7Cwebp,75 320w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TkUyxDbjmIRll5n/d58e/iran.jpeg?fl=cro,0,289,4096,2304%7Cres,480,,1%7Cwebp,75 480w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TkUyxDbjmIRll5n/d58e/iran.jpeg?fl=cro,0,289,4096,2304%7Cres,600,,1%7Cwebp,75 600w",
-          "width": "4096",
-          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TkUyxDbjmIRll5n/d58e/iran.jpeg?fl=cro,0,289,4096,2304%7Cres,600,,1%7Cwebp,75"
-        },
-        {
-          "height": "1687",
-          "srcset": "//d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCl5yxyAkIXjDpv/4baa/turek.jpeg?fl=cro,0,156,3000,1687%7Cres,160,,1%7Cwebp,75 160w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCl5yxyAkIXjDpv/4baa/turek.jpeg?fl=cro,0,156,3000,1687%7Cres,240,,1%7Cwebp,75 240w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCl5yxyAkIXjDpv/4baa/turek.jpeg?fl=cro,0,156,3000,1687%7Cres,320,,1%7Cwebp,75 320w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCl5yxyAkIXjDpv/4baa/turek.jpeg?fl=cro,0,156,3000,1687%7Cres,480,,1%7Cwebp,75 480w, //d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCl5yxyAkIXjDpv/4baa/turek.jpeg?fl=cro,0,156,3000,1687%7Cres,600,,1%7Cwebp,75 600w",
-          "width": "3000",
-          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCl5yxyAkIXjDpv/4baa/turek.jpeg?fl=cro,0,156,3000,1687%7Cres,600,,1%7Cwebp,75"
-        },
-        {
-          "height": "2304",
-          "srcset": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCfcGaHImIYDZn8/9daa/mercedes-automobilky-madarsko.jpeg?fl=cro,0,381,4096,2304%7Cres,160,,1%7Cwebp,75 160w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCfcGaHImIYDZn8/9daa/mercedes-automobilky-madarsko.jpeg?fl=cro,0,381,4096,2304%7Cres,240,,1%7Cwebp,75 240w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCfcGaHImIYDZn8/9daa/mercedes-automobilky-madarsko.jpeg?fl=cro,0,381,4096,2304%7Cres,320,,1%7Cwebp,75 320w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCfcGaHImIYDZn8/9daa/mercedes-automobilky-madarsko.jpeg?fl=cro,0,381,4096,2304%7Cres,480,,1%7Cwebp,75 480w, //d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCfcGaHImIYDZn8/9daa/mercedes-automobilky-madarsko.jpeg?fl=cro,0,381,4096,2304%7Cres,600,,1%7Cwebp,75 600w",
-          "width": "4096",
-          "src": "//d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCfcGaHImIYDZn8/9daa/mercedes-automobilky-madarsko.jpeg?fl=cro,0,381,4096,2304%7Cres,600,,1%7Cwebp,75"
-        },
-        {
-          "height": "720",
-          "srcset": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TBjrrQBhuwIYKZwt/e7f2.jpeg?fl=cro,0,0,1280,720%7Cres,160,,1%7Cwebp,75 160w, https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TBjrrQBhuwIYKZwt/e7f2.jpeg?fl=cro,0,0,1280,720%7Cres,240,,1%7Cwebp,75 240w, https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TBjrrQBhuwIYKZwt/e7f2.jpeg?fl=cro,0,0,1280,720%7Cres,320,,1%7Cwebp,75 320w, https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TBjrrQBhuwIYKZwt/e7f2.jpeg?fl=cro,0,0,1280,720%7Cres,480,,1%7Cwebp,75 480w, https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TBjrrQBhuwIYKZwt/e7f2.jpeg?fl=cro,0,0,1280,720%7Cres,600,,1%7Cwebp,75 600w",
-          "width": "1280",
-          "src": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TBjrrQBhuwIYKZwt/e7f2.jpeg?fl=cro,0,0,1280,720%7Cres,600,,1%7Cwebp,75"
-        },
-        {
-          "height": "61",
-          "width": "300",
-          "src": "https://d39-a.sdn.cz/d_39/c_static_gS_L/WQgg/seznam-logo.svg"
-        }
-      ],
-      "iframe_candidates": [
-        "https://share.seznam.cz/static-content/zpravy/6af9ef7a303b3051ca7f66d8?parentUrl=https%3A%2F%2Fwww.seznamzpravy.cz%2Fclanek%2Fdomaci-zivot-v-cesku-milion-chvilek-plna-letna-podivejte-se-na-360-stupnove-zabery-z-mista-320631"
-      ],
-      "link_candidates": [
-        "https://www.seznamzpravy.cz/sekce/audio-podcast-galerie-osobnosti-467",
-        "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-milion-chvilek-plna-letna-podivejte-se-na-360-stupnove-zabery-z-mista-320631",
-        "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-video-takto-vypada-plna-letna-z-vysky-320595",
-        "https://www.seznamzpravy.cz/clanek/domaci-politika-z-minare-se-stal-profesional-bude-letna-k-necemu-320633",
-        "https://www.seznamzpravy.cz/clanek/obrazem-obrazem-andreji-macinko-okamuro-mame-toho-dost-letna-proti-zestatneni-medii-320577",
-        "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-demonstrace-letna-2026-praha-milion-chvilek-online-320349",
-        "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.seznamzpravy.cz%2Fclanek%2Fdomaci-zivot-v-cesku-milion-chvilek-plna-letna-podivejte-se-na-360-stupnove-zabery-z-mista-320631",
-        "https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.seznamzpravy.cz%2Fclanek%2Fdomaci-zivot-v-cesku-milion-chvilek-plna-letna-podivejte-se-na-360-stupnove-zabery-z-mista-320631&title=Pln%C3%A1+Letn%C3%A1.+Pod%C3%ADvejte+se+na+unik%C3%A1tn%C3%AD+360stup%C5%88ov%C3%A9+z%C3%A1b%C4%9Bry+z%C2%A0m%C3%ADsta&via=SeznamZpravy&related=SeznamZpravy",
-        "https://www.seznamzpravy.cz/tag/demonstrace-letna-128133",
-        "https://www.zbozi.cz/elektronika/tv-a-audio-video/televizory"
-      ]
+      "sha256": "21fa131abd455f638931554ec0eed54543954f9083b42fa79fe9fba832950a0b",
+      "bytes": 124065,
+      "metadata": [],
+      "image_candidates": [],
+      "iframe_candidates": [],
+      "link_candidates": []
     },
     {
       "id": "CRO-JIRASEK",
@@ -515,11 +242,11 @@
       "final_url": "https://www.blesk.cz/galerie/zpravy-politika/1509914/online-demonstrace-letna-proti-4-36-koller-sverak-a-az-450-tisic-lidi-s-dopravou-byly-problemy",
       "headers": {
         "Content-Type": "text/html; charset=UTF-8",
-        "Last-Modified": "Tue, 17 Nov 2026 00:32:54 GMT",
+        "Last-Modified": "Tue, 17 Nov 2026 00:35:25 GMT",
         "ETag": null,
         "Content-Length": null
       },
-      "sha256": "e66c75553b67f81c442c0101fdde44458ce7c746e113e02d7274969e83e48ec5",
+      "sha256": "6adf9980df7cee944723171591aea07ae85e212e5f89394dd0968b345780207b",
       "bytes": 476843,
       "metadata": [
         {
@@ -1008,7 +735,7 @@
         "ETag": null,
         "Content-Length": null
       },
-      "sha256": "061bb94e98370a1e357b3b2e9dc0d9fb3eb01cd0ce634ef82308c418ff536c15",
+      "sha256": "c1b215431dead5e5f11d6fee0a00d9d246d48da4312c6c1dc2ff33736ee80fc9",
       "bytes": 66173,
       "metadata": [
         {
@@ -1122,8 +849,8 @@
         "ETag": null,
         "Content-Length": null
       },
-      "sha256": "97b8d2369722aedb8bf642d6fe8bd43695cf22ea4ffcba7dc550d89079f71c35",
-      "bytes": 181666,
+      "sha256": "7802aaa01fd156ab9f53853e5c4bd8989d8c44e538d2aebfdd5e9f99936ed4bd",
+      "bytes": 181081,
       "metadata": [
         {
           "key": "og:title",
@@ -1131,32 +858,32 @@
         },
         {
           "key": "image",
-          "value": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQfszMUvStu7U6ZRuOyfNnfnp6rNsHGalGiI29utPxMeH1P4gvifkGykq3V_pBHqNrqYaCWGYcCBRX3vhOhuIaGVHFNEHMT4pZagQhCqHfX2NhkhFxiquO22BnpNA0me8RBSGcWOjq4yWjBB3Exr9yADeDJFcgU84yoUCCuvut2OrJMP_IlmeP4jrDx0=w16383"
+          "value": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQc0Pnr1AazEwJmQW7H3_94L2d6MoYp-6bDOBWNgsLrLyeKaXgA6jSpKg-zS35Gg8qpp3MZH5BzjVmKvNaMkZylEr-uqQQBbHtWKjbAazj_Q_dKd0LGzKs4s1UoRdQ9wOd2QhI9--Z7NVJCKkBKHbTkQ2MoVzCqpasV5ZgRCknKOyOUKOS01Zzk3UhwC=w16383"
         },
         {
           "key": "imageUrl",
-          "value": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQfszMUvStu7U6ZRuOyfNnfnp6rNsHGalGiI29utPxMeH1P4gvifkGykq3V_pBHqNrqYaCWGYcCBRX3vhOhuIaGVHFNEHMT4pZagQhCqHfX2NhkhFxiquO22BnpNA0me8RBSGcWOjq4yWjBB3Exr9yADeDJFcgU84yoUCCuvut2OrJMP_IlmeP4jrDx0=w16383"
+          "value": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQc0Pnr1AazEwJmQW7H3_94L2d6MoYp-6bDOBWNgsLrLyeKaXgA6jSpKg-zS35Gg8qpp3MZH5BzjVmKvNaMkZylEr-uqQQBbHtWKjbAazj_Q_dKd0LGzKs4s1UoRdQ9wOd2QhI9--Z7NVJCKkBKHbTkQ2MoVzCqpasV5ZgRCknKOyOUKOS01Zzk3UhwC=w16383"
         },
         {
           "key": "og:image",
-          "value": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQfszMUvStu7U6ZRuOyfNnfnp6rNsHGalGiI29utPxMeH1P4gvifkGykq3V_pBHqNrqYaCWGYcCBRX3vhOhuIaGVHFNEHMT4pZagQhCqHfX2NhkhFxiquO22BnpNA0me8RBSGcWOjq4yWjBB3Exr9yADeDJFcgU84yoUCCuvut2OrJMP_IlmeP4jrDx0=w16383"
+          "value": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQc0Pnr1AazEwJmQW7H3_94L2d6MoYp-6bDOBWNgsLrLyeKaXgA6jSpKg-zS35Gg8qpp3MZH5BzjVmKvNaMkZylEr-uqQQBbHtWKjbAazj_Q_dKd0LGzKs4s1UoRdQ9wOd2QhI9--Z7NVJCKkBKHbTkQ2MoVzCqpasV5ZgRCknKOyOUKOS01Zzk3UhwC=w16383"
         }
       ],
       "image_candidates": [
         {
-          "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQfszMUvStu7U6ZRuOyfNnfnp6rNsHGalGiI29utPxMeH1P4gvifkGykq3V_pBHqNrqYaCWGYcCBRX3vhOhuIaGVHFNEHMT4pZagQhCqHfX2NhkhFxiquO22BnpNA0me8RBSGcWOjq4yWjBB3Exr9yADeDJFcgU84yoUCCuvut2OrJMP_IlmeP4jrDx0=w16383"
+          "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQc0Pnr1AazEwJmQW7H3_94L2d6MoYp-6bDOBWNgsLrLyeKaXgA6jSpKg-zS35Gg8qpp3MZH5BzjVmKvNaMkZylEr-uqQQBbHtWKjbAazj_Q_dKd0LGzKs4s1UoRdQ9wOd2QhI9--Z7NVJCKkBKHbTkQ2MoVzCqpasV5ZgRCknKOyOUKOS01Zzk3UhwC=w16383"
         },
         {
-          "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQfszMUvStu7U6ZRuOyfNnfnp6rNsHGalGiI29utPxMeH1P4gvifkGykq3V_pBHqNrqYaCWGYcCBRX3vhOhuIaGVHFNEHMT4pZagQhCqHfX2NhkhFxiquO22BnpNA0me8RBSGcWOjq4yWjBB3Exr9yADeDJFcgU84yoUCCuvut2OrJMP_IlmeP4jrDx0=w16383"
+          "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQc0Pnr1AazEwJmQW7H3_94L2d6MoYp-6bDOBWNgsLrLyeKaXgA6jSpKg-zS35Gg8qpp3MZH5BzjVmKvNaMkZylEr-uqQQBbHtWKjbAazj_Q_dKd0LGzKs4s1UoRdQ9wOd2QhI9--Z7NVJCKkBKHbTkQ2MoVzCqpasV5ZgRCknKOyOUKOS01Zzk3UhwC=w16383"
         },
         {
-          "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQeoSChwBMBWF4bRVQHHkbH7Z2TGt5-kErmJdLHeiUExIpfSe2R3FuRGX-p-iEl8DtJF3bAsyflbDAnLRkPzINUvJ9QbBWEYok95HvkQa-0BttC3Rq51KhTRbMT0ySGp1grYS-pNGTrY2RH3mW7a-bkoDK3dv5KlGVN3_2R5Fr3TTMloXj7SM4LJtTeMX4dFBZz6kk_5dMco4-4izHSK5-B6W8EuPO88pv2TWfPA=w1280"
+          "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQe9MlazND-nemzwFv4Swwl1B6t9njlFguUGos_DFniOWDSuK5m5N_SLHtGi1-pzpuO9u6A0ASjX9L2Y6_JxKNcYJLMkoumLbadMYiPCon1c0Zyj9XNULUSUTRAaMXVYDsAeXJub43nXn3wo6zMe-Ma_b02jCc4Ol39XAkC6RpUUIVBso44nhKwyu0jgqrQ10DKM-5z1M4M9MB5HltC_EmGOCni29Dx3CW6PloEM=w1280"
         }
       ],
       "iframe_candidates": [
-        "https://www.youtube.com/embed/FH941x7NoSg?embed_config=%7B%22enc%22:%22AXH1ezkelQw--xwq0FcHDEvw91Pc8XxSoMBOpypHV7F5l1spA_UtFgUZDq_JtDDk2q3SupLW84zw_LKo2NLoZFVKEGuN-pK8yf1jkIa3x4iEvWl4CTZr4we996XaQzyZkdYxP2qpiAQDJZSffF6yu-BzXGZ9Dvlh7y0tDALEW1ropLxVfQQQ1fzuDppNGMa2a1z8PUfGpW8wCKVm_NGLrA7pIAMgqaDlZDtyhlW5E_OJm_1R7MNnxT0NJ-ROYsGUZPg9RCCLuWsSXwSTSWZ5NyJ2m6WoLW2FJgXtV9ZlvdNm4sKI8Z0LOvaiYKYmPFboVsXXIyYB4EKBw8jlcbYONsnSQo1fm8sl2rfN4Hr6ordNaxc%3D%22%7D&enablejsapi=1&errorlinks=1&origin=https://letna.milionchvilek.cz&vl=1",
-        "https://www.youtube.com/embed/zP0Z1QwwyZY?embed_config=%7B%22enc%22:%22AXH1eznqCIOrYyd8kWJZBv4tdRyH6NSvOPHSOilVGugS7AFeTP1ioP6PoLaVC4I0EuNK_3OE5A0SEw_hYmI-BGXfSmPlue1tjkXGICoreMQBZU9o3_xxW0G_b38wojtJUpCPqWCEO5_UVFQJeOWt_CV_GUxf9S0EoL95L1Qkl4rD1IjDgRqGDF-1jO34EC7Om8YPk8nOCjJ-UrvIP7BmQwgkqiK-wU2rJKpC7vplvhCCIns0leSHtAYV_bek-VlkI-A_iQONZe6YiTmE-01c1s_5lwOxFo68SymHDtV0WXGj7wMoBWlNxjFEWpgNR2aGs2jpsI_oYDLQj2LHMM1K-EO4uZi3FK9Myy2ST-w03AILT-c%3D%22%7D&enablejsapi=1&errorlinks=1&origin=https://letna.milionchvilek.cz&vl=1",
-        "https://www.youtube.com/embed/cU2ulPkyNeM?embed_config=%7B%22enc%22:%22AXH1ezlSHjdCxNo6Zb97VLNz4XDfvZOUDZn1LGEjdhFG6ZHdC2dQhToFKYUOPwIaXyGrgn3g3ZF0EivQptFXRexwVz60cfI5Ndd1HgjwRMw09z_zgbvWXqIk8GXliS5JGUOn530Xy2AatkPJ046OwySmb8coM4YHXYc3gGagIt7nGV9j9IXu4Xqgk6v17bOU8Gvl-1JBmxUZg-f4BofHHr2av2MBWwA5ca9UBCDCzZD-cEagqNdLFOvYM4YPLjRRY_NnEy1t_HpFG3DtmVChGz2ruOXue_QKCJmfRopLz1rowkD1Zmul3uoreEmMkkmgm4Bm6mE-9Q2YDBp00UYU4TIU7Jfmea-B3oW-UgfEOjupDJ8%3D%22%7D&enablejsapi=1&errorlinks=1&origin=https://letna.milionchvilek.cz&vl=1"
+        "https://www.youtube.com/embed/FH941x7NoSg?embed_config=%7B%22enc%22:%22AXH1ezlShf_H1ZkD7yfp32IQY9sniPIzKUdPrXt6UwCpbi4ucGiCGXokudFCOctDzGT_ZaxkRI6hKc-iLbQNnaQp4alB4nucqOqS_-q35mtiCTtYzg2FE_F4bqSI7iIJhdqQlN46gStOxm10Tih7kp5GE0aYOH1-26sHrz9bOz3BDa9M%22%7D&enablejsapi=1&errorlinks=1&origin=https://letna.milionchvilek.cz&vl=1",
+        "https://www.youtube.com/embed/zP0Z1QwwyZY?embed_config=%7B%22enc%22:%22AXH1eznImRajAu5XzuJQtgXUXUy-SQHKlaHhhu7fh0eIsrWzd2Id1jzumbOcxt83wvCRjPfPDnVQf_dxZv5wa1RH8wSU7oVANls51xPkiprWc4nS86mvNpB94lkVhUouUkpzlnxBemtRzMw4izPb6kvIK607D4qGeGPB85odoBTBt9A-%22%7D&enablejsapi=1&errorlinks=1&origin=https://letna.milionchvilek.cz&vl=1",
+        "https://www.youtube.com/embed/cU2ulPkyNeM?embed_config=%7B%22enc%22:%22AXH1ezntGeduLILMGmJFOKaPVdWmMfflUSOpf05PEUfwBBcEJHQR09ITDDEyP5E0U3sweSD_5dEbcaE4kDSqs2IOWtK8WVSa1Lhvq5nVa5k1wFNx6f5JcI1qVpJQIvvYwReoLbCNeieuudTsnQqrdgl0DUXe6WzHx6UdYJmm-OxT1nsy%22%7D&enablejsapi=1&errorlinks=1&origin=https://letna.milionchvilek.cz&vl=1"
       ],
       "link_candidates": [
         "/letna",
@@ -1174,7 +901,7 @@
         "ETag": null,
         "Content-Length": "50435"
       },
-      "sha256": "5200775c4ae6ef1529c4fa6ab818b158780fe34251d3414e914ac59c25848bb3",
+      "sha256": "d356c771a04a9b1616fb9266cb9d855c8771074ea279b231c35e3051dd2796a4",
       "bytes": 50435,
       "metadata": [],
       "image_candidates": [
@@ -1339,10 +1066,10 @@
         "Content-Type": "text/html; charset=utf-8",
         "Last-Modified": null,
         "ETag": null,
-        "Content-Length": "47447"
+        "Content-Length": "47517"
       },
-      "sha256": "6351ef0de7fbb15ce2d75ab5a9a3df9f4999a07b8c175c44892dad14c4a72d01",
-      "bytes": 47447,
+      "sha256": "38a302b556bf8fec274104caf477b40e03f2ab53786dd8101dbdd912c8bfe0fe",
+      "bytes": 47517,
       "metadata": [
         {
           "key": "og:image",
@@ -1621,14 +1348,14 @@
           "height": "180"
         },
         {
-          "src": "images/gallery/t1-20261025220238_a42.jpg",
-          "alt": "Ruce pryč od médií!",
+          "src": "images/gallery/t1-20261104101758_a10.jpg",
+          "alt": "Protest KSČM před Českým rozhlasem",
           "width": "150",
           "height": "95"
         },
         {
-          "src": "images/gallery/t1-20261023104447_1.jpg",
-          "alt": "Veletrh FUTURE FORCES FORUM",
+          "src": "images/gallery/t1-20261107220113_a23.jpg",
+          "alt": "Demonstrace spolku Svatopluk",
           "width": "150",
           "height": "95"
         }
@@ -1636,8 +1363,8 @@
       "iframe_candidates": [],
       "link_candidates": [
         "https://www.sinmed.cz/fotogalerie/",
-        "https://www.sinmed.cz/fotogalerie/ruce-pryc-od-medii-105.html",
-        "https://www.sinmed.cz/fotogalerie/veletrh-future-forces-forum-103.html",
+        "https://www.sinmed.cz/fotogalerie/protest-kscm-pred-ceskym-rozhlasem-114.html",
+        "https://www.sinmed.cz/fotogalerie/demonstrace-spolku-svatopluk-115.html",
         "https://www.sinmed.cz/aktuality/plihal-zazpival-letna-onemela-pohledy-si-vymenovali-i-herci-na-podiu-1472.html"
       ]
     }
@@ -1945,6 +1672,1743 @@
       "requested_url": "https://1884403144.rsc.cdn77.org/foto/planek-pro-verejnost-demonstrace-letna/Zml0LWluLzk3OHg5OTk5L2ZpbHRlcnM6cXVhbGl0eSg4NSk6bm9fdXBzY2FsZSgpL2ltZw/10030157.jpg?e=0&st=NA5O65XTNxLLPX4KJi1Wux0jbtQo334cDbzt15AuVb4&ts=1600812000&v=0",
       "status": "error",
       "error": "URL outside reviewed HTTPS host allowlist"
+    },
+    {
+      "id": "SZ-ALBUM-05",
+      "requested_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkbxLFBJ7IXjDND/ef38/turek.jpeg",
+      "status": "fetched",
+      "final_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkbxLFBJ7IXjDND/ef38/turek.jpeg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 14:45:23 GMT",
+        "ETag": "\"82727416279a7afac2909a62780437d1\"",
+        "Content-Length": "1034507"
+      },
+      "sha256": "85cf07496059c10f8fc7351386d1eb127f6ab019580efe19ce45df962d39d3f2",
+      "bytes": 1034507,
+      "width": 3000,
+      "height": 2001,
+      "format": "JPEG",
+      "exif": {
+        "DateTime": "2026:11:15 15:44:39",
+        "DateTimeOriginal": "2026:11:15 12:58:22",
+        "DateTimeDigitized": "2026:11:15 12:58:22",
+        "OffsetTimeOriginal": "+01:00"
+      }
+    },
+    {
+      "id": "SZ-ALBUM-06",
+      "requested_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCEwoKDUYIXjEJ6/d29d/turek.jpeg",
+      "status": "fetched",
+      "final_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCEwoKDUYIXjEJ6/d29d/turek.jpeg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 14:47:20 GMT",
+        "ETag": "\"5e2e818654339fdb770926c4aea9b85f\"",
+        "Content-Length": "2044565"
+      },
+      "sha256": "f9d2d91b7fb99efbfe38373145bb62aaf9bd2534f9c72835cc04ef4e3ecf0b6d",
+      "bytes": 2044565,
+      "width": 3000,
+      "height": 2001,
+      "format": "JPEG",
+      "exif": {
+        "DateTime": "2026:11:15 15:45:12",
+        "DateTimeOriginal": "2026:11:15 15:07:44",
+        "DateTimeDigitized": "2026:11:15 15:07:44",
+        "OffsetTimeOriginal": "+01:00"
+      }
+    },
+    {
+      "id": "SZ-ALBUM-07",
+      "requested_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDyA6jDQYWIXmCUz/b322/turek.jpeg",
+      "status": "fetched",
+      "final_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDyA6jDQYWIXmCUz/b322/turek.jpeg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 16:43:59 GMT",
+        "ETag": "\"5e04c51059378dbb31f154c7e8f5af9d\"",
+        "Content-Length": "2340271"
+      },
+      "sha256": "ed6e009c6507b82324f8a28b3838e269acd56b9325205357b048b8e4ae739ba5",
+      "bytes": 2340271,
+      "width": 3000,
+      "height": 2001,
+      "format": "JPEG",
+      "exif": {
+        "DateTime": "2026:11:15 17:38:51",
+        "DateTimeOriginal": "2026:11:15 16:45:19",
+        "DateTimeDigitized": "2026:11:15 16:45:19",
+        "OffsetTimeOriginal": "+01:00"
+      }
+    },
+    {
+      "id": "SZ-ALBUM-08",
+      "requested_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCJCefHKEZIXmCNG/0b34/turek.jpeg",
+      "status": "fetched",
+      "final_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCJCefHKEZIXmCNG/0b34/turek.jpeg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 16:43:54 GMT",
+        "ETag": "\"73bede3d7d9630be2388e7423f9eec56\"",
+        "Content-Length": "3371711"
+      },
+      "sha256": "6b7447154dfc91248a599eafbb6800c82623a9d915f9934d6c99d0e766b771e6",
+      "bytes": 3371711,
+      "width": 3000,
+      "height": 2001,
+      "format": "JPEG",
+      "exif": {
+        "DateTime": "2026:11:15 17:38:42",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 16:42:36",
+        "DateTimeDigitized": "2026:11:15 16:42:36",
+        "OffsetTimeOriginal": "+01:00"
+      }
+    },
+    {
+      "id": "SZ-ALBUM-09",
+      "requested_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkDyuEmSOlIXmCWs/38b5/turek.jpeg",
+      "status": "fetched",
+      "final_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkDyuEmSOlIXmCWs/38b5/turek.jpeg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 16:58:17 GMT",
+        "ETag": "\"d7e0aa48c75653bef512fa7ae44b8bc7\"",
+        "Content-Length": "2158848"
+      },
+      "sha256": "5f394825e703a4f41adf1a29c10c972b295ce9be6101c9baf0a5ed6e300a3dcf",
+      "bytes": 2158848,
+      "width": 3000,
+      "height": 2001,
+      "format": "JPEG",
+      "exif": {
+        "DateTime": "2026:11:15 17:38:53",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 16:47:28",
+        "DateTimeDigitized": "2026:11:15 16:47:28",
+        "OffsetTimeOriginal": "+01:00"
+      }
+    },
+    {
+      "id": "SZ-ALBUM-10",
+      "requested_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkbxLFE9MIXmB8h/3ff9/turek.jpeg",
+      "status": "fetched",
+      "final_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkbxLFE9MIXmB8h/3ff9/turek.jpeg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 16:56:14 GMT",
+        "ETag": "\"f9665f8c43fb67e3eff06858ad87b6c6\"",
+        "Content-Length": "1873423"
+      },
+      "sha256": "28c4e07a58f7e95a5bbe0c45998ade2e2fd9ae4651507f1345ac3fd07e67b034",
+      "bytes": 1873423,
+      "width": 3000,
+      "height": 2001,
+      "format": "JPEG",
+      "exif": {
+        "DateTime": "2026:11:15 17:38:38",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 16:39:44",
+        "DateTimeDigitized": "2026:11:15 16:39:44",
+        "OffsetTimeOriginal": "+01:00"
+      }
+    },
+    {
+      "id": "SZ-ALBUM-11",
+      "requested_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDrSmq7DEIXjDSV/c1b4/turek.jpeg",
+      "status": "fetched",
+      "final_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDrSmq7DEIXjDSV/c1b4/turek.jpeg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 14:45:27 GMT",
+        "ETag": "\"d1d43c592f804aeefc8bb0a04e24146f\"",
+        "Content-Length": "568601"
+      },
+      "sha256": "b131e383fda95079a1df608115a9828f6576633d4be83beee67ecb0bd6f6f1d8",
+      "bytes": 568601,
+      "width": 3000,
+      "height": 2001,
+      "format": "JPEG",
+      "exif": {
+        "DateTime": "2026:11:15 15:44:40",
+        "DateTimeOriginal": "2026:11:15 13:01:16",
+        "DateTimeDigitized": "2026:11:15 13:01:16",
+        "OffsetTimeOriginal": "+01:00"
+      }
+    },
+    {
+      "id": "SZ-ALBUM-12",
+      "requested_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCEwoKEpcIXmBv4/98f9/turek.jpeg",
+      "status": "fetched",
+      "final_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCEwoKEpcIXmBv4/98f9/turek.jpeg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 17:03:30 GMT",
+        "ETag": "\"abdc27a176b41baf8e2c96865f4e9058\"",
+        "Content-Length": "1157096"
+      },
+      "sha256": "ac4f3ee4866fdee56e6a9f538f976612f37ed2132cc78f81474421b954244034",
+      "bytes": 1157096,
+      "width": 3000,
+      "height": 2001,
+      "format": "JPEG",
+      "exif": {
+        "DateTime": "2026:11:15 17:38:23",
+        "DateTimeOriginal": "2026:11:15 16:12:03",
+        "DateTimeDigitized": "2026:11:15 16:12:03",
+        "OffsetTimeOriginal": "+01:00"
+      }
+    },
+    {
+      "id": "SZ-ALBUM-13",
+      "requested_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TB49GnBMnAIXjDax/710f/turek.jpeg",
+      "status": "fetched",
+      "final_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TB49GnBMnAIXjDax/710f/turek.jpeg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 16:02:07 GMT",
+        "ETag": "\"d8ea0f5db45200f7addb295be5077801\"",
+        "Content-Length": "1223408"
+      },
+      "sha256": "fda863244d0aac7fb27c4e513d09efc9ef83a0fd18ab3c048a4f4247119f4a05",
+      "bytes": 1223408,
+      "width": 3000,
+      "height": 2001,
+      "format": "JPEG",
+      "exif": {
+        "DateTime": "2026:11:15 15:44:51",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 14:09:08",
+        "DateTimeDigitized": "2026:11:15 14:09:08",
+        "OffsetTimeOriginal": "+01:00"
+      }
+    },
+    {
+      "id": "SZ-ALBUM-14",
+      "requested_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkB87eWG2xXIXmBsW/7b96/turek.jpeg",
+      "status": "fetched",
+      "final_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkB87eWG2xXIXmBsW/7b96/turek.jpeg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 16:43:35 GMT",
+        "ETag": "\"c5b1e1a381abe5c2b3e154d4b94f5d1f\"",
+        "Content-Length": "1111776"
+      },
+      "sha256": "8b77eaaa606b974a312b9af3ab6699da1ed3e07735b93e67d08d76b963a9958f",
+      "bytes": 1111776,
+      "width": 3000,
+      "height": 2001,
+      "format": "JPEG",
+      "exif": {
+        "DateTime": "2026:11:15 17:38:30",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 16:01:17",
+        "DateTimeDigitized": "2026:11:15 16:01:17",
+        "OffsetTimeOriginal": "+01:00"
+      }
+    },
+    {
+      "id": "SZ-ALBUM-15",
+      "requested_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkbxLFFYlIXmBpo/b40c/turek.jpeg",
+      "status": "fetched",
+      "final_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkbxLFFYlIXmBpo/b40c/turek.jpeg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 16:43:34 GMT",
+        "ETag": "\"fa3f29fa2e5d0ca6c43a310f6c436ab3\"",
+        "Content-Length": "839179"
+      },
+      "sha256": "e9e730d879b0006c16f5b1c0a1176d2afd15dd73864259622cba2b0a47d8d2da",
+      "bytes": 839179,
+      "width": 3000,
+      "height": 2001,
+      "format": "JPEG",
+      "exif": {
+        "DateTime": "2026:11:15 17:38:28",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 15:58:59",
+        "DateTimeDigitized": "2026:11:15 15:58:59",
+        "OffsetTimeOriginal": "+01:00"
+      }
+    },
+    {
+      "id": "SZ-ALBUM-16",
+      "requested_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDrngKDNIaIXmCax/abba/turek.jpeg",
+      "status": "fetched",
+      "final_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDrngKDNIaIXmCax/abba/turek.jpeg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 16:44:03 GMT",
+        "ETag": "\"f1d191191959f91dd4b3fda71032a832\"",
+        "Content-Length": "3209173"
+      },
+      "sha256": "b39af3229d217eafc386ac3e01c3ee5d1178fce5d4708077cf4cfe1b9e22b0b2",
+      "bytes": 3209173,
+      "width": 3000,
+      "height": 2001,
+      "format": "JPEG",
+      "exif": {
+        "DateTime": "2026:11:15 17:38:55",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 16:47:49",
+        "DateTimeDigitized": "2026:11:15 16:47:49",
+        "OffsetTimeOriginal": "+01:00"
+      }
+    },
+    {
+      "id": "SZ-ALBUM-17",
+      "requested_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkC4TclG8g9IXmBzc/1db4/turek.jpeg",
+      "status": "fetched",
+      "final_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkC4TclG8g9IXmBzc/1db4/turek.jpeg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 16:43:40 GMT",
+        "ETag": "\"b61605043d15bb425d83dc0dede35110\"",
+        "Content-Length": "1853997"
+      },
+      "sha256": "26b8f47c68ef578d329f4e7703e17d555ecf30823d32a91e944e69bebc920544",
+      "bytes": 1853997,
+      "width": 3000,
+      "height": 2001,
+      "format": "JPEG",
+      "exif": {
+        "DateTime": "2026:11:15 17:38:33",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 16:39:05",
+        "DateTimeDigitized": "2026:11:15 16:39:05",
+        "OffsetTimeOriginal": "+01:00"
+      }
+    },
+    {
+      "id": "SZ-ALBUM-18",
+      "requested_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdk3whEBdCUIXjD6Y/ee84/turek.jpeg",
+      "status": "fetched",
+      "final_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdk3whEBdCUIXjD6Y/ee84/turek.jpeg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 14:45:51 GMT",
+        "ETag": "\"bd70da096dc242234d5b76e812229282\"",
+        "Content-Length": "2086949"
+      },
+      "sha256": "2437e99d8b4d2e643781c1cd9f7a2a997224c13675f8e16122fd2c6a39f31920",
+      "bytes": 2086949,
+      "width": 3000,
+      "height": 2001,
+      "format": "JPEG",
+      "exif": {
+        "DateTime": "2026:11:15 15:45:07",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 14:24:31",
+        "DateTimeDigitized": "2026:11:15 14:24:31",
+        "OffsetTimeOriginal": "+01:00"
+      }
+    },
+    {
+      "id": "SZ-ALBUM-19",
+      "requested_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCfcGaGsoJIXjEA6/82e6/turek.jpeg",
+      "status": "fetched",
+      "final_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCfcGaGsoJIXjEA6/82e6/turek.jpeg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 14:45:54 GMT",
+        "ETag": "\"0cdabe187b93a4db124bbbc8f867a7f9\"",
+        "Content-Length": "2148830"
+      },
+      "sha256": "58ff2f480cee18d65182a72c349cd73d16ced00dece1e495c04805905441f134",
+      "bytes": 2148830,
+      "width": 3000,
+      "height": 2001,
+      "format": "JPEG",
+      "exif": {
+        "DateTime": "2026:11:15 15:45:09",
+        "DateTimeOriginal": "2026:11:15 14:58:48",
+        "DateTimeDigitized": "2026:11:15 14:58:48",
+        "OffsetTimeOriginal": "+01:00"
+      }
+    },
+    {
+      "id": "SZ-ALBUM-20",
+      "requested_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TB49GnBQCHIXjEE6/f729/turek.jpeg",
+      "status": "fetched",
+      "final_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TB49GnBQCHIXjEE6/f729/turek.jpeg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 15:15:24 GMT",
+        "ETag": "\"31aca247bea641652439cfe497def1f1\"",
+        "Content-Length": "855792"
+      },
+      "sha256": "f3016761e14c2042f11728ba5bb088faa1d61b2affd0010541a96781b9a331bb",
+      "bytes": 855792,
+      "width": 3000,
+      "height": 2001,
+      "format": "JPEG",
+      "exif": {
+        "DateTime": "2026:11:15 15:45:11",
+        "DateTimeOriginal": "2026:11:15 15:00:33",
+        "DateTimeDigitized": "2026:11:15 15:00:33",
+        "OffsetTimeOriginal": "+01:00"
+      }
+    },
+    {
+      "id": "SZ-ALBUM-21",
+      "requested_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkbxLFG8rIIXgKEg/13f9.jpeg",
+      "status": "fetched",
+      "final_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkbxLFG8rIIXgKEg/13f9.jpeg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 12:50:38 GMT",
+        "ETag": "\"b72209d8c68f6f148f93856f3eb80e82\"",
+        "Content-Length": "2207825"
+      },
+      "sha256": "a26b1ffcc4f8f7b2271421ecd907342c682f7f86e50c2a5f129388298d00efb2",
+      "bytes": 2207825,
+      "width": 2400,
+      "height": 1600,
+      "format": "JPEG",
+      "exif": {
+        "Make": "Canon",
+        "Model": "Canon EOS R5m2",
+        "DateTime": "2026:11:15 13:46:21",
+        "Copyright": "",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 13:46:21",
+        "DateTimeDigitized": "2026:11:15 13:46:21",
+        "OffsetTimeOriginal": "+01:00"
+      }
+    },
+    {
+      "id": "SZ-ALBUM-22",
+      "requested_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkDyuEmRf32IXeqSU/562d.jpeg",
+      "status": "fetched",
+      "final_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkDyuEmRf32IXeqSU/562d.jpeg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 11:51:50 GMT",
+        "ETag": "\"61df230c95149e181dccca07c41f47ba\"",
+        "Content-Length": "1810947"
+      },
+      "sha256": "f20673eea4aecad25ae9808c81815b303d3db23103e927d9b30b14f2f110a039",
+      "bytes": 1810947,
+      "width": 2400,
+      "height": 1600,
+      "format": "JPEG",
+      "exif": {
+        "Make": "Canon",
+        "Model": "Canon EOS R5m2",
+        "DateTime": "2026:11:15 12:36:36",
+        "Copyright": "",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 12:36:36",
+        "DateTimeDigitized": "2026:11:15 12:36:36",
+        "OffsetTimeOriginal": "+01:00"
+      }
+    },
+    {
+      "id": "SZ-ALBUM-23",
+      "requested_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDMnNb60KIXesAp/68ba.jpeg",
+      "status": "fetched",
+      "final_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDMnNb60KIXesAp/68ba.jpeg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 11:52:55 GMT",
+        "ETag": "\"7c7a85408678407e37e138e2975b02c3\"",
+        "Content-Length": "1165756"
+      },
+      "sha256": "b2786dbd6c422aec28d57858f0a8642132c3bafde60fde04ca693607fdda8c0c",
+      "bytes": 1165756,
+      "width": 2400,
+      "height": 1600,
+      "format": "JPEG",
+      "exif": {
+        "Make": "Canon",
+        "Model": "Canon EOS R5m2",
+        "DateTime": "2026:11:15 12:37:52",
+        "Copyright": "",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 12:37:52",
+        "DateTimeDigitized": "2026:11:15 12:37:52",
+        "OffsetTimeOriginal": "+01:00"
+      }
+    },
+    {
+      "id": "SZ-ALBUM-24",
+      "requested_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDMnNb7WWIXeqs5/4c31.jpeg",
+      "status": "fetched",
+      "final_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDMnNb7WWIXeqs5/4c31.jpeg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 11:52:05 GMT",
+        "ETag": "\"723be4365b3faff7baadfa7debb0bebf\"",
+        "Content-Length": "1587897"
+      },
+      "sha256": "6981ad6ba781e7a95f6b9d86f535846a2ed8884b50d62088a430bc8c2816edec",
+      "bytes": 1587897,
+      "width": 2400,
+      "height": 1600,
+      "format": "JPEG",
+      "exif": {
+        "Make": "Canon",
+        "Model": "Canon EOS R5m2",
+        "DateTime": "2026:11:15 12:39:21",
+        "Copyright": "",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 12:39:21",
+        "DateTimeDigitized": "2026:11:15 12:39:21",
+        "OffsetTimeOriginal": "+01:00"
+      }
+    },
+    {
+      "id": "SZ-ALBUM-25",
+      "requested_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkBQkMFOdEFIXfHWf/26d4.jpeg",
+      "status": "fetched",
+      "final_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkBQkMFOdEFIXfHWf/26d4.jpeg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 16:22:38 GMT",
+        "ETag": "\"f02dfe287ac97260a758fc7c6ec0d45b\"",
+        "Content-Length": "990642"
+      },
+      "sha256": "d61f089ad3fedd4e0d28adc003f56cbc9114d2ad5358dbba3becc035d0e3116f",
+      "bytes": 990642,
+      "width": 2400,
+      "height": 1600,
+      "format": "JPEG",
+      "exif": {
+        "Make": "Canon",
+        "Model": "Canon EOS R5m2",
+        "DateTime": "2026:11:15 12:52:07",
+        "Copyright": "",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 12:52:07",
+        "DateTimeDigitized": "2026:11:15 12:52:07",
+        "OffsetTimeOriginal": "+01:00"
+      }
+    },
+    {
+      "id": "SZ-ALBUM-26",
+      "requested_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCEwoKUOIXfH3j/1132.jpeg",
+      "status": "fetched",
+      "final_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TCEwoKUOIXfH3j/1132.jpeg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 12:09:30 GMT",
+        "ETag": "\"d345dd7d99b24e84aaeae9af427d2161\"",
+        "Content-Length": "716802"
+      },
+      "sha256": "36d28f9638525a0670813c85fbe9a0aba7593edeba1155f87ff748f019ac9b63",
+      "bytes": 716802,
+      "width": 2400,
+      "height": 1600,
+      "format": "JPEG",
+      "exif": {
+        "Make": "Canon",
+        "Model": "Canon EOS R5m2",
+        "DateTime": "2026:11:15 12:52:25",
+        "Copyright": "",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 12:52:25",
+        "DateTimeDigitized": "2026:11:15 12:52:25",
+        "OffsetTimeOriginal": "+01:00"
+      }
+    },
+    {
+      "id": "SZ-ALBUM-27",
+      "requested_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCJCefHDLkIXfIUg/1804.jpeg",
+      "status": "fetched",
+      "final_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/kb4JgeTdkCJCefHDLkIXfIUg/1804.jpeg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 12:09:46 GMT",
+        "ETag": "\"e7b82f74d5d443141378edd413e28c34\"",
+        "Content-Length": "889285"
+      },
+      "sha256": "463559d5f42fe432a46a940bece232305c696c4f3529ce664a93b45793c20e93",
+      "bytes": 889285,
+      "width": 2400,
+      "height": 1600,
+      "format": "JPEG",
+      "exif": {
+        "Make": "Canon",
+        "Model": "Canon EOS R5m2",
+        "DateTime": "2026:11:15 13:00:07",
+        "Copyright": "",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 13:00:07",
+        "DateTimeDigitized": "2026:11:15 13:00:07",
+        "OffsetTimeOriginal": "+01:00"
+      }
+    },
+    {
+      "id": "SZ-ALBUM-28",
+      "requested_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDrngKDG2lIXfIth/4bfa.jpeg",
+      "status": "fetched",
+      "final_url": "https://d39-a.sdn.cz/d_39/c_img_qH_A/nQO0xPd86TDrngKDG2lIXfIth/4bfa.jpeg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 12:10:02 GMT",
+        "ETag": "\"492b3b779e70c4e97b3f6be8f963f724\"",
+        "Content-Length": "977346"
+      },
+      "sha256": "e477537556f317d7525ad6985a143369417fb88f22c037d4448008c2f0a18b7d",
+      "bytes": 977346,
+      "width": 2400,
+      "height": 1600,
+      "format": "JPEG",
+      "exif": {
+        "Make": "Canon",
+        "Model": "Canon EOS R5m2",
+        "DateTime": "2026:11:15 13:04:56",
+        "Copyright": "",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 13:04:56",
+        "DateTimeDigitized": "2026:11:15 13:04:56",
+        "OffsetTimeOriginal": "+01:00"
+      }
+    },
+    {
+      "id": "SINMED-01",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212207_a34.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212207_a34.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:22:07 GMT",
+        "ETag": "\"fed79efc3e75dd1:0\"",
+        "Content-Length": "589552"
+      },
+      "sha256": "3c02b3db25efc41756f2029d9c3ab28f30a23ede8fcae7058c423b09debdaf37",
+      "bytes": 589552,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 20:58:06",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 15:04:11",
+        "DateTimeDigitized": "2026:11:15 15:04:11",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-02",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212030_a1.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212030_a1.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:20:30 GMT",
+        "ETag": "\"3447bac23e75dd1:0\"",
+        "Content-Length": "881379"
+      },
+      "sha256": "1019664c491826d11550b8b0a7e431d3c0f4cb736bcd93999ffdbc0877d7cf06",
+      "bytes": 881379,
+      "width": 1100,
+      "height": 733,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 17:45:09",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 16:23:16",
+        "DateTimeDigitized": "2026:11:15 16:23:16",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-03",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212030_a3.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212030_a3.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:20:30 GMT",
+        "ETag": "\"635acdc23e75dd1:0\"",
+        "Content-Length": "500908"
+      },
+      "sha256": "d286be189b48e58021f508e0de92b890f2df0531513e3a7e30913f72d0713dc3",
+      "bytes": 500908,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 18:39:24",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 12:50:26",
+        "DateTimeDigitized": "2026:11:15 12:50:26",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-04",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212030_a14.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212030_a14.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:20:30 GMT",
+        "ETag": "\"611ef1c23e75dd1:0\"",
+        "Content-Length": "248278"
+      },
+      "sha256": "ae45ef51593f4f041d49239d5d4e352f9b040a2592da12555180a0ce7a1843d5",
+      "bytes": 248278,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 19:39:39",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 13:42:49",
+        "DateTimeDigitized": "2026:11:15 13:42:49",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-05",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212031_a15.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212031_a15.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:20:31 GMT",
+        "ETag": "\"5e7f31c33e75dd1:0\"",
+        "Content-Length": "832686"
+      },
+      "sha256": "3d19f120c501bd9322db44c790fe1bd02ab254a71df237198370ca8eaaedf409",
+      "bytes": 832686,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 19:42:15",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 13:43:48",
+        "DateTimeDigitized": "2026:11:15 13:43:48",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-06",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212031_a4.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212031_a4.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:20:31 GMT",
+        "ETag": "\"989244c33e75dd1:0\"",
+        "Content-Length": "952237"
+      },
+      "sha256": "5feb83b41ef7331af8ad0ab6134cadac73fa30bd96d41c8c4df3a3e41177ee83",
+      "bytes": 952237,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 18:56:42",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 16:55:14",
+        "DateTimeDigitized": "2026:11:15 16:55:14",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-07",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212031_a2.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212031_a2.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:20:31 GMT",
+        "ETag": "\"3e5749c33e75dd1:0\"",
+        "Content-Length": "990961"
+      },
+      "sha256": "6bf3cbb1198807babfcfe0ee14ed2337d2f4ea996b0414a0aad3b49b38dcfa5d",
+      "bytes": 990961,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 17:56:10",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 14:06:30",
+        "DateTimeDigitized": "2026:11:15 14:06:30",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-08",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212031_a16.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212031_a16.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:20:31 GMT",
+        "ETag": "\"aaa557c33e75dd1:0\"",
+        "Content-Length": "514353"
+      },
+      "sha256": "958b942a752058260d8e43f3fca12a4de01923d19f6f57cacf8fddc51d43daf1",
+      "bytes": 514353,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 19:47:37",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 13:47:28",
+        "DateTimeDigitized": "2026:11:15 13:47:28",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-09",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212031_a18.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212031_a18.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:20:31 GMT",
+        "ETag": "\"9f5587c33e75dd1:0\"",
+        "Content-Length": "567589"
+      },
+      "sha256": "31319dd887740612362347d2d16dcd85bc500a66e2a80eb7b192e994f7f003ab",
+      "bytes": 567589,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 19:52:44",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 13:53:58",
+        "DateTimeDigitized": "2026:11:15 13:53:58",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-10",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212032_a5.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212032_a5.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:20:32 GMT",
+        "ETag": "\"fa7c8ec33e75dd1:0\"",
+        "Content-Length": "943137"
+      },
+      "sha256": "18da085fea1b238596a2d50567ebb82d0ef8b59cda2caae968ae5292dfad6e01",
+      "bytes": 943137,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 19:01:33",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 16:55:14",
+        "DateTimeDigitized": "2026:11:15 16:55:14",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-11",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212032_a17.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212032_a17.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:20:32 GMT",
+        "ETag": "\"aa4193c33e75dd1:0\"",
+        "Content-Length": "735139"
+      },
+      "sha256": "d7a28296a9b38787887f39976bc00d154234080bb30076d1262a5bec8cfc4aa2",
+      "bytes": 735139,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 19:49:13",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 13:50:38",
+        "DateTimeDigitized": "2026:11:15 13:50:38",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-12",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212039_a20.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212039_a20.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:20:39 GMT",
+        "ETag": "\"661cffc73e75dd1:0\"",
+        "Content-Length": "282685"
+      },
+      "sha256": "5a856509c6dbe465e20f5e60335ee6107c003123fd6ce6370fc2482148ddc1fe",
+      "bytes": 282685,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 20:05:10",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 14:03:14",
+        "DateTimeDigitized": "2026:11:15 14:03:14",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-13",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212039_a6.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212039_a6.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:20:39 GMT",
+        "ETag": "\"cba6e9c73e75dd1:0\"",
+        "Content-Length": "983648"
+      },
+      "sha256": "659f4a025bc1876af912494177caf77de9063494847ffebe78b41e2f2c45c0d2",
+      "bytes": 983648,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 19:17:27",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 16:57:50",
+        "DateTimeDigitized": "2026:11:15 16:57:50",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-14",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212039_a19.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212039_a19.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:20:39 GMT",
+        "ETag": "\"661b1ec83e75dd1:0\"",
+        "Content-Length": "766411"
+      },
+      "sha256": "7f210ed09d32a89550b753d0c3db1341d6c753b5a55a96439ca180333bd25c8b",
+      "bytes": 766411,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 19:58:42",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 13:54:58",
+        "DateTimeDigitized": "2026:11:15 13:54:58",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-15",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212039_a7.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212039_a7.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:20:39 GMT",
+        "ETag": "\"30b91bc83e75dd1:0\"",
+        "Content-Length": "772896"
+      },
+      "sha256": "e8243429cf38517943a671a46a37853ae8ff4573fa0094b8b7c05d45643669aa",
+      "bytes": 772896,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 19:21:40",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 12:59:21",
+        "DateTimeDigitized": "2026:11:15 12:59:21",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-16",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212044_a13.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212044_a13.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:20:44 GMT",
+        "ETag": "\"d05614cb3e75dd1:0\"",
+        "Content-Length": "124547"
+      },
+      "sha256": "8b9408ce12acbb2bdcb18ad5dfbbc55d12af3b09f709ddf9a0b8fd25e76c9dbe",
+      "bytes": 124547,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 19:36:37",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 13:24:36",
+        "DateTimeDigitized": "2026:11:15 13:24:36",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-17",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212044_a12.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212044_a12.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:20:44 GMT",
+        "ETag": "\"59a522cb3e75dd1:0\"",
+        "Content-Length": "178565"
+      },
+      "sha256": "0de9d38264720f4d88ba35dfc5a8220ad6cba69184ee0c0bef35132ab19182d1",
+      "bytes": 178565,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 19:34:19",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 13:23:41",
+        "DateTimeDigitized": "2026:11:15 13:23:41",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-18",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212044_a8.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212044_a8.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:20:44 GMT",
+        "ETag": "\"98b835cb3e75dd1:0\"",
+        "Content-Length": "479243"
+      },
+      "sha256": "0b36447e061ce8a720007d84d3d87f58e7a6fe1fdb6d8d7bc8af51574f9818c0",
+      "bytes": 479243,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 19:23:58",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 13:00:41",
+        "DateTimeDigitized": "2026:11:15 13:00:41",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-19",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212045_a11.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212045_a11.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:20:45 GMT",
+        "ETag": "\"def24fcb3e75dd1:0\"",
+        "Content-Length": "295972"
+      },
+      "sha256": "4770934ceccfd83c27cc2b7cae5a65921fbb10bf96bac1fbbdac41a2b31cf140",
+      "bytes": 295972,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 19:32:50",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 13:19:39",
+        "DateTimeDigitized": "2026:11:15 13:19:39",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-20",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212044_a9.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212044_a9.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:20:44 GMT",
+        "ETag": "\"3a6946cb3e75dd1:0\"",
+        "Content-Length": "642672"
+      },
+      "sha256": "09f755f12d1dd137a30c50673a327dc7850ded3ab4302f048ae81e3d33bdd0a9",
+      "bytes": 642672,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 19:26:45",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 13:01:46",
+        "DateTimeDigitized": "2026:11:15 13:01:46",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-21",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212045_a10.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212045_a10.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:20:45 GMT",
+        "ETag": "\"535552cb3e75dd1:0\"",
+        "Content-Length": "602163"
+      },
+      "sha256": "81e130338189578fc29473ea34e5877de47f7962fba83e1a212c4cbd6a314a7b",
+      "bytes": 602163,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 19:29:29",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 13:02:23",
+        "DateTimeDigitized": "2026:11:15 13:02:23",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-22",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212200_a25.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212200_a25.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:22:00 GMT",
+        "ETag": "\"8f380f83e75dd1:0\"",
+        "Content-Length": "819270"
+      },
+      "sha256": "603de3e8059f73754d39a8375392c6cd70d16b8c0c3b272628111d5f9a179798",
+      "bytes": 819270,
+      "width": 1100,
+      "height": 733,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 20:27:18",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 14:10:29",
+        "DateTimeDigitized": "2026:11:15 14:10:29",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-23",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212200_a28.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212200_a28.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:22:00 GMT",
+        "ETag": "\"937c8af83e75dd1:0\"",
+        "Content-Length": "646088"
+      },
+      "sha256": "348cff5e18aaf9e827b02fd8715cc3450556c833c921d0bab41f3686aed36584",
+      "bytes": 646088,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 20:36:44",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 14:23:53",
+        "DateTimeDigitized": "2026:11:15 14:23:53",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-24",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212200_a26.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212200_a26.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:22:01 GMT",
+        "ETag": "\"e7ca98f83e75dd1:0\"",
+        "Content-Length": "505605"
+      },
+      "sha256": "29ae27f05bfa2e06cbbf358a5f8bd46a6e8d269cf7a97287a24fbd3eaa5d01e2",
+      "bytes": 505605,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 20:31:07",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 14:21:18",
+        "DateTimeDigitized": "2026:11:15 14:21:18",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-25",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212200_a29.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212200_a29.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:22:00 GMT",
+        "ETag": "\"11694f83e75dd1:0\"",
+        "Content-Length": "730540"
+      },
+      "sha256": "1675bebfb6c95c8121f9e6b188c0417e7573b9b5493195a7091cf4291e2f87f1",
+      "bytes": 730540,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 20:40:16",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 14:25:28",
+        "DateTimeDigitized": "2026:11:15 14:25:28",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-26",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212201_a38.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212201_a38.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:22:01 GMT",
+        "ETag": "\"ad53c1f83e75dd1:0\"",
+        "Content-Length": "128471"
+      },
+      "sha256": "60ca4dd8bb773b01fb3cd5ab1d29f9e26c1382545cf9c51891cae4ce6b019457",
+      "bytes": 128471,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 21:11:16",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 15:51:45",
+        "DateTimeDigitized": "2026:11:15 15:51:45",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-27",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212201_a24.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212201_a24.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:22:01 GMT",
+        "ETag": "\"4a19a7f83e75dd1:0\"",
+        "Content-Length": "1028865"
+      },
+      "sha256": "143a2be3cb099a27c7318172a6607018414bc4ba3ff0c4926573bd504249c6a6",
+      "bytes": 1028865,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 20:20:04",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 14:06:24",
+        "DateTimeDigitized": "2026:11:15 14:06:24",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-28",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212201_a30.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212201_a30.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:22:01 GMT",
+        "ETag": "\"805b3f83e75dd1:0\"",
+        "Content-Length": "942787"
+      },
+      "sha256": "2be6d61660277a844f9c94c579d6be07d5e1bcc97c704d22bef5da5e506cf3fb",
+      "bytes": 942787,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 20:44:21",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 14:41:22",
+        "DateTimeDigitized": "2026:11:15 14:41:22",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-29",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212201_a31.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212201_a31.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:22:01 GMT",
+        "ETag": "\"1fa2cff83e75dd1:0\"",
+        "Content-Length": "628246"
+      },
+      "sha256": "7a7ea7697feac59ae0557fa3a70d0ca037038c1711bdfad8a6ff202f06193f1c",
+      "bytes": 628246,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 20:47:33",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 14:46:09",
+        "DateTimeDigitized": "2026:11:15 14:46:09",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-30",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212207_a37.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212207_a37.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:22:07 GMT",
+        "ETag": "\"71767dfc3e75dd1:0\"",
+        "Content-Length": "453012"
+      },
+      "sha256": "d8190050774db3321e47c1e3be12abd32dce7a0be6a14596745bc46fd796e61e",
+      "bytes": 453012,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 21:08:52",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 15:40:19",
+        "DateTimeDigitized": "2026:11:15 15:40:19",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-31",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212207_a33.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212207_a33.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:22:07 GMT",
+        "ETag": "\"cec92fc3e75dd1:0\"",
+        "Content-Length": "584145"
+      },
+      "sha256": "e1390860d7942df20bc5f6066bfe18c9be65bb1d800082e1ba71d12a34f30dc6",
+      "bytes": 584145,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 20:56:05",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 15:04:07",
+        "DateTimeDigitized": "2026:11:15 15:04:07",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-32",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212207_a32.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212207_a32.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:22:07 GMT",
+        "ETag": "\"fed79efc3e75dd1:0\"",
+        "Content-Length": "573248"
+      },
+      "sha256": "1687636b37bf2c886d753cf8170b5306acb1969df4f039e8611c0bbd4b1c1b4b",
+      "bytes": 573248,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 20:49:57",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 14:49:05",
+        "DateTimeDigitized": "2026:11:15 14:49:05",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-33",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212207_a36.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212207_a36.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:22:07 GMT",
+        "ETag": "\"5c26adfc3e75dd1:0\"",
+        "Content-Length": "783174"
+      },
+      "sha256": "a8bc74ac2a7019516ceeacd7d34d93ba13868ca31573d32085b2d73cac2d36f8",
+      "bytes": 783174,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 21:04:59",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 15:25:03",
+        "DateTimeDigitized": "2026:11:15 15:25:03",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-34",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261115212207_a35.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261115212207_a35.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Sun, 15 Nov 2026 20:22:07 GMT",
+        "ETag": "\"ea74bbfc3e75dd1:0\"",
+        "Content-Length": "705398"
+      },
+      "sha256": "5620cb10141688f0145f92b04291e8f021b32c461b624558eb6120303e706647",
+      "bytes": 705398,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 21:00:42",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 15:17:13",
+        "DateTimeDigitized": "2026:11:15 15:17:13",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-35",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261116090417_a51.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261116090417_a51.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Mon, 16 Nov 2026 08:04:17 GMT",
+        "ETag": "\"c90b413a175dd1:0\"",
+        "Content-Length": "213451"
+      },
+      "sha256": "d47e79e21e2da4ed983d2518d374295d9f8abcf3febc52bc358eee50a5496d65",
+      "bytes": 213451,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:16 08:49:42",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 16:24:50",
+        "DateTimeDigitized": "2026:11:15 16:24:50",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-36",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261116090417_a53.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261116090417_a53.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Mon, 16 Nov 2026 08:04:17 GMT",
+        "ETag": "\"f754b913a175dd1:0\"",
+        "Content-Length": "292090"
+      },
+      "sha256": "53c01dda29237c37a1972b45ae0439818bb0f2e0272bf2eefdc33a530d98624f",
+      "bytes": 292090,
+      "width": 990,
+      "height": 660,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:16 08:54:56",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 16:24:58",
+        "DateTimeDigitized": "2026:11:15 16:24:58",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-37",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261116090436_a40.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261116090436_a40.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Mon, 16 Nov 2026 08:04:36 GMT",
+        "ETag": "\"37bb2b1fa175dd1:0\"",
+        "Content-Length": "286456"
+      },
+      "sha256": "cbab5be2e58caf2f2cabdbf2cc647d48aafd84788f1b6a60584d1ad14f371fdb",
+      "bytes": 286456,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 21:37:30",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 16:59:00",
+        "DateTimeDigitized": "2026:11:15 16:59:00",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-38",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261116090436_a38.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261116090436_a38.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Mon, 16 Nov 2026 08:04:36 GMT",
+        "ETag": "\"37bb2b1fa175dd1:0\"",
+        "Content-Length": "598301"
+      },
+      "sha256": "5939f598d6de3b77d6613fb9aafe55f2c5650e6a2bbe5e82acf4f773b2a2179b",
+      "bytes": 598301,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 21:11:16",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 15:51:45",
+        "DateTimeDigitized": "2026:11:15 15:51:45",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-39",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261116090436_a43.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261116090436_a43.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Mon, 16 Nov 2026 08:04:36 GMT",
+        "ETag": "\"7d93431fa175dd1:0\"",
+        "Content-Length": "133834"
+      },
+      "sha256": "8cecc4c8cb83270a3453f8401d155b5de73033eba6a694ada9c6631af60dce91",
+      "bytes": 133834,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:16 01:29:16",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 15:51:16",
+        "DateTimeDigitized": "2026:11:15 15:51:16",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-40",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261116090436_a39.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261116090436_a39.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Mon, 16 Nov 2026 08:04:36 GMT",
+        "ETag": "\"6da6561fa175dd1:0\"",
+        "Content-Length": "1014789"
+      },
+      "sha256": "e3c53e5220763d06770f352948a8ab0221c85d7f58f7d18895821fc26a27d422",
+      "bytes": 1014789,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:15 21:35:00",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 16:57:17",
+        "DateTimeDigitized": "2026:11:15 16:57:17",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-41",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261116090436_a41.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261116090436_a41.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Mon, 16 Nov 2026 08:04:37 GMT",
+        "ETag": "\"7656861fa175dd1:0\"",
+        "Content-Length": "534821"
+      },
+      "sha256": "cf27bcc1fdb3fb08cc503af23fa1f6e90b5762e70fd0def0e3c7de3d4d387fb2",
+      "bytes": 534821,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:16 01:18:56",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 12:51:35",
+        "DateTimeDigitized": "2026:11:15 12:51:35",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-42",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261116090437_a44.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261116090437_a44.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Mon, 16 Nov 2026 08:04:37 GMT",
+        "ETag": "\"e390a01fa175dd1:0\"",
+        "Content-Length": "655066"
+      },
+      "sha256": "d5343cb8225bce6fe9956dfbd4f78530b853fe3716950f282a9718b138746a7d",
+      "bytes": 655066,
+      "width": 1200,
+      "height": 800,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:16 01:30:52",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 15:52:56",
+        "DateTimeDigitized": "2026:11:15 15:52:56",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-43",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261116090437_a45.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261116090437_a45.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Mon, 16 Nov 2026 08:04:37 GMT",
+        "ETag": "\"12a4b31fa175dd1:0\"",
+        "Content-Length": "887355"
+      },
+      "sha256": "7e8cc2394a104216cb22fd70311e1f5222615dde119731f57f9901606c8f9144",
+      "bytes": 887355,
+      "width": 1100,
+      "height": 733,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:16 01:35:42",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 16:23:16",
+        "DateTimeDigitized": "2026:11:15 16:23:16",
+        "OffsetTimeOriginal": "+02:00"
+      }
+    },
+    {
+      "id": "SINMED-44",
+      "requested_url": "https://www.sinmed.cz/images/gallery/20261116090437_a46.jpg",
+      "status": "fetched",
+      "final_url": "https://www.sinmed.cz/images/gallery/20261116090437_a46.jpg",
+      "headers": {
+        "Content-Type": "image/jpeg",
+        "Last-Modified": "Mon, 16 Nov 2026 08:04:37 GMT",
+        "ETag": "\"3590bf1fa175dd1:0\"",
+        "Content-Length": "1008319"
+      },
+      "sha256": "3df4b97f482c14c9e24dfbae5aeb4c9923adab5001041921d35df3634d17ba73",
+      "bytes": 1008319,
+      "width": 1100,
+      "height": 733,
+      "format": "JPEG",
+      "exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D850",
+        "DateTime": "2026:11:16 01:36:38",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 16:25:28",
+        "DateTimeDigitized": "2026:11:15 16:25:28",
+        "OffsetTimeOriginal": "+02:00"
+      }
     }
   ]
 }
