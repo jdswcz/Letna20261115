@@ -1,45 +1,64 @@
 {
-  "session_id": "review-20261117-02",
+  "session_id": "review-20261117-03",
   "public_key": "rLuWpZgszC4VuJai1coElBBqhBCstsEV4OffdXk65hY=",
-  "max_width": 1800,
-  "max_height": 1400,
-  "jpeg_quality": 90,
+  "max_width": 1600,
+  "max_height": 1200,
+  "jpeg_quality": 80,
   "items": [
     {
-      "id": "CUZK-ORTHO",
-      "asset_id": "CUZK-ORTHO"
+      "id": "PLAN",
+      "asset_id": "ORGANIZER-PLAN"
     },
     {
-      "id": "POLICE-FULL",
-      "asset_id": "POLICE-POSTER-UNCROPPED"
-    },
-    {
-      "id": "TUR-102",
+      "id": "TUR-102-RETRY",
       "asset_id": "SZ-GALLERY-102-UNCROPPED"
     },
     {
-      "id": "PANO",
-      "asset_id": "SZ-360-POSTER-UNCROPPED"
-    },
-    {
-      "id": "SAMPLE-TUR-FRONT",
-      "asset_id": "SZ-GALLERY-104-UNCROPPED",
+      "id": "MAP-ZOOM",
+      "asset_id": "CUZK-ORTHO",
       "crop": [
-        400,
-        600,
-        1000,
-        1200
+        430,
+        430,
+        1450,
+        1100
       ]
     },
     {
-      "id": "SAMPLE-POLICE-CENTER",
+      "id": "POLICE-GRID",
+      "asset_id": "POLICE-POSTER-UNCROPPED"
+    },
+    {
+      "id": "P1",
       "asset_id": "POLICE-POSTER-UNCROPPED",
       "crop": [
-        650,
-        350,
-        1250,
-        950
-      ]
+        800,
+        550,
+        880,
+        630
+      ],
+      "scale": 6
+    },
+    {
+      "id": "P2",
+      "asset_id": "POLICE-POSTER-UNCROPPED",
+      "crop": [
+        550,
+        450,
+        630,
+        530
+      ],
+      "scale": 6
+    },
+    {
+      "id": "P3",
+      "asset_id": "POLICE-POSTER-UNCROPPED",
+      "crop": [
+        1100,
+        750,
+        1180,
+        830
+      ],
+      "scale": 6
     }
   ]
 }

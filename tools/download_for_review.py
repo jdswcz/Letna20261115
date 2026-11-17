@@ -31,7 +31,7 @@ def main():
         try:
             url = asset["url"]
             if urlsplit(url).scheme != "https" or urlsplit(url).hostname not in {
-                "d15-a.sdn.cz","d39-a.sdn.cz","www.sinmed.cz","ags.cuzk.gov.cz"}:
+                "d15-a.sdn.cz","d39-a.sdn.cz","www.sinmed.cz","ags.cuzk.gov.cz","1884403144.rsc.cdn77.org"}:
                 raise ValueError("Not a reviewed photo host")
             req = Request(url,headers={"User-Agent":"Letna20261115-research/0.2"})
             with urlopen(req,timeout=40) as response:
@@ -54,6 +54,8 @@ def main():
                     raise ValueError("Crop outside oriented image")
                 im=im.crop(crop)
             im.thumbnail((session.get("max_width",1600),session.get("max_height",1200)))
+            if item.get("scale"):
+                im=im.resize((im.width*item["scale"],im.height*item["scale"]),Image.Resampling.NEAREST)
             output=io.BytesIO()
             im.save(output,format="JPEG",quality=session.get("jpeg_quality",85),subsampling=0)
             preview = output.getvalue()
@@ -69,6 +71,7 @@ def main():
                     encoding=serialization.Encoding.Raw,format=serialization.PublicFormat.Raw)).decode(),
                 "nonce":base64.b64encode(nonce).decode(),
                 "preview_sha256":hashlib.sha256(preview).hexdigest(),
+                "preview_crc32":__import__("zlib").crc32(preview),
                 "preview_dimensions":list(im.size),"crop":item.get("crop"),
                 "raw_sha256":digest,
                 "ciphertext":base64.b64encode(encrypted).decode()
