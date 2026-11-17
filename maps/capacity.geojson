@@ -28,7 +28,7 @@
         "basis": "Visible boundary manually traced on CUZK ortho; same reference_open_surface as prior analysis.",
         "projected_area_m2": 55915.601187168635,
         "independent_decimal_area_m2": 55915.60118716685,
-        "ground_geodesic_area_m2": 55957.96356886625
+        "ground_geodesic_area_m2": 55957.963570833206
       },
       "geometry": {
         "type": "Polygon",
@@ -85,7 +85,7 @@
         "basis": "Paved/service/grass strip north of open surface; not main road. Capacity conditional on availability and parking removal.",
         "projected_area_m2": 24519.834395537247,
         "independent_decimal_area_m2": 24519.834395300546,
-        "ground_geodesic_area_m2": 24538.409465346485
+        "ground_geodesic_area_m2": 24538.409466112033
       },
       "geometry": {
         "type": "Polygon",
@@ -142,7 +142,7 @@
         "basis": "Strip between open field and next parallel promenade; gross envelope with trees and furniture.",
         "projected_area_m2": 16704.235695030977,
         "independent_decimal_area_m2": 16704.235695201285,
-        "ground_geodesic_area_m2": 16716.890731081367
+        "ground_geodesic_area_m2": 16716.89072677493
       },
       "geometry": {
         "type": "Polygon",
