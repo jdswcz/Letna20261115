@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "map_pixel_reference": {
+    "file": "maps/cuzk_ortho.jpg",
+    "width": 2400,
+    "height": 1800,
+    "crs": "EPSG:32633",
+    "extent": [
+      457437.8816664748,
+      5548767.720857226,
+      459595.6339634098,
+      5550386.035079927
+    ],
+    "preview_crop_offset": [
+      430,
+      430
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "reference_open_surface",
+        "kind": "reference_geometry_not_occupancy",
+        "review": "Manually traced visible open-surface edge on CUZK orthophoto. No claim of full occupancy.",
+        "pixel_coordinates": [
+          [
+            590,
+            785
+          ],
+          [
+            1157,
+            677
+          ],
+          [
+            1181,
+            810
+          ],
+          [
+            611,
+            888
+          ]
+        ],
+        "boundary_error_pixels": 10
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "reference_south_grass_strip",
+        "kind": "reference_geometry_not_occupancy",
+        "review": "Grass strip between open surface and first parallel promenade. Not a measured crowd sector.",
+        "pixel_coordinates": [
+          [
+            611,
+            888
+          ],
+          [
+            1181,
+            810
+          ],
+          [
+            1194,
+            842
+          ],
+          [
+            622,
+            925
+          ]
+        ],
+        "boundary_error_pixels": 10
+      },
+      "geometry": null
+    }
+  ]
+}

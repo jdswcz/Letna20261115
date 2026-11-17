@@ -31,12 +31,17 @@ jobs:
       - name: Audit source and image metadata
         if: github.event_name == 'push'
         run: python tools/collect.py
+      - name: Verify visual-review transport
+        run: node tools/review_transport.mjs self-test
       - name: Inventory full galleries
         if: github.event_name == 'push'
         run: python tools/inventory_galleries.py
       - name: Download official reference map
         if: github.event_name == 'push'
         run: python tools/download_map.py
+      - name: Measure reference geometry
+        if: github.event_name == 'push'
+        run: python tools/reference_geometry.py
       - name: Download photos and prepare private visual review
         if: github.event_name == 'push'
         run: |
@@ -49,7 +54,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- data/collection.json results/estimate.json results/verification.json data/download_manifest.json data/gallery_inventory.json maps/
+          git add -- data/collection.json results/estimate.json results/verification.json data/download_manifest.json data/gallery_inventory.json maps/ results/reference_areas.json
           if ! git diff --cached --quiet; then
             git commit -m "Record HTTP provenance, hashes and image metadata [skip ci]"
             git push origin "HEAD:$RESEARCH_BRANCH"
