@@ -1,0 +1,9 @@
+{
+  "map_hash_verified": true,
+  "map_scale_verified": true,
+  "baseline_sectors_disjoint": true,
+  "parameters_finite_and_ordered": true,
+  "fractions_in_0_1": true,
+  "times_not_summed": true,
+  "unit_density_identity": true
+}

@@ -1,0 +1,538 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "W",
+        "label": "Zapadni cast otevrene plane",
+        "pixel_coordinates": [
+          [
+            590,
+            785
+          ],
+          [
+            779,
+            749
+          ],
+          [
+            801,
+            862
+          ],
+          [
+            611,
+            888
+          ]
+        ],
+        "area_factor": [
+          0.9,
+          1,
+          1.1
+        ],
+        "occupied_fraction": [
+          0.8,
+          0.89,
+          0.95
+        ],
+        "density": [
+          2.1,
+          2.8,
+          3.6
+        ],
+        "basis": "Continuous crowded surface visible in SZ-GALLERY-102-UNCROPPED; west-to-east density gradient is visual judgement, not calibrated sampling. Fraction excludes rink, corridors, equipment and visible voids.",
+        "gross_area_m2": 17081.71884685026,
+        "people_scenarios": [
+          25827.5588964376,
+          42567.64336635085,
+          64261.42630185069
+        ],
+        "geometry_status": "Model envelope, not verified occupied boundary"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.412318948878099,
+              50.09789225360522
+            ],
+            [
+              14.414691110794466,
+              50.0981953383064
+            ],
+            [
+              14.414978776362535,
+              50.09728305181828
+            ],
+            [
+              14.412593099325242,
+              50.09706076614265
+            ],
+            [
+              14.412318948878099,
+              50.09789225360522
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "M",
+        "label": "Stred otevrene plane",
+        "pixel_coordinates": [
+          [
+            779,
+            749
+          ],
+          [
+            968,
+            713
+          ],
+          [
+            991,
+            836
+          ],
+          [
+            801,
+            862
+          ]
+        ],
+        "area_factor": [
+          0.9,
+          1,
+          1.1
+        ],
+        "occupied_fraction": [
+          0.8,
+          0.89,
+          0.95
+        ],
+        "density": [
+          2.5,
+          3.3,
+          4.1
+        ],
+        "basis": "Continuous crowded surface visible in SZ-GALLERY-102-UNCROPPED; west-to-east density gradient is visual judgement, not calibrated sampling. Fraction excludes rink, corridors, equipment and visible voids.",
+        "gross_area_m2": 18638.53372913685,
+        "people_scenarios": [
+          33549.36071244633,
+          54741.373562474924,
+          79856.79776248682
+        ],
+        "geometry_status": "Model envelope, not verified occupied boundary"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.414691110794466,
+              50.0981953383064
+            ],
+            [
+              14.417063303037912,
+              50.09849837463017
+            ],
+            [
+              14.417364475883787,
+              50.09750528854205
+            ],
+            [
+              14.414978776362535,
+              50.09728305181828
+            ],
+            [
+              14.414691110794466,
+              50.0981953383064
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "E",
+        "label": "Vychodni cast otevrene plane",
+        "pixel_coordinates": [
+          [
+            968,
+            713
+          ],
+          [
+            1157,
+            677
+          ],
+          [
+            1181,
+            810
+          ],
+          [
+            991,
+            836
+          ]
+        ],
+        "area_factor": [
+          0.9,
+          1,
+          1.1
+        ],
+        "occupied_fraction": [
+          0.8,
+          0.89,
+          0.95
+        ],
+        "density": [
+          2.8,
+          3.6,
+          4.4
+        ],
+        "basis": "Continuous crowded surface visible in SZ-GALLERY-102-UNCROPPED; west-to-east density gradient is visual judgement, not calibrated sampling. Fraction excludes rink, corridors, equipment and visible voids.",
+        "gross_area_m2": 20195.348611338413,
+        "people_scenarios": [
+          40713.82280045824,
+          64705.89695072828,
+          92858.21291493403
+        ],
+        "geometry_status": "Model envelope, not verified occupied boundary"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.417063303037912,
+              50.09849837463017
+            ],
+            [
+              14.419435525602756,
+              50.098801362574946
+            ],
+            [
+              14.419750197882841,
+              50.09772747631278
+            ],
+            [
+              14.417364475883787,
+              50.09750528854205
+            ],
+            [
+              14.417063303037912,
+              50.09849837463017
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "F",
+        "label": "Vychodni predpoli a okoli podia",
+        "pixel_coordinates": [
+          [
+            1157,
+            677
+          ],
+          [
+            1280,
+            650
+          ],
+          [
+            1300,
+            800
+          ],
+          [
+            1181,
+            810
+          ]
+        ],
+        "area_factor": [
+          0.85,
+          1,
+          1.15
+        ],
+        "occupied_fraction": [
+          0.35,
+          0.55,
+          0.75
+        ],
+        "density": [
+          2.4,
+          3.4,
+          4.3
+        ],
+        "basis": "East apron from map; sizeable stage/working-space exclusions. Partial view at frame bottom; fraction and density are assumptions.",
+        "gross_area_m2": 14168.551227109938,
+        "people_scenarios": [
+          10116.345576156493,
+          26495.190794695583,
+          52547.61436354397
+        ],
+        "geometry_status": "Model envelope, not verified occupied boundary"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.419435525602756,
+              50.098801362574946
+            ],
+            [
+              14.42097902121202,
+              50.09902739662052
+            ],
+            [
+              14.42124503681632,
+              50.09781579900682
+            ],
+            [
+              14.419750197882841,
+              50.09772747631278
+            ],
+            [
+              14.419435525602756,
+              50.098801362574946
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "S",
+        "label": "Jizni travnaty pas",
+        "pixel_coordinates": [
+          [
+            611,
+            888
+          ],
+          [
+            1181,
+            810
+          ],
+          [
+            1194,
+            842
+          ],
+          [
+            622,
+            925
+          ]
+        ],
+        "area_factor": [
+          0.9,
+          1,
+          1.1
+        ],
+        "occupied_fraction": [
+          0.65,
+          0.82,
+          0.94
+        ],
+        "density": [
+          1.8,
+          2.6,
+          3.4
+        ],
+        "basis": "Crowd extends to grass/parallel paths in SZ-GALLERY-102-UNCROPPED. Paths, trees and gaps handled by occupied_fraction.",
+        "gross_area_m2": 16704.235695030977,
+        "people_scenarios": [
+          17589.56018686762,
+          35613.43050180604,
+          58725.411009450894
+        ],
+        "geometry_status": "Model envelope, not verified occupied boundary"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.412593099325242,
+              50.09706076614265
+            ],
+            [
+              14.419750197882841,
+              50.09772747631278
+            ],
+            [
+              14.419916730179237,
+              50.09746955131241
+            ],
+            [
+              14.412735022603623,
+              50.09676229603173
+            ],
+            [
+              14.412593099325242,
+              50.09706076614265
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "P",
+        "label": "Jizni park za travnatym pasem",
+        "pixel_coordinates": [
+          [
+            622,
+            925
+          ],
+          [
+            1194,
+            842
+          ],
+          [
+            1210,
+            940
+          ],
+          [
+            730,
+            1040
+          ],
+          [
+            600,
+            970
+          ]
+        ],
+        "area_factor": [
+          0.8,
+          1,
+          1.2
+        ],
+        "occupied_fraction": [
+          0.25,
+          0.45,
+          0.65
+        ],
+        "density": [
+          0.8,
+          1.4,
+          2
+        ],
+        "basis": "Patchy crowd and clearly empty lawns in SZ-GALLERY-102-UNCROPPED; trees obscure people. Boundary is a model envelope, not a verified crowd outline. Greatest occupancy uncertainty.",
+        "gross_area_m2": 52853.29943157786,
+        "people_scenarios": [
+          8456.52790905246,
+          33297.578641894055,
+          82451.14711326147
+        ],
+        "geometry_status": "Model envelope, not verified occupied boundary"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.412735022603623,
+              50.09676229603173
+            ],
+            [
+              14.419916730179237,
+              50.09746955131241
+            ],
+            [
+              14.420127410996065,
+              50.0966781598823
+            ],
+            [
+              14.414103877788504,
+              50.09583930290663
+            ],
+            [
+              14.41246294139246,
+              50.096397042094374
+            ],
+            [
+              14.412735022603623,
+              50.09676229603173
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "N",
+        "label": "Severni okraj a prilehle komunikace",
+        "pixel_coordinates": [
+          [
+            590,
+            730
+          ],
+          [
+            1157,
+            625
+          ],
+          [
+            1157,
+            677
+          ],
+          [
+            590,
+            785
+          ]
+        ],
+        "area_factor": [
+          0.9,
+          1,
+          1.1
+        ],
+        "occupied_fraction": [
+          0.02,
+          0.08,
+          0.18
+        ],
+        "density": [
+          0.5,
+          1,
+          1.5
+        ],
+        "basis": "Mostly empty paved/service/grass strips visible near main road. Very small occupied fraction; no assumption that the traffic carriageway is full.",
+        "gross_area_m2": 24519.834395537247,
+        "people_scenarios": [
+          220.67850955983522,
+          1961.5867516429798,
+          7282.390815474562
+        ],
+        "geometry_status": "Model envelope, not verified occupied boundary"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.412313508749916,
+              50.09833696499477
+            ],
+            [
+              14.41943044433099,
+              50.09922181744739
+            ],
+            [
+              14.419435525602756,
+              50.098801362574946
+            ],
+            [
+              14.412318948878099,
+              50.09789225360522
+            ],
+            [
+              14.412313508749916,
+              50.09833696499477
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "status": "conditional_visual_scenario_not_census",
+  "input_sha256": "8a775510d4b11822c3351ac9d75da7e86d78628cf91b1131face30f8ac6ca563",
+  "anchor_asset": "SZ-GALLERY-102-UNCROPPED",
+  "anchor_time": "2026-11-15T14:22:40+01:00",
+  "daily_event_peak_measured": null,
+  "conditional_peak_proxy": {
+    "lower": 136473.8545909786,
+    "central": 259382.7005695927,
+    "upper": 437983.00028100243
+  },
+  "rounded_to_10000": {
+    "lower": 140000,
+    "central": 260000,
+    "upper": 440000
+  },
+  "effective_occupied_m2": {
+    "lower": 65258.37163196795,
+    "central": 97000.6329974086,
+    "upper": 134004.85914974663
+  },
+  "gross_envelope_m2": 164161.52193658156,
+  "central_average_density": 2.674031009431889,
+  "confidence_interval": null,
+  "coverage_probability": null,
+  "uncertainty_relative_to_central": {
+    "lower": -0.47385136213290957,
+    "upper": 0.688559026177195
+  },
+  "peak_assumption": "Proxy for near-peak simultaneous attendance conditional on the 14:22 view being representative. True daily maximum unobserved; no summing across times, no turnover multiplier.",
+  "parameter_status": "Analyst-selected lower/central/upper scenarios, not measurements, probability quantiles, safety limits or organizer counts.",
+  "claim_comparison": {
+    "350000": {
+      "required_mean_density_on_central_area": 3.608223876326151,
+      "within_scenario_envelope": true
+    },
+    "450000": {
+      "required_mean_density_on_central_area": 4.639144983847909,
+      "within_scenario_envelope": false
+    }
+  },
+  "warning": "Bounds are conditional scenarios, not guaranteed minimum/maximum. No statistical most-likely value or validated percent accuracy is available."
+}
