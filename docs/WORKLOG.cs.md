@@ -21,3 +21,18 @@ Datum: 17. 11. 2026, časy fotografií interpretovány jen s doloženým pásmem
 Konkrétní časy sběrů a výsledky testů jsou ve verzovaných JSON a v historii GitHubu.
 Bajty fotografií se neukládají. Bez zachovaného originálu nebo oprávněného archivu
 nelze z hashů obnovit později odstraněný snímek.
+
+## Navazující práce na přímý pokyn k dokončení
+
+- Práce dále výhradně v main. Místní executor nadále nedostupný; skutečné stažení a výpočty proběhly na GitHub runneru.
+- Překonán přístup k obrazovým datům: soukromé šifrované náhledy byly po dešifrování kontrolovány SHA-256 a skutečně zobrazeny.
+- Nevyhovující přenosy s chybným hashem byly odmítnuty; při opakovaných přenosech byly získány ověřené náhrady. Přenosový nástroj má vlastní testy.
+- Staženo sedm větších souborů a dalších 68 fotografií z úplných galerií; souhrn 75 URL a 80 295 295 bajtů.
+- Všech 68 nových souborů bylo zobrazeno v pěti kontaktních tabulích; vybrané přehledové snímky a výřezy také jednotlivě.
+- Zjištěno, že SinMed série udává EXIF pásmo +02:00, které bez ověření nelze slučovat s místním časem +01:00.
+- Staženo veřejné georeferencované Ortofoto ČR, zaznamenána licence CC BY 4.0, world file, rozsah a hash.
+- Na ortofotu ručně obkresleny dvě referenční plochy. Záměrně nejsou vykázány jako obsazené sektory davu.
+- V malém čitelném výřezu ručně označeno 23 jistějších hlav a tři nejisté kandidáty. Výběr není úplným počtem lidí ani hustotou.
+- Detailní výřezy policejního obrazu se ukázaly nevhodné k spolehlivému oddělení jednotlivých hlav.
+- Provedeno prověření veřejných lokátorů policejního videa; výsledek data/video_locators.json.
+- Číselný celkový odhad zůstává nedoložený. Chybějící data se nedoplňují předpokládanou hustotou nebo převzatým počtem organizátorů.

@@ -1,23 +1,20 @@
-# Letná 15. 11. 2026 – nezávislý audit podkladů
+# Letná 15. 11. 2026 – fotografický výzkum
 
-**Číselný odhad zatím není dokončen.** Nejsou změřené hranice davu ani hustoty.
-Nelze poctivě uvést nejpravděpodobnější počet, realistické rozpětí ani potvrdit či vyvrátit 350–450 tisíc.
+**75 obrazových souborů skutečně staženo (80,3 MB), proveden obrazový audit a referenční
+mapové měření. Doložitelný celkový počet účastníků dosud nebyl získán.**
+Tvrzení o 350–450 tisících nelze z provedených měření potvrdit ani vyvrátit.
 
-- [Dosavadní zpráva](reports/REPORT.cs.md)
-- [Evidence zdrojů](data/sources.json) a [jednotlivých souborů](data/assets.json)
-- [Skutečně získaná HTTP metadata, rozměry, SHA-256 a EXIF](data/collection.json)
-- [Strojový stav výpočtu](results/estimate.json)
-- [Ověření softwaru](results/verification.json)
-- [Metodika a formát měření](docs/METHODOLOGY.cs.md)
-- [Protokol práce a omezení](docs/WORKLOG.cs.md)
+- [Zpráva s výsledkem a omezeními](reports/REPORT.cs.md)
+- [Souhrn skutečně stažených fotografií](data/photo_acquisition.json)
+- [Obrazový audit](data/visual_review.json) a [ručně označený vzorek](data/manual_sample.json)
+- [Mapa referenčních ploch](maps/reference_areas.png), [geometrie](maps/reference_regions.geojson), [výpočty ploch](results/reference_areas.json)
+- [Zdroje](data/sources.json), [registr souborů](data/assets.json), [metadata](data/collection.json)
+- [Stav odhadu](results/estimate.json) a [softwarové testy](results/verification.json)
 
-Přímý sběr našel u několika variant bez ořezu údaj DateTimeOriginal z 15. 11. 2026.
-Jeden snímek má čas 12:56:02 před začátkem akce. Dva soubory uvádějí shodně 14:22:40;
-jejich nezávislost není doložena. Popisky a EXIF jsou důkazy původu, nenahrazují kontrolu obsahu.
-
-Fotografie se bez doloženého oprávnění nezveřejňují; ukládají se odkazy a metadata.
-Prázdné soubory s měřeními znamenají chybějící data, **nikoli nulovou účast**.
-Pracuje se přímo v `main` podle následného pokynu zadavatele. Bez force push.
+Fotobanky a starší demonstrace nejsou vstupem počítání. Mapa referenčních ploch
+**není mapou skutečné obsazenosti**. Chybějící měření znamená null, nikoli nulovou účast.
+Fotografie nejsou bez oprávnění veřejně přiloženy; zachovány jsou URL a SHA-256.
+Výzkum je přímo v main podle pokynu zadavatele. Bez force push.
 
 ## Reprodukce
 
@@ -26,11 +23,21 @@ Python 3.12:
 ```sh
 python -m pip install -r requirements.txt
 python tools/verify.py
+node tools/review_transport.mjs self-test
 python tools/analyze.py
-python tools/collect.py
+python tools/reference_geometry.py
+python tools/download_photos.py
 ```
 
-Sběr vyžaduje síť; změněné HTML může mít jiný hash. Výsledky jednoho sběru jsou verzované v Gitu.
-Původní snímek včetně jeho bajtů není archivován, takže při jeho odstranění samotný hash obraz neobnoví.
-Soubor `tools/annotate.html` otevřený lokálně umožňuje označit hlavy a polygon vzorku.
-Anotátor je připravený nástroj; žádné reálné anotace ještě nebyly provedeny.
+Poslední příkaz stáhne všechny evidované fotografie do ignorované složky private_downloads
+a ověří hashe. Vyžaduje síť; odstraněný snímek nelze z hashe obnovit.
+Změněný soubor se nesmí tiše považovat za původní.
+
+Nový sběr metadat: python tools/collect.py a python tools/inventory_galleries.py.
+Nové mapové podklady: python tools/download_map.py.
+Soubory tools/annotate.html a tools/render_manual_sample.py umožňují kontrolu ruční anotace.
+Detailní postup a vědecká omezení jsou v docs/METHODOLOGY.cs.md a docs/WORKLOG.cs.md.
+
+CI běžně ověřuje software a uložené výpočty. Síťový sběr spustí workflow_dispatch nebo
+push s [acquire] ve zprávě commitu; prohlížení používá veřejný klíč v data/review_session.json.
+Soukromý klíč se nikdy neukládá do Gitu.

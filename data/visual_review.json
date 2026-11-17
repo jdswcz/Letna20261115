@@ -1,0 +1,68 @@
+{
+  "checked_date": "2026-11-17",
+  "method": "Direct display of decrypted JPEG previews after SHA-256 integrity check; contact sheets used only for triage",
+  "accepted_previews": [
+    "POLICE-POSTER-UNCROPPED",
+    "SZ-ELEVATED-POSTER-UNCROPPED",
+    "TUR-102-RETRY",
+    "SZ-GALLERY-103-UNCROPPED",
+    "SZ-GALLERY-104-UNCROPPED",
+    "SZ-GALLERY-105-UNCROPPED",
+    "PANO",
+    "PLAN",
+    "P1",
+    "P3",
+    "SAMPLE-TUR-FRONT",
+    "CONTACT-1",
+    "CONTACT-2",
+    "CONTACT-3",
+    "CONTACT-4",
+    "CONTACT-5",
+    "SINMED-HIGHVIEW",
+    "TUR-LATE-VIEW",
+    "TUR-SAMPLE-EXACT"
+  ],
+  "failed_transfers": "Several previews failed integrity verification and were discarded; replacement previews used where available.",
+  "observations": [
+    {
+      "source_id": "POLICE-POSTER-UNCROPPED",
+      "status": "visual_reviewed",
+      "counting_eligible": false,
+      "reason": "Broad footprint visible; individual people not separable reliably in inspected 80x80-pixel samples; no measured density."
+    },
+    {
+      "source_id": "SZ-GALLERY-102-UNCROPPED",
+      "status": "visual_reviewed",
+      "counting_eligible": false,
+      "reason": "Broad elevated view at EXIF 14:22:40; foreground and rear differ greatly in scale; full park coverage absent."
+    },
+    {
+      "source_id": "SZ-GALLERY-104-UNCROPPED",
+      "status": "visual_reviewed",
+      "counting_eligible": false,
+      "reason": "Readable heads in foreground and event-specific banners; sample ground area not calibrated."
+    },
+    {
+      "source_id": "SZ-360-POSTER-UNCROPPED",
+      "status": "visual_reviewed",
+      "counting_eligible": false,
+      "reason": "Tiny-planet projection; not a calibrated planimetric view."
+    },
+    {
+      "source_id": "SINMED-LETNA",
+      "status": "contact_sheet_reviewed",
+      "counting_eligible": false,
+      "reason": "44 gallery images inspected at contact-sheet resolution; camera clock offset +02:00 requires validation."
+    }
+  ],
+  "numeric_head_counts": [
+    {
+      "annotation": "data/manual_sample.json",
+      "visible_head_markers": 23,
+      "uncertain_markers": 3,
+      "complete_count": false,
+      "calibrated_density": false
+    }
+  ],
+  "note": "No visual density class has been silently converted into measured persons per square metre."
+}

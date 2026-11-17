@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "asset_id": "SZ-GALLERY-104-UNCROPPED",
+  "source_sha256": "a1ab06cd8d1a1d8f2ac30959075c4217d1d4f09a507427e2cb75fa5b0e8d7a1c",
+  "source_dimensions": [
+    2400,
+    1600
+  ],
+  "crop": [
+    400,
+    600,
+    600,
+    800
+  ],
+  "coordinates": "Pixels relative to the 200x200 crop, after EXIF orientation",
+  "method": "Manual selection of recognisable head centres from an inspected 3x nearest-neighbour preview",
+  "head_points": [
+    [
+      15,
+      21
+    ],
+    [
+      48,
+      16
+    ],
+    [
+      64,
+      35
+    ],
+    [
+      94,
+      45
+    ],
+    [
+      178,
+      25
+    ],
+    [
+      24,
+      49
+    ],
+    [
+      66,
+      77
+    ],
+    [
+      10,
+      87
+    ],
+    [
+      46,
+      101
+    ],
+    [
+      136,
+      98
+    ],
+    [
+      181,
+      94
+    ],
+    [
+      147,
+      118
+    ],
+    [
+      20,
+      130
+    ],
+    [
+      51,
+      127
+    ],
+    [
+      62,
+      135
+    ],
+    [
+      72,
+      150
+    ],
+    [
+      13,
+      157
+    ],
+    [
+      131,
+      148
+    ],
+    [
+      191,
+      145
+    ],
+    [
+      188,
+      160
+    ],
+    [
+      172,
+      175
+    ],
+    [
+      56,
+      177
+    ],
+    [
+      147,
+      180
+    ]
+  ],
+  "uncertain_points": [
+    [
+      135,
+      6
+    ],
+    [
+      100,
+      87
+    ],
+    [
+      110,
+      190
+    ]
+  ],
+  "complete_count": false,
+  "occluded_people_unknown": true,
+  "ground_area_m2": null,
+  "note": "23 explicitly marked visible heads and 3 uncertain candidates; not an exhaustive people count and not a density measurement."
+}

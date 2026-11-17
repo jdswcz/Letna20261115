@@ -126,7 +126,7 @@
       "status": "candidate_untransformed_url_not_camera_original",
       "capture_time": null,
       "event_date_claim": "2026-11-15",
-      "pixel_review": false,
+      "pixel_review": true,
       "rights": "No redistribution permission established; link and metadata only",
       "admitted_for_counting": false,
       "variant_of": "POLICE-POSTER",
@@ -137,7 +137,8 @@
       ],
       "exif": {
         "DateTime": "2026:11:15 16:14:59"
-      }
+      },
+      "visual_review_record": "data/visual_review.json"
     },
     {
       "id": "SZ-ELEVATED-POSTER-UNCROPPED",
@@ -146,7 +147,7 @@
       "status": "candidate_untransformed_url_not_camera_original",
       "capture_time": null,
       "event_date_claim": "2026-11-15",
-      "pixel_review": false,
+      "pixel_review": true,
       "rights": "No redistribution permission established; link and metadata only",
       "admitted_for_counting": false,
       "variant_of": "SZ-ELEVATED-POSTER",
@@ -165,7 +166,8 @@
         "DateTimeDigitized": "2026:11:15 14:22:40",
         "OffsetTimeOriginal": "+01:00"
       },
-      "capture_time_claim": "2026-11-15T14:22:40+01:00"
+      "capture_time_claim": "2026-11-15T14:22:40+01:00",
+      "visual_review_record": "data/visual_review.json"
     },
     {
       "id": "SZ-GALLERY-102-UNCROPPED",
@@ -174,7 +176,7 @@
       "status": "candidate_untransformed_url_not_camera_original",
       "capture_time": null,
       "event_date_claim": "2026-11-15",
-      "pixel_review": false,
+      "pixel_review": true,
       "rights": "No redistribution permission established; link and metadata only",
       "admitted_for_counting": false,
       "variant_of": "SZ-GALLERY-102",
@@ -190,7 +192,8 @@
         "DateTimeDigitized": "2026:11:15 14:22:40",
         "OffsetTimeOriginal": "+01:00"
       },
-      "capture_time_claim": "2026-11-15T14:22:40+01:00"
+      "capture_time_claim": "2026-11-15T14:22:40+01:00",
+      "visual_review_record": "data/visual_review.json"
     },
     {
       "id": "SZ-GALLERY-103-UNCROPPED",
@@ -199,7 +202,7 @@
       "status": "candidate_untransformed_url_not_camera_original",
       "capture_time": null,
       "event_date_claim": "2026-11-15",
-      "pixel_review": false,
+      "pixel_review": true,
       "rights": "No redistribution permission established; link and metadata only",
       "admitted_for_counting": false,
       "variant_of": "SZ-GALLERY-103",
@@ -218,7 +221,8 @@
         "DateTimeDigitized": "2026:11:15 14:24:25",
         "OffsetTimeOriginal": "+01:00"
       },
-      "capture_time_claim": "2026-11-15T14:24:25+01:00"
+      "capture_time_claim": "2026-11-15T14:24:25+01:00",
+      "visual_review_record": "data/visual_review.json"
     },
     {
       "id": "SZ-GALLERY-104-UNCROPPED",
@@ -227,7 +231,7 @@
       "status": "candidate_untransformed_url_not_camera_original",
       "capture_time": null,
       "event_date_claim": "2026-11-15",
-      "pixel_review": false,
+      "pixel_review": true,
       "rights": "No redistribution permission established; link and metadata only",
       "admitted_for_counting": false,
       "variant_of": "SZ-GALLERY-104",
@@ -246,7 +250,8 @@
         "DateTimeDigitized": "2026:11:15 14:21:02",
         "OffsetTimeOriginal": "+01:00"
       },
-      "capture_time_claim": "2026-11-15T14:21:02+01:00"
+      "capture_time_claim": "2026-11-15T14:21:02+01:00",
+      "visual_review_record": "data/visual_review.json"
     },
     {
       "id": "SZ-GALLERY-105-UNCROPPED",
@@ -255,7 +260,7 @@
       "status": "candidate_untransformed_url_not_camera_original",
       "capture_time": null,
       "event_date_claim": "2026-11-15",
-      "pixel_review": false,
+      "pixel_review": true,
       "rights": "No redistribution permission established; link and metadata only",
       "admitted_for_counting": false,
       "variant_of": "SZ-GALLERY-105",
@@ -271,7 +276,8 @@
         "OffsetTimeOriginal": "+01:00"
       },
       "capture_time_claim": "2026-11-15T12:56:02+01:00",
-      "peak_use": "Excluded as evidence of peak: capture-time claim 12:56:02, before the scheduled 14:00 start."
+      "peak_use": "Excluded as evidence of peak: capture-time claim 12:56:02, before the scheduled 14:00 start.",
+      "visual_review_record": "data/visual_review.json"
     },
     {
       "id": "SZ-360-POSTER-UNCROPPED",
@@ -280,7 +286,7 @@
       "status": "candidate_untransformed_url_not_camera_original",
       "capture_time": null,
       "event_date_claim": "2026-11-15",
-      "pixel_review": false,
+      "pixel_review": true,
       "rights": "No redistribution permission established; link and metadata only",
       "admitted_for_counting": false,
       "variant_of": "SZ-360-POSTER",
@@ -294,7 +300,8 @@
         "Model": "insta360 x3",
         "DateTime": "2026:11:15 14:55:38",
         "DateTimeOriginal": "2026:11:15 14:55:38"
-      }
+      },
+      "visual_review_record": "data/visual_review.json"
     },
     {
       "id": "ORGANIZER-PLAN",
@@ -302,8 +309,9 @@
       "url": "https://1884403144.rsc.cdn77.org/foto/planek-pro-verejnost-demonstrace-letna/Zml0LWluLzk3OHg5OTk5L2ZpbHRlcnM6cXVhbGl0eSg4NSk6bm9fdXBzY2FsZSgpL2ltZw/10030157.jpg?e=0&st=NA5O65XTNxLLPX4KJi1Wux0jbtQo334cDbzt15AuVb4&ts=1600812000&v=0",
       "status": "reference_plan_not_occupancy",
       "admitted_for_counting": false,
-      "pixel_review": false,
-      "rights": "links and metadata only"
+      "pixel_review": true,
+      "rights": "links and metadata only",
+      "visual_review_record": "data/visual_review.json"
     },
     {
       "id": "SZ-ALBUM-05",
@@ -314,7 +322,18 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "85cf07496059c10f8fc7351386d1eb127f6ab019580efe19ce45df962d39d3f2",
+      "observed_dimensions": [
+        3000,
+        2001
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 15:44:39",
+        "DateTimeOriginal": "2026:11:15 12:58:22",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SZ-ALBUM-06",
@@ -325,7 +344,18 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "f9d2d91b7fb99efbfe38373145bb62aaf9bd2534f9c72835cc04ef4e3ecf0b6d",
+      "observed_dimensions": [
+        3000,
+        2001
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 15:45:12",
+        "DateTimeOriginal": "2026:11:15 15:07:44",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SZ-ALBUM-07",
@@ -336,7 +366,18 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "ed6e009c6507b82324f8a28b3838e269acd56b9325205357b048b8e4ae739ba5",
+      "observed_dimensions": [
+        3000,
+        2001
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 17:38:51",
+        "DateTimeOriginal": "2026:11:15 16:45:19",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SZ-ALBUM-08",
@@ -347,7 +388,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "6b7447154dfc91248a599eafbb6800c82623a9d915f9934d6c99d0e766b771e6",
+      "observed_dimensions": [
+        3000,
+        2001
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 17:38:42",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 16:42:36",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SZ-ALBUM-09",
@@ -358,7 +411,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "5f394825e703a4f41adf1a29c10c972b295ce9be6101c9baf0a5ed6e300a3dcf",
+      "observed_dimensions": [
+        3000,
+        2001
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 17:38:53",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 16:47:28",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SZ-ALBUM-10",
@@ -369,7 +434,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "28c4e07a58f7e95a5bbe0c45998ade2e2fd9ae4651507f1345ac3fd07e67b034",
+      "observed_dimensions": [
+        3000,
+        2001
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 17:38:38",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 16:39:44",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SZ-ALBUM-11",
@@ -380,7 +457,18 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "b131e383fda95079a1df608115a9828f6576633d4be83beee67ecb0bd6f6f1d8",
+      "observed_dimensions": [
+        3000,
+        2001
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 15:44:40",
+        "DateTimeOriginal": "2026:11:15 13:01:16",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SZ-ALBUM-12",
@@ -391,7 +479,18 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "ac4f3ee4866fdee56e6a9f538f976612f37ed2132cc78f81474421b954244034",
+      "observed_dimensions": [
+        3000,
+        2001
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 17:38:23",
+        "DateTimeOriginal": "2026:11:15 16:12:03",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SZ-ALBUM-13",
@@ -402,7 +501,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "fda863244d0aac7fb27c4e513d09efc9ef83a0fd18ab3c048a4f4247119f4a05",
+      "observed_dimensions": [
+        3000,
+        2001
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 15:44:51",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 14:09:08",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SZ-ALBUM-14",
@@ -413,7 +524,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "8b77eaaa606b974a312b9af3ab6699da1ed3e07735b93e67d08d76b963a9958f",
+      "observed_dimensions": [
+        3000,
+        2001
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 17:38:30",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 16:01:17",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SZ-ALBUM-15",
@@ -424,7 +547,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "e9e730d879b0006c16f5b1c0a1176d2afd15dd73864259622cba2b0a47d8d2da",
+      "observed_dimensions": [
+        3000,
+        2001
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 17:38:28",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 15:58:59",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SZ-ALBUM-16",
@@ -435,7 +570,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "b39af3229d217eafc386ac3e01c3ee5d1178fce5d4708077cf4cfe1b9e22b0b2",
+      "observed_dimensions": [
+        3000,
+        2001
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 17:38:55",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 16:47:49",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SZ-ALBUM-17",
@@ -446,7 +593,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "26b8f47c68ef578d329f4e7703e17d555ecf30823d32a91e944e69bebc920544",
+      "observed_dimensions": [
+        3000,
+        2001
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 17:38:33",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 16:39:05",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SZ-ALBUM-18",
@@ -457,7 +616,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "2437e99d8b4d2e643781c1cd9f7a2a997224c13675f8e16122fd2c6a39f31920",
+      "observed_dimensions": [
+        3000,
+        2001
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 15:45:07",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 14:24:31",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SZ-ALBUM-19",
@@ -466,9 +637,20 @@
       "source_page": "https://www.seznamzpravy.cz/clanek/obrazem-obrazem-andreji-macinko-okamuro-mame-toho-dost-letna-proti-zestatneni-medii-320577?mol-gallery--selected=2825960",
       "event_date_claim": "2026-11-15",
       "status": "candidate",
-      "pixel_review": false,
+      "pixel_review": true,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "58ff2f480cee18d65182a72c349cd73d16ced00dece1e495c04805905441f134",
+      "observed_dimensions": [
+        3000,
+        2001
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 15:45:09",
+        "DateTimeOriginal": "2026:11:15 14:58:48",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "visual_review_record": "data/visual_review.json"
     },
     {
       "id": "SZ-ALBUM-20",
@@ -479,7 +661,18 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "f3016761e14c2042f11728ba5bb088faa1d61b2affd0010541a96781b9a331bb",
+      "observed_dimensions": [
+        3000,
+        2001
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 15:45:11",
+        "DateTimeOriginal": "2026:11:15 15:00:33",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SZ-ALBUM-21",
@@ -490,7 +683,20 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "a26b1ffcc4f8f7b2271421ecd907342c682f7f86e50c2a5f129388298d00efb2",
+      "observed_dimensions": [
+        2400,
+        1600
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 13:46:21",
+        "Copyright": "",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 13:46:21",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SZ-ALBUM-22",
@@ -501,7 +707,20 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "f20673eea4aecad25ae9808c81815b303d3db23103e927d9b30b14f2f110a039",
+      "observed_dimensions": [
+        2400,
+        1600
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 12:36:36",
+        "Copyright": "",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 12:36:36",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SZ-ALBUM-23",
@@ -512,7 +731,20 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "b2786dbd6c422aec28d57858f0a8642132c3bafde60fde04ca693607fdda8c0c",
+      "observed_dimensions": [
+        2400,
+        1600
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 12:37:52",
+        "Copyright": "",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 12:37:52",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SZ-ALBUM-24",
@@ -523,7 +755,20 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "6981ad6ba781e7a95f6b9d86f535846a2ed8884b50d62088a430bc8c2816edec",
+      "observed_dimensions": [
+        2400,
+        1600
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 12:39:21",
+        "Copyright": "",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 12:39:21",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SZ-ALBUM-25",
@@ -534,7 +779,20 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "d61f089ad3fedd4e0d28adc003f56cbc9114d2ad5358dbba3becc035d0e3116f",
+      "observed_dimensions": [
+        2400,
+        1600
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 12:52:07",
+        "Copyright": "",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 12:52:07",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SZ-ALBUM-26",
@@ -545,7 +803,20 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "36d28f9638525a0670813c85fbe9a0aba7593edeba1155f87ff748f019ac9b63",
+      "observed_dimensions": [
+        2400,
+        1600
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 12:52:25",
+        "Copyright": "",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 12:52:25",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SZ-ALBUM-27",
@@ -556,7 +827,20 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "463559d5f42fe432a46a940bece232305c696c4f3529ce664a93b45793c20e93",
+      "observed_dimensions": [
+        2400,
+        1600
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 13:00:07",
+        "Copyright": "",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 13:00:07",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SZ-ALBUM-28",
@@ -567,7 +851,20 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "e477537556f317d7525ad6985a143369417fb88f22c037d4448008c2f0a18b7d",
+      "observed_dimensions": [
+        2400,
+        1600
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 13:04:56",
+        "Copyright": "",
+        "Artist": "MICHAL TUREK",
+        "DateTimeOriginal": "2026:11:15 13:04:56",
+        "OffsetTimeOriginal": "+01:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-01",
@@ -578,7 +875,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "3c02b3db25efc41756f2029d9c3ab28f30a23ede8fcae7058c423b09debdaf37",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 20:58:06",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 15:04:11",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-02",
@@ -589,7 +898,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "1019664c491826d11550b8b0a7e431d3c0f4cb736bcd93999ffdbc0877d7cf06",
+      "observed_dimensions": [
+        1100,
+        733
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 17:45:09",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 16:23:16",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-03",
@@ -600,7 +921,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "d286be189b48e58021f508e0de92b890f2df0531513e3a7e30913f72d0713dc3",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 18:39:24",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 12:50:26",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-04",
@@ -611,7 +944,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "ae45ef51593f4f041d49239d5d4e352f9b040a2592da12555180a0ce7a1843d5",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 19:39:39",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 13:42:49",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-05",
@@ -622,7 +967,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "3d19f120c501bd9322db44c790fe1bd02ab254a71df237198370ca8eaaedf409",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 19:42:15",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 13:43:48",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-06",
@@ -633,7 +990,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "5feb83b41ef7331af8ad0ab6134cadac73fa30bd96d41c8c4df3a3e41177ee83",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 18:56:42",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 16:55:14",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-07",
@@ -644,7 +1013,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "6bf3cbb1198807babfcfe0ee14ed2337d2f4ea996b0414a0aad3b49b38dcfa5d",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 17:56:10",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 14:06:30",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-08",
@@ -655,7 +1036,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "958b942a752058260d8e43f3fca12a4de01923d19f6f57cacf8fddc51d43daf1",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 19:47:37",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 13:47:28",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-09",
@@ -666,7 +1059,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "31319dd887740612362347d2d16dcd85bc500a66e2a80eb7b192e994f7f003ab",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 19:52:44",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 13:53:58",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-10",
@@ -677,7 +1082,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "18da085fea1b238596a2d50567ebb82d0ef8b59cda2caae968ae5292dfad6e01",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 19:01:33",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 16:55:14",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-11",
@@ -688,7 +1105,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "d7a28296a9b38787887f39976bc00d154234080bb30076d1262a5bec8cfc4aa2",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 19:49:13",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 13:50:38",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-12",
@@ -699,7 +1128,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "5a856509c6dbe465e20f5e60335ee6107c003123fd6ce6370fc2482148ddc1fe",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 20:05:10",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 14:03:14",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-13",
@@ -710,7 +1151,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "659f4a025bc1876af912494177caf77de9063494847ffebe78b41e2f2c45c0d2",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 19:17:27",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 16:57:50",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-14",
@@ -721,7 +1174,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "7f210ed09d32a89550b753d0c3db1341d6c753b5a55a96439ca180333bd25c8b",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 19:58:42",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 13:54:58",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-15",
@@ -732,7 +1197,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "e8243429cf38517943a671a46a37853ae8ff4573fa0094b8b7c05d45643669aa",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 19:21:40",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 12:59:21",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-16",
@@ -743,7 +1220,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "8b9408ce12acbb2bdcb18ad5dfbbc55d12af3b09f709ddf9a0b8fd25e76c9dbe",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 19:36:37",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 13:24:36",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-17",
@@ -754,7 +1243,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "0de9d38264720f4d88ba35dfc5a8220ad6cba69184ee0c0bef35132ab19182d1",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 19:34:19",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 13:23:41",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-18",
@@ -765,7 +1266,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "0b36447e061ce8a720007d84d3d87f58e7a6fe1fdb6d8d7bc8af51574f9818c0",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 19:23:58",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 13:00:41",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-19",
@@ -776,7 +1289,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "4770934ceccfd83c27cc2b7cae5a65921fbb10bf96bac1fbbdac41a2b31cf140",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 19:32:50",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 13:19:39",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-20",
@@ -787,7 +1312,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "09f755f12d1dd137a30c50673a327dc7850ded3ab4302f048ae81e3d33bdd0a9",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 19:26:45",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 13:01:46",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-21",
@@ -798,7 +1335,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "81e130338189578fc29473ea34e5877de47f7962fba83e1a212c4cbd6a314a7b",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 19:29:29",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 13:02:23",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-22",
@@ -809,7 +1358,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "603de3e8059f73754d39a8375392c6cd70d16b8c0c3b272628111d5f9a179798",
+      "observed_dimensions": [
+        1100,
+        733
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 20:27:18",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 14:10:29",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-23",
@@ -820,7 +1381,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "348cff5e18aaf9e827b02fd8715cc3450556c833c921d0bab41f3686aed36584",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 20:36:44",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 14:23:53",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-24",
@@ -831,7 +1404,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "29ae27f05bfa2e06cbbf358a5f8bd46a6e8d269cf7a97287a24fbd3eaa5d01e2",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 20:31:07",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 14:21:18",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-25",
@@ -842,7 +1427,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "1675bebfb6c95c8121f9e6b188c0417e7573b9b5493195a7091cf4291e2f87f1",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 20:40:16",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 14:25:28",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-26",
@@ -853,7 +1450,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "60ca4dd8bb773b01fb3cd5ab1d29f9e26c1382545cf9c51891cae4ce6b019457",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 21:11:16",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 15:51:45",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-27",
@@ -864,7 +1473,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "143a2be3cb099a27c7318172a6607018414bc4ba3ff0c4926573bd504249c6a6",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 20:20:04",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 14:06:24",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-28",
@@ -873,9 +1494,21 @@
       "source_page": "https://www.sinmed.cz/fotogalerie/letna-2026-122.html",
       "event_date_claim": "2026-11-15",
       "status": "candidate",
-      "pixel_review": false,
+      "pixel_review": true,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "2be6d61660277a844f9c94c579d6be07d5e1bcc97c704d22bef5da5e506cf3fb",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 20:44:21",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 14:41:22",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "visual_review_record": "data/visual_review.json"
     },
     {
       "id": "SINMED-29",
@@ -886,7 +1519,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "7a7ea7697feac59ae0557fa3a70d0ca037038c1711bdfad8a6ff202f06193f1c",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 20:47:33",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 14:46:09",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-30",
@@ -897,7 +1542,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "d8190050774db3321e47c1e3be12abd32dce7a0be6a14596745bc46fd796e61e",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 21:08:52",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 15:40:19",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-31",
@@ -908,7 +1565,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "e1390860d7942df20bc5f6066bfe18c9be65bb1d800082e1ba71d12a34f30dc6",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 20:56:05",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 15:04:07",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-32",
@@ -919,7 +1588,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "1687636b37bf2c886d753cf8170b5306acb1969df4f039e8611c0bbd4b1c1b4b",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 20:49:57",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 14:49:05",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-33",
@@ -930,7 +1611,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "a8bc74ac2a7019516ceeacd7d34d93ba13868ca31573d32085b2d73cac2d36f8",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 21:04:59",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 15:25:03",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-34",
@@ -941,7 +1634,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "5620cb10141688f0145f92b04291e8f021b32c461b624558eb6120303e706647",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 21:00:42",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 15:17:13",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-35",
@@ -952,7 +1657,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "d47e79e21e2da4ed983d2518d374295d9f8abcf3febc52bc358eee50a5496d65",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:16 08:49:42",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 16:24:50",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-36",
@@ -963,7 +1680,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "53c01dda29237c37a1972b45ae0439818bb0f2e0272bf2eefdc33a530d98624f",
+      "observed_dimensions": [
+        990,
+        660
+      ],
+      "exif": {
+        "DateTime": "2026:11:16 08:54:56",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 16:24:58",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-37",
@@ -974,7 +1703,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "cbab5be2e58caf2f2cabdbf2cc647d48aafd84788f1b6a60584d1ad14f371fdb",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 21:37:30",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 16:59:00",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-38",
@@ -985,7 +1726,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "5939f598d6de3b77d6613fb9aafe55f2c5650e6a2bbe5e82acf4f773b2a2179b",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 21:11:16",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 15:51:45",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-39",
@@ -996,7 +1749,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "8cecc4c8cb83270a3453f8401d155b5de73033eba6a694ada9c6631af60dce91",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:16 01:29:16",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 15:51:16",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-40",
@@ -1007,7 +1772,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "e3c53e5220763d06770f352948a8ab0221c85d7f58f7d18895821fc26a27d422",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:15 21:35:00",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 16:57:17",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-41",
@@ -1018,7 +1795,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "cf27bcc1fdb3fb08cc503af23fa1f6e90b5762e70fd0def0e3c7de3d4d387fb2",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:16 01:18:56",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 12:51:35",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-42",
@@ -1029,7 +1818,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "d5343cb8225bce6fe9956dfbd4f78530b853fe3716950f282a9718b138746a7d",
+      "observed_dimensions": [
+        1200,
+        800
+      ],
+      "exif": {
+        "DateTime": "2026:11:16 01:30:52",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 15:52:56",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-43",
@@ -1040,7 +1841,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "7e8cc2394a104216cb22fd70311e1f5222615dde119731f57f9901606c8f9144",
+      "observed_dimensions": [
+        1100,
+        733
+      ],
+      "exif": {
+        "DateTime": "2026:11:16 01:35:42",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 16:23:16",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     },
     {
       "id": "SINMED-44",
@@ -1051,7 +1864,19 @@
       "status": "candidate",
       "pixel_review": false,
       "admitted_for_counting": false,
-      "rights": "Private analysis download only; no redistribution permission established."
+      "rights": "Private analysis download only; no redistribution permission established.",
+      "observed_sha256": "3df4b97f482c14c9e24dfbae5aeb4c9923adab5001041921d35df3634d17ba73",
+      "observed_dimensions": [
+        1100,
+        733
+      ],
+      "exif": {
+        "DateTime": "2026:11:16 01:36:38",
+        "Artist": "VIT_HASSAN",
+        "DateTimeOriginal": "2026:11:15 16:25:28",
+        "OffsetTimeOriginal": "+02:00"
+      },
+      "contact_sheet_review": true
     }
   ]
 }

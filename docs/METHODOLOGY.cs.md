@@ -67,3 +67,28 @@ Připraven, ale na reálném snímku dosud nepoužit a interaktivně neotestová
 
 tools/analyze.py používá pyproj a shapely. Testy mají pouze označená syntetická data.
 results/verification.json dokládá software, nikoli správnost skutečného odhadu demonstrace.
+
+## Doplněná reprodukce skutečného stažení a prohlížení
+
+Souhrnný seznam skutečně stažených souborů je data/photo_acquisition.json.
+python tools/download_photos.py obnoví tyto soubory do private_downloads a ověří SHA-256.
+Pro označený vzorek použít:
+python tools/render_manual_sample.py private_downloads/SZ-GALLERY-104-UNCROPPED.jpg
+
+Náhledy kontaktů byly použity k výběru vhodných fotografií. Samy nestačí k autentizaci
+všech detailů nebo k počítání. data/visual_review.json odděluje kontrolu obrazového obsahu
+od způsobilosti pro výpočet. Žádný nový kandidát nebyl automaticky přijat pro počítání.
+
+Referenční plošné měření reprodukuje python tools/reference_geometry.py z uloženého
+ortofota a konkrétních pixelových souřadnic v data/reference_regions.json.
+Měřítko je 0,899063457 m/pixel; geometrie se převádí do WGS84 až po výpočtu v EPSG:32633.
+Ruční nejistota hranice 10 px je analýza citlivosti. Nevztahuje se k hustotě nebo počtu lidí.
+
+Použitý privátní přenos je zdokumentován v tools/review_transport.mjs.
+Příkaz keygen vytvoří soukromý klíč pouze lokálně a vypíše veřejný klíč pro review_session.json.
+decrypt načte log, lokální soukromý klíč a uloží ověřené náhledy lokálně.
+Test self-test ověřuje kryptografické funkce i převody base64 proti Node.
+Nešifrované redakční fotografie ani přenosové soukromé klíče do veřejného repozitáře nepatří.
+
+Uchované EXIF neposkytuje automaticky přesnou synchronizaci. Série s +02:00 se bez
+dalšího důkazu nepřepočítává na +01:00; přesný čas policejního náhledu zůstává neznámý.

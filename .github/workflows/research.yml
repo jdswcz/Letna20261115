@@ -29,24 +29,27 @@ jobs:
       - name: Calculate current evidence status
         run: python tools/analyze.py
       - name: Audit source and image metadata
-        if: github.event_name == 'push'
+        if: github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && contains(github.event.head_commit.message, '[acquire]'))
         run: python tools/collect.py
       - name: Verify visual-review transport
         run: node tools/review_transport.mjs self-test
       - name: Inventory full galleries
-        if: github.event_name == 'push'
+        if: github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && contains(github.event.head_commit.message, '[acquire]'))
         run: python tools/inventory_galleries.py
       - name: Download official reference map
-        if: github.event_name == 'push'
+        if: github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && contains(github.event.head_commit.message, '[acquire]'))
         run: python tools/download_map.py
       - name: Measure reference geometry
         if: github.event_name == 'push'
         run: python tools/reference_geometry.py
       - name: Download photos and prepare private visual review
-        if: github.event_name == 'push'
+        if: github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && contains(github.event.head_commit.message, '[acquire]'))
         run: |
           python -m pip install cryptography==46.0.3
           python tools/download_for_review.py
+      - name: Inspect public video locators
+        if: github.event_name == 'push' && contains(github.event.head_commit.message, '[inspect-video]')
+        run: python tools/inventory_video.py
       - name: Save metadata to this research branch
         if: github.event_name == 'push'
         env:
@@ -54,7 +57,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- data/collection.json results/estimate.json results/verification.json data/download_manifest.json data/gallery_inventory.json maps/ results/reference_areas.json
+          git add -- data/collection.json results/estimate.json results/verification.json data/download_manifest.json data/gallery_inventory.json maps/ results/reference_areas.json data/video_locators.json
           if ! git diff --cached --quiet; then
             git commit -m "Record HTTP provenance, hashes and image metadata [skip ci]"
             git push origin "HEAD:$RESEARCH_BRANCH"
