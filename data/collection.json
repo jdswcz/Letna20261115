@@ -1,5 +1,5 @@
 {
-  "started_at_utc": "2026-11-17T00:12:32.479031+00:00",
+  "started_at_utc": "2026-11-17T00:16:12.565157+00:00",
   "note": "HTTP success, captions and EXIF do not by themselves authenticate pixels.",
   "sources": [
     {
@@ -10,11 +10,11 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Last-Modified": null,
-        "ETag": "W/\"75c3c-PG3pooeaaa6OUz3G44PaQahglCg\"",
-        "Content-Length": "482364"
+        "ETag": "W/\"75c3b-68NpsdYmUgRakzPovHoiMDJzt6E\"",
+        "Content-Length": "482363"
       },
-      "sha256": "6d4186eca587727941a1ebaf37c73de67040416fb90527c9c7e9682a5c52f5a2",
-      "bytes": 482364,
+      "sha256": "03173445293408fdc0fe9f4d02a55da1cfdcdeaf1749370a57f07898003980bf",
+      "bytes": 482363,
       "metadata": [
         {
           "key": "twitter:title",
@@ -183,10 +183,10 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Last-Modified": null,
-        "ETag": "W/\"693a9-t/QwGVJyulIKjUPlyEItoFH/slQ\"",
+        "ETag": "W/\"693a9-+2ojnE3S2ilOvEFealvBoZonm+Y\"",
         "Content-Length": "431017"
       },
-      "sha256": "f9af1bde99506b5d68e43fabd47233953dec68ef64619daf162de7468bb56cdf",
+      "sha256": "85d7144d64f4b1f931d25d56682db7cfc13ef90a31278e3b0ddf084f26dae3dc",
       "bytes": 431017,
       "metadata": [
         {
@@ -335,11 +335,11 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Last-Modified": null,
-        "ETag": "W/\"13167-rzWR6DQyFxrAZZ3X80Bafil73kE\"",
-        "Content-Length": "78183"
+        "ETag": "W/\"13214-3h//IJ+F0goBlMDZNcTW7LMseyw\"",
+        "Content-Length": "78356"
       },
-      "sha256": "089ed2484b5f32640698ff59142e0e0b698aa5feae7f4fe496ec959da3ca2ae2",
-      "bytes": 78183,
+      "sha256": "130e6f8eeda69b67e10b7ccfd450e656a3358b21669ecb5adc7f8cb31db1ebfb",
+      "bytes": 78356,
       "metadata": [],
       "image_candidates": [],
       "iframe_candidates": [],
@@ -353,11 +353,11 @@
       "headers": {
         "Content-Type": "text/html; charset=utf-8",
         "Last-Modified": null,
-        "ETag": "W/\"7e2a8-1jVAiBWh+OYKaBOsvl4eyoZ3+Ng\"",
-        "Content-Length": "516776"
+        "ETag": "W/\"7e2a9-aEtsxGZDSbetgWSeeIDc4DGIEKc\"",
+        "Content-Length": "516777"
       },
-      "sha256": "fe57515fede83120a999821eeb980beea878fea4f2ee018264269378a35d68ce",
-      "bytes": 516776,
+      "sha256": "4957fa57ed7c7154c19e2aa86135de2a5d51e9b19f91d74f4e040fc2b8e0c8a3",
+      "bytes": 516777,
       "metadata": [
         {
           "key": "twitter:title",
@@ -515,11 +515,11 @@
       "final_url": "https://www.blesk.cz/galerie/zpravy-politika/1509914/online-demonstrace-letna-proti-4-36-koller-sverak-a-az-450-tisic-lidi-s-dopravou-byly-problemy",
       "headers": {
         "Content-Type": "text/html; charset=UTF-8",
-        "Last-Modified": "Tue, 17 Nov 2026 00:10:58 GMT",
+        "Last-Modified": "Tue, 17 Nov 2026 00:14:40 GMT",
         "ETag": null,
         "Content-Length": null
       },
-      "sha256": "2d0131543e0b34e9cda10a64728ec21b6696410cc4eaeb06541345fdd44a0ad7",
+      "sha256": "246b0ab95b569e88439c1239223fa67284154bfa4214d5e4e485c7ddc80d20ba",
       "bytes": 476843,
       "metadata": [
         {
@@ -1008,7 +1008,7 @@
         "ETag": null,
         "Content-Length": null
       },
-      "sha256": "58176e5c75a77de0ff052b781a7b105ed437c592bbcb103140572cba69f387ba",
+      "sha256": "75806f56ef1bd311c620aabe83f07f7f0ef3f82697daff7076822eafc14e5c1e",
       "bytes": 66173,
       "metadata": [
         {
@@ -1122,8 +1122,8 @@
         "ETag": null,
         "Content-Length": null
       },
-      "sha256": "d0b198f3386d589891f6eff695f8b81f6da97301a7cb5896c4073919f1bdd41e",
-      "bytes": 181001,
+      "sha256": "dfd1a73459c3e200df76fd39e91cb078c6f65a1d39159f0dff363dbcd1a6ac98",
+      "bytes": 181483,
       "metadata": [
         {
           "key": "og:title",
@@ -1131,32 +1131,32 @@
         },
         {
           "key": "image",
-          "value": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQcYeBggmyOAMTScI1yOQkqhf8dWl-2DMZQTQNafI0rn0HhRy-tGuycyEdG-m3fjG1jS6QgBBergKehl27wQdlcYLHbhPp26ddqMwLKPE4K2m5itEPSzJSMiz4om-OmzPyKoQIcjC7U43BP4rw6D7inEHTH8hGnxerhzbPtWcO7hiRhjB_cj9z8zpBts=w16383"
+          "value": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQdUvc46CQWvcx4d2AqgxgSYKwzQGX7Q51FwpnNIdavr6ZzNvS2-nMjWTw9WbkdgmQtkPXTF6OP8ncbvDrOkvyiXXvJIFfZ7vr8OkUDKzdRjdpKX0c-PtEaUgED4KaOIRmQTggmomh3HjFYZNGpziJni5IWZYsyTNOkqYnAFe2h-kn_66piUbLT1Ejfj=w16383"
         },
         {
           "key": "imageUrl",
-          "value": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQcYeBggmyOAMTScI1yOQkqhf8dWl-2DMZQTQNafI0rn0HhRy-tGuycyEdG-m3fjG1jS6QgBBergKehl27wQdlcYLHbhPp26ddqMwLKPE4K2m5itEPSzJSMiz4om-OmzPyKoQIcjC7U43BP4rw6D7inEHTH8hGnxerhzbPtWcO7hiRhjB_cj9z8zpBts=w16383"
+          "value": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQdUvc46CQWvcx4d2AqgxgSYKwzQGX7Q51FwpnNIdavr6ZzNvS2-nMjWTw9WbkdgmQtkPXTF6OP8ncbvDrOkvyiXXvJIFfZ7vr8OkUDKzdRjdpKX0c-PtEaUgED4KaOIRmQTggmomh3HjFYZNGpziJni5IWZYsyTNOkqYnAFe2h-kn_66piUbLT1Ejfj=w16383"
         },
         {
           "key": "og:image",
-          "value": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQcYeBggmyOAMTScI1yOQkqhf8dWl-2DMZQTQNafI0rn0HhRy-tGuycyEdG-m3fjG1jS6QgBBergKehl27wQdlcYLHbhPp26ddqMwLKPE4K2m5itEPSzJSMiz4om-OmzPyKoQIcjC7U43BP4rw6D7inEHTH8hGnxerhzbPtWcO7hiRhjB_cj9z8zpBts=w16383"
+          "value": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQdUvc46CQWvcx4d2AqgxgSYKwzQGX7Q51FwpnNIdavr6ZzNvS2-nMjWTw9WbkdgmQtkPXTF6OP8ncbvDrOkvyiXXvJIFfZ7vr8OkUDKzdRjdpKX0c-PtEaUgED4KaOIRmQTggmomh3HjFYZNGpziJni5IWZYsyTNOkqYnAFe2h-kn_66piUbLT1Ejfj=w16383"
         }
       ],
       "image_candidates": [
         {
-          "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQcYeBggmyOAMTScI1yOQkqhf8dWl-2DMZQTQNafI0rn0HhRy-tGuycyEdG-m3fjG1jS6QgBBergKehl27wQdlcYLHbhPp26ddqMwLKPE4K2m5itEPSzJSMiz4om-OmzPyKoQIcjC7U43BP4rw6D7inEHTH8hGnxerhzbPtWcO7hiRhjB_cj9z8zpBts=w16383"
+          "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQdUvc46CQWvcx4d2AqgxgSYKwzQGX7Q51FwpnNIdavr6ZzNvS2-nMjWTw9WbkdgmQtkPXTF6OP8ncbvDrOkvyiXXvJIFfZ7vr8OkUDKzdRjdpKX0c-PtEaUgED4KaOIRmQTggmomh3HjFYZNGpziJni5IWZYsyTNOkqYnAFe2h-kn_66piUbLT1Ejfj=w16383"
         },
         {
-          "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQcYeBggmyOAMTScI1yOQkqhf8dWl-2DMZQTQNafI0rn0HhRy-tGuycyEdG-m3fjG1jS6QgBBergKehl27wQdlcYLHbhPp26ddqMwLKPE4K2m5itEPSzJSMiz4om-OmzPyKoQIcjC7U43BP4rw6D7inEHTH8hGnxerhzbPtWcO7hiRhjB_cj9z8zpBts=w16383"
+          "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQdUvc46CQWvcx4d2AqgxgSYKwzQGX7Q51FwpnNIdavr6ZzNvS2-nMjWTw9WbkdgmQtkPXTF6OP8ncbvDrOkvyiXXvJIFfZ7vr8OkUDKzdRjdpKX0c-PtEaUgED4KaOIRmQTggmomh3HjFYZNGpziJni5IWZYsyTNOkqYnAFe2h-kn_66piUbLT1Ejfj=w16383"
         },
         {
-          "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQduXv88KDRVC6ijLIucgvMyS6CJVVyptJTKEsZzM3CJ6G8XMotqPAeJeeqxizrSiCesW_tWpFq0pVll47S08-E5zxzQAdGUjHqoD9K-WNDGTPc3rKQzlkU23Rk1o9UDKzFrlP3mccjinb9VWSmVVhKRqdu96uYfPv4w1WiCvBPyYAL3hDDQwgV1ygm7U41iFcOjrH1OyLRnN3BgqKBUC1DbPXCPA-8bMQzeJorW=w1280"
+          "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQevbDL63LvPsOF1rhHt_iVOac5h4RhTQp1nCibvkn4WZaXTrIYQMsfS87LsIpj6waQBgeRJ2GagkVsyElcgXK738uqxmgQcLlGAtJxxP-Rihbc-hl7SMlhMysYPjAyHZG09Pc-3wx_iL2fmal0YoaDZH_DtI-xB1eVIogH8ZNArPAc15tsFpVdAfrxeXZdhJqPMRr1ufXeM71Qv5VyFr7VnxDH9N3bwdLx1-Rok=w1280"
         }
       ],
       "iframe_candidates": [
-        "https://www.youtube.com/embed/FH941x7NoSg?embed_config=%7B%22enc%22:%22AXH1ezn9O1KCNUmoE175ZZhgALsNnJSh1VM7hreHzpeKgBPtLXhm53XRzYRBsJGohDN7rqEuTCoXaYNlWeGB154iFkyXenBiEwdm6R4uObRZrM_gnih7dIxXMzqO5A5tbgkfsj5tWzlgblS_uvl4vUPmwurgkt7uFtIROOc_lVrQlNL1%22%7D&enablejsapi=1&errorlinks=1&origin=https://letna.milionchvilek.cz&vl=1",
-        "https://www.youtube.com/embed/zP0Z1QwwyZY?embed_config=%7B%22enc%22:%22AXH1ezlHfH44xUMOEYZN4pKKE4w3Ox4q5_T9_BkzxCe4l-pmIVkmy2i-M8dYQZask1WXzDyI8an8HPAMKqOuQCxS29N0pzd6OSFUMxbiXhGEW97yJ37itcgcSIHDDUsEB1x6mWwbYob6UUe8QqUF2yzEprC1k8XGD7QzRJuYjyB0fiGs%22%7D&enablejsapi=1&errorlinks=1&origin=https://letna.milionchvilek.cz&vl=1",
-        "https://www.youtube.com/embed/cU2ulPkyNeM?embed_config=%7B%22enc%22:%22AXH1ezltttKlhbmE3LHxgPQIfUqyu7tOgzVQw2MdJ1PTRR7RRxUp16L_qRhl9kRswZ1YdqqAcYuZMRYl-73RFKNYOl2KKoB9jlg42Etg4KP8WbjxubEvaBDbAdpFremwblAQE0aI4VteGCggNMY-CBZJ07eNDSaPXFx3-Ogjn44S_NnM%22%7D&enablejsapi=1&errorlinks=1&origin=https://letna.milionchvilek.cz&vl=1"
+        "https://www.youtube.com/embed/FH941x7NoSg?embed_config=%7B%22enc%22:%22AXH1eznPltLHk6u6T2zBscC8Xan2QZeWT5j2DUtchyPXdnJSKFu1_UfcTsRmmEbLxUOOb12I2RZxFYinTzj2NGSjVxNBHVRgsFD3mdw-ULAU9wD7uN-ifuA1f3rlzYHwclqiqAJHdNR_TtT0NnBjOmoLWK_fEamYZIDqLm4kcJwlgcU5ObB5lkkoM6DT4T1skNIjh-BRf0b3nwOBA2sT-u3wiGAEdAUFcA2GA-eKLr91RA5DSAKq2Fvs-u4W6C0aCmJwxCMNTH-s3S0MquWO3xlxUgpN8OMEFTu9_J-jZN1N79caNwELDIQaueR0S6LHveBdNgVrXWUgW9RQifR2RbUkXwkehR6BNT-y99Q2L7dPFeakddY%3D%22%7D&enablejsapi=1&errorlinks=1&origin=https://letna.milionchvilek.cz&vl=1",
+        "https://www.youtube.com/embed/zP0Z1QwwyZY?embed_config=%7B%22enc%22:%22AXH1eznOlYz7zT3XUpUHI8JduT8-YcNW3hV_uQnS1P_21Gw0TBBwoL2QzUebqsIzX3fPb8wZWqy2HQFb8__JCFQdDn1cCc7MHu7nw0Nhh9O5LkWLmNjg876-NQ36RprcSuk6oQTlci09oCQ0Bh9Fmo-p0oVBDWP4sxN8EghKak4vlYNURY8INJS6RKkLSjUODB73oQfWG9Px4p-tdVi_lIZcXKcpIKHRGwoRxe02XWAcfW9nbgMQSGwfgdzzwTvn4yZiASn1cDjdt19cKaH-P45PXonzskP5VikH4todgkF3ghcVnLdO5piVAWvmiiwOu6UWfe3Xfi2nz4TF9dFcLmg23CeLZXcQ0rdKxsu2cMZfdJtrPTU%3D%22%7D&enablejsapi=1&errorlinks=1&origin=https://letna.milionchvilek.cz&vl=1",
+        "https://www.youtube.com/embed/cU2ulPkyNeM?embed_config=%7B%22enc%22:%22AXH1ezmF1Se3kSLTyCvsP7Qs7i0CgG5AoGtHEcvKI3gCr1ZjU52mvk4o8m7ZCD8iEDhBTzhAMRwIVxhL1DGTA6I-276oVH_yUw6fRQo0LzxrwBaw2ZkiGOPb00MaTRDp9tSNVRrNBK8_hwJVJlSAgPlDHQrT1wZ5-THWBYZO9mmW6bUbDRKCUrV9lbfVCPgMSjFVjh2mcSNDjHJBCbAFBJJY3e2bOsTt2MFmZH-O92GENswNhf5KhHlI7KgAP8EnoCCQsITQowqLQPu0RkvfdbYftTiu5rtJTIrnWlyhpLLurNvK8tM5BdmGaYjkXKrhPEg_Fuk3mOx76xgRtQCyndjCxN8l61Bapiv8j0FDAUZS-8us0nY%3D%22%7D&enablejsapi=1&errorlinks=1&origin=https://letna.milionchvilek.cz&vl=1"
       ],
       "link_candidates": [
         "/letna",
@@ -1174,7 +1174,7 @@
         "ETag": null,
         "Content-Length": "50435"
       },
-      "sha256": "c7df75fbae73a05ade7f391fc7c071c5aa7108ce3c4a1c89e100d813a3b6aac7",
+      "sha256": "f4555b789afa44e26ba91802fd7d8dd223be25632d6d5fae012d1aac581ae0de",
       "bytes": 50435,
       "metadata": [],
       "image_candidates": [
@@ -1339,10 +1339,10 @@
         "Content-Type": "text/html; charset=utf-8",
         "Last-Modified": null,
         "ETag": null,
-        "Content-Length": "47603"
+        "Content-Length": "47559"
       },
-      "sha256": "5a00e01a3eba6c9d24b7e4d42ac0a8163db077264e020c70c96cb144dbb7531d",
-      "bytes": 47603,
+      "sha256": "60500cb109a8343877555538aa51e4a64187291e35ff793ff44fe4778e900961",
+      "bytes": 47559,
       "metadata": [
         {
           "key": "og:image",
@@ -1621,8 +1621,8 @@
           "height": "180"
         },
         {
-          "src": "images/gallery/t1-20261104101758_a10.jpg",
-          "alt": "Protest KSČM před Českým rozhlasem",
+          "src": "images/gallery/t1-20261028195226_a14.jpg",
+          "alt": "Václav Klaus k 28. říjnu",
           "width": "150",
           "height": "95"
         },
@@ -1636,7 +1636,7 @@
       "iframe_candidates": [],
       "link_candidates": [
         "https://www.sinmed.cz/fotogalerie/",
-        "https://www.sinmed.cz/fotogalerie/protest-kscm-pred-ceskym-rozhlasem-114.html",
+        "https://www.sinmed.cz/fotogalerie/vaclav-klaus-k-28-rijnu-109.html",
         "https://www.sinmed.cz/fotogalerie/shromazdeni-na-podporu-verejnopravnich-medii-113.html",
         "https://www.sinmed.cz/aktuality/plihal-zazpival-letna-onemela-pohledy-si-vymenovali-i-herci-na-podiu-1472.html"
       ]

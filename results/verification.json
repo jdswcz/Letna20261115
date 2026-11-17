@@ -1,0 +1,21 @@
+{
+  "run_at_utc": "2026-11-17T00:16:12.191139+00:00",
+  "python": "3.12.16",
+  "passed": true,
+  "tests_run": 10,
+  "failures": 0,
+  "errors": 0,
+  "dependencies": {
+    "Pillow": "11.3.0",
+    "pyproj": "3.7.1",
+    "shapely": "2.1.1"
+  },
+  "inputs_sha256": {
+    "tools/analyze.py": "ac57ca7d40edfdb474c8ab2f6faee1c1c1b484d322de04ec14f64c316bb53a8c",
+    "tools/collect.py": "baddab75c90720f6e4b261ebb96ae015ed207e21d8ce828f7596f15a080bcf42",
+    "tools/verify.py": "91cbe8d0b4aa0be5b4eb65f6a13443c1268760fcd20c6303525a3a177930df5a",
+    "tests/test_analyze.py": "42e9e9d2c6d135ac6ddecfb743b658966380c0cfc3c48c5c227f711448eb004e"
+  },
+  "output": "test_area_density_and_bounds (test_analyze.Tests.test_area_density_and_bounds) ... ok\ntest_invalid_geometry_rejected (test_analyze.Tests.test_invalid_geometry_rejected) ... ok\ntest_missing_data_is_not_zero (test_analyze.Tests.test_missing_data_is_not_zero) ... ok\ntest_nan_rejected (test_analyze.Tests.test_nan_rejected) ... ok\ntest_overlapping_sectors_rejected (test_analyze.Tests.test_overlapping_sectors_rejected) ... ok\ntest_partial_coverage_not_a_total (test_analyze.Tests.test_partial_coverage_not_a_total) ... ok\ntest_snapshots_are_not_summed (test_analyze.Tests.test_snapshots_are_not_summed) ... ok\ntest_unverified_photo_rejected (test_analyze.Tests.test_unverified_photo_rejected) ... ok\ntest_wrong_date_rejected (test_analyze.Tests.test_wrong_date_rejected) ... ok\ntest_wrong_time_rejected (test_analyze.Tests.test_wrong_time_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.010s\n\nOK\n",
+  "scope": "Software validation on synthetic fixtures only; does not validate a crowd estimate."
+}
